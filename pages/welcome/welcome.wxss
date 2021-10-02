@@ -1,0 +1,31 @@
+/* pages/welcome.wxss */
+.img_style {
+    size: 180;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #b9d3da;
+}
+
+.motto {
+    color: #fff;
+    margin-top: 100rpx;
+}
+
+.drawable {
+    border: 1rpx solid #000;
+    background-color: #fff;
+    width: 200rpx;
+    height: 60rpx;
+    margin-top: 100rpx;
+    border-radius: 5rpx;
+    font-size: 20sp;
+    text-align: center;
+    font-weight: bold;
+}
+page{
+    background-color: #b9d3da;
+}

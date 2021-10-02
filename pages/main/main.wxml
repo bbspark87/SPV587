@@ -1,0 +1,14 @@
+<view>
+
+    <view class="avatar-style">
+        <l-avatar placement="right" size="80" open-data="{{['userAvatarUrl','userNickName']}}"></l-avatar>
+    </view>
+
+    <view class="banner-style">
+        <swiper indicator-dots="true" autoplay="true" interval="2000">
+            <swiper-item wx:for="{{3}}">
+                <image src="/images/avatar/panghu.jpg"></image>
+            </swiper-item>
+        </swiper>
+    </view>
+</view>

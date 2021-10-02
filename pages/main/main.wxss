@@ -1,0 +1,24 @@
+/* pages/posts/posts.wxss */
+
+swiper {
+    width: 100%;
+    height: 240rpx;
+}
+
+swiper image {
+    width: 100%;
+    height: 240rpx;
+    border-radius: 20rpx;
+}
+
+.avatar-style {
+    margin-top: 20rpx;
+    margin-left: 20rpx;
+    margin-right: 20rpx;
+}
+
+.banner-style {
+    margin-top: 20rpx;
+    margin-left: 20rpx;
+    margin-right: 20rpx;
+}

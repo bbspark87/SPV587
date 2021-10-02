@@ -1,0 +1,13 @@
+<!--pages/welcome.wxml-->
+
+<view class="container">
+    <l-avatar placement="bottom" size="200" open-data="{{['userAvatarUrl','userNickName']}}"></l-avatar>
+
+    <text class="motto">hello 沙雕</text>
+
+    <view bind:tap="onTap" class="drawable">
+        <text>Button</text>
+    </view>
+
+    <post text="888" />
+</view>
