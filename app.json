@@ -9,7 +9,7 @@
     "entryPagePath": "pages/main/main",
     "window": {
         "backgroundTextStyle": "light",
-        "navigationBarBackgroundColor": "#0e0e1a",
+        "navigationBarBackgroundColor": "#ffffff",
         "navigationBarTitleText": "Weixin",
         "navigationBarTextStyle": "black"
     },
