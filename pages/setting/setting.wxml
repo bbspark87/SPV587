@@ -1,0 +1,10 @@
+<!--pages/setting/setting.wxml-->
+
+<view>
+    <view class="menu-container">
+        <l-list is-link="true" title="账号与安全" tag-position="right" tag-plain="true" gap="20" />
+        <l-list is-link="true" title="实名认证" tag-position="right" tag-plain="true" gap="20" />
+        <l-list is-link="true" title="游戏攻略" tag-position="right" tag-plain="true" gap="20" />
+        <l-list is-link="true" title="关于我们" tag-position="right" tag-plain="true" gap="20" />
+    </view>
+</view>

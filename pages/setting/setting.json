@@ -1,12 +1,13 @@
 {
   "usingComponents": {
     "l-avatar": "/miniprogram_npm/lin-ui/avatar/index",
+    "l-list": "/miniprogram_npm/lin-ui/list/index",
     "l-icon": "/miniprogram_npm/lin-ui/icon/index"
   },
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#ffffff",
-    "navigationBarTitleText": "SLH",
+    "navigationBarTitleText": "设置",
     "navigationBarTextStyle": "black"
   }
 }

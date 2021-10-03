@@ -4,13 +4,13 @@
         "pages/mine/mine",
         "pages/posts/posts",
         "pages/shop/shop",
-        "pages/welcome/welcome"
+        "pages/welcome/welcome",
+        "pages/setting/setting"
     ],
     "entryPagePath": "pages/main/main",
     "window": {
         "backgroundTextStyle": "light",
         "navigationBarBackgroundColor": "#ffffff",
-        "navigationBarTitleText": "Weixin",
         "navigationBarTextStyle": "black"
     },
     "tabBar": {

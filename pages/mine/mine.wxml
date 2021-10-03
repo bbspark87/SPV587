@@ -22,10 +22,10 @@
         </view>
     </view>
 
-    <view class="menu-container">
+    <view >
         <l-list is-link="true" title="优惠券" tag-content="0张" tag-position="right" tag-plain="true" gap="20" />
         <l-list is-link="true" title="帮助中心" tag-position="right" tag-plain="true" gap="20" />
         <l-list is-link="true" title="我的推广" tag-position="right" tag-plain="true" gap="20" />
-        <l-list is-link="true" title="设置" tag-position="right" tag-plain="true" gap="20" />
+        <l-list url="/pages/setting/setting" is-link="true" title="设置" tag-position="right" tag-plain="true" gap="20" />
     </view>
 </view>

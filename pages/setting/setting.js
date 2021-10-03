@@ -1,4 +1,4 @@
-// pages/main/main.js
+// pages/setting/setting.js
 Page({
 
     /**
@@ -13,8 +13,8 @@ Page({
      */
     onLoad: function (options) {
         wx.setNavigationBarTitle({
-            title: 'SLH',
-          })
+          title: '设置',
+        })
     },
 
     /**
