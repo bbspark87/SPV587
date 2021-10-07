@@ -1,7 +1,7 @@
 {
   "usingComponents": {
-    "l-avatar":"/miniprogram_npm/lin-ui/avatar/index",
-    "post":"/components/post/index"
+    "l-avatar": "/miniprogram_npm/lin-ui/avatar/index",
+    "post": "/components/post/index"
   },
   "navigationBarBackgroundColor": "#b9d3da"
 }

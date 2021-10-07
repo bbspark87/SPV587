@@ -1,13 +1,13 @@
 {
     "pages": [
+        "pages/welcome/welcome",
         "pages/main/main",
         "pages/mine/mine",
         "pages/posts/posts",
         "pages/shop/shop",
-        "pages/welcome/welcome",
         "pages/setting/setting"
     ],
-    "entryPagePath": "pages/main/main",
+    "entryPagePath": "pages/welcome/welcome",
     "window": {
         "backgroundTextStyle": "dark",
         "backgroundColor": "#00b187",
@@ -36,7 +36,12 @@
                 "iconPath": "/images/icon/ic_mine_normal.png",
                 "selectedIconPath": "/images/icon/ic_mine_select.png"
             }
-        ]
+        ],
+        "color": "#999999",
+        "selectedColor": "#333333",
+        "backgroundColor": "#eeeeee",
+        "borderStyle": "black",
+        "position": "bottom"
     },
     "style": "v2",
     "sitemapLocation": "sitemap.json"

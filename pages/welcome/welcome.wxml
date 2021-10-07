@@ -3,11 +3,15 @@
 <view class="container">
     <l-avatar placement="bottom" size="200" open-data="{{['userAvatarUrl','userNickName']}}"></l-avatar>
 
-    <text class="motto">hello 沙雕</text>
+    <text class="motto">{{message}}</text>
 
     <view bind:tap="onTap" class="drawable">
         <text>Button</text>
+        <checkbox checked="{{checked}}"></checkbox>
     </view>
-
-    <post text="888" />
+    <view wx:for="{{list}}" wx:for-index="index" wx:for-item="item" wx:key="*this">
+        <text>{{index}}---</text>
+        <text>{{item.name}}</text>
+        <text>{{this.name}}</text>
+    </view>
 </view>
