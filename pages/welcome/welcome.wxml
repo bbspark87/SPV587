@@ -1,7 +1,7 @@
 <view class="container">
 
     <!-- 微信头像显示 -->
-    <l-avatar placement="bottom" size="80" open-data="{{['userAvatarUrl','userNickName']}}"></l-avatar>
+    <l-avatar placement="right" size="80" open-data="{{['userAvatarUrl','userNickName']}}"></l-avatar>
 
     <!-- 点击事件 -->
     <view bind:tap="onTap" class="drawable">
@@ -10,7 +10,7 @@
     </view>
 
     <!-- for循环 -->
-    <view wx:for="{{list}}" wx:for-index="index" wx:for-item="item" wx:key="id">
+    <view class="intent_container" wx:for="{{list}}" wx:for-index="index" wx:for-item="item" wx:key="id">
         <text>{{index}}---</text>
         <text>{{item.id}}---</text>
         <text>{{item.name}}</text>
@@ -23,13 +23,45 @@
     <view wx:else>不显示</view>
 
     <view>
-        <input type="number" bindinput="inputChange" />
-        <button bindtap="inputTap" data-operation="{{1}}">+</button>
-        <button bindtap="inputTap" data-operation="{{-1}}">-</button>
+        <input class="intent_container" type="number" bindinput="inputChange" />
+        <view class="intent_container">
+            <button class="drawable" bindtap="inputTap" data-operation="{{1}}">+</button>
+            <button class="drawable" bindtap="inputTap" data-operation="{{-1}}">-</button>
+        </view>
         <text>{{num}}</text>
     </view>
 
-    <image
-        src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fhbimg.b0.upaiyun.com%2Fb6acfddd5d2e067127a12e34bc34123e34e5b3b6161cf-Z73AMI_fw658&refer=http%3A%2F%2Fhbimg.b0.upaiyun.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1636270003&t=9dc4f73ea3b71f99e8b25e5789026d7c" class="image" mode="aspectFill">
-    </image>
+    <view class="intent_container">
+        <navigator class="drawable" url="/pages/posts/posts">默认跳</navigator>
+        <navigator class="drawable" open-type="redirect" url="/pages/posts/posts">关闭跳</navigator>
+        <navigator class="drawable" open-type="switchTab" url="/pages/main/main">关非Tab跳</navigator>
+        <navigator class="drawable" open-type="reLaunch" url="/pages/main/main">全关随便跳</navigator>
+    </view>
+
+    <view class="intent_container">
+        <image
+            src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fhbimg.b0.upaiyun.com%2Fb6acfddd5d2e067127a12e34bc34123e34e5b3b6161cf-Z73AMI_fw658&refer=http%3A%2F%2Fhbimg.b0.upaiyun.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1636270003&t=9dc4f73ea3b71f99e8b25e5789026d7c"
+            class="image" mode="aspectFill">
+        </image>
+    </view>
+    <view class="intent_container">
+        <button bindgetuserinfo="getUserInfo" open-type="getUserInfo" size="default" type="primary">个人信息</button>
+        <button open-type="openSetting" size="default" type="primary">设置</button>
+    </view>
+
+    <view class="intent_container">
+        <radio-group bindchange="selectSex">
+            <radio value="male">男</radio>
+            <radio value="female">女</radio>
+        </radio-group>
+        <text>你选择的是：{{gender}}</text>
+    </view>
+
+    <view class="intent_container">
+        <radio-group bindchange="selectCheck">
+            <checkbox value="{{item.value}}" wx:for="{{list}}" wx:key="id">
+                {{item.id}}</checkbox>
+        </radio-group>
+    </view>
+    <text>你选择的是：{{gender}}</text>
 </view>

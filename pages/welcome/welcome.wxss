@@ -7,16 +7,31 @@
 }
 
 .drawable {
+    display: flex;
+    align-items: center;
+    justify-items: center;
     border: 1rpx solid #000;
     background-color: #fff;
-    width: 300rpx;
     height: 60rpx;
+    padding-left: 20rpx;
+    padding-right: 20rpx;
     margin-top: 20rpx;
     border-radius: 5rpx;
     font-size: 20sp;
     text-align: center;
     font-weight: bold;
 }
-.image{
+
+.image {
+    width: 300rpx;
+    height: 150rpx;
+}
+
+.intent_container {
+    border: 1rpx solid #000;
     width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-items: left;
+    align-items: center;
 }

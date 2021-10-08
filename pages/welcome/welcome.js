@@ -8,6 +8,7 @@ Page({
     message: "hello shadiao!",
     num: 10000,
     checked: true,
+    gender: "male",
     list: [{
         id: 1,
         name: "哈拉少"
@@ -17,6 +18,24 @@ Page({
         name: "无情哈拉少"
       }
     ]
+  },
+
+  selectSex(e) {
+    let gender = e.detail.value
+    this.setData({
+      gender
+    })
+  },
+
+  selectCheck(e) {
+    let valve = e.detail.value
+    this.setData({
+      // gender: valve
+    })
+  },
+
+  getUserInfo(e) {
+    console.log(e);
   },
 
   onTap: function (param) {
