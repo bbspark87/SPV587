@@ -1,17 +1,13 @@
-<!--pages/welcome.wxml-->
-
 <view class="container">
-    <l-avatar placement="bottom" size="200" open-data="{{['userAvatarUrl','userNickName']}}"></l-avatar>
-
-    <text class="motto">{{message}}</text>
+    <l-avatar placement="bottom" size="80" open-data="{{['userAvatarUrl','userNickName']}}"></l-avatar>
 
     <view bind:tap="onTap" class="drawable">
         <text>Button</text>
         <checkbox checked="{{checked}}"></checkbox>
     </view>
-    <view wx:for="{{list}}" wx:for-index="index" wx:for-item="item" wx:key="*this">
+    <view wx:for="{{list}}" wx:for-index="index" wx:for-item="item" wx:key="id">
         <text>{{index}}---</text>
+        <text>{{item.id}}---</text>
         <text>{{item.name}}</text>
-        <text>{{this.name}}</text>
     </view>
 </view>

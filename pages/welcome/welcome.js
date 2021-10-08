@@ -10,11 +10,11 @@ Page({
     checked: true,
     list: [{
         id: 1,
-        name: "halashao"
+        name: "哈拉少"
       },
       {
         id: 12,
-        name: "niaoshu"
+        name: "无情哈拉少"
       }
     ]
   },

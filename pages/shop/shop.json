@@ -1,9 +1,6 @@
 {
   "usingComponents": {},
-  "window": {
-    "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#ffffff",
-    "navigationBarTitleText": "商城",
-    "navigationBarTextStyle": "black"
-  }
+  "backgroundTextStyle": "light",
+  "navigationBarBackgroundColor": "#ffffff",
+  "navigationBarTextStyle": "black"
 }

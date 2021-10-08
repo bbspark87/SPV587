@@ -7,7 +7,7 @@
         "pages/shop/shop",
         "pages/setting/setting"
     ],
-    "entryPagePath": "pages/welcome/welcome",
+    "entryPagePath": "pages/main/main",
     "window": {
         "backgroundTextStyle": "dark",
         "backgroundColor": "#00b187",
@@ -39,9 +39,7 @@
         ],
         "color": "#999999",
         "selectedColor": "#333333",
-        "backgroundColor": "#eeeeee",
-        "borderStyle": "black",
-        "position": "bottom"
+        "backgroundColor": "#eeeeee"
     },
     "style": "v2",
     "sitemapLocation": "sitemap.json"
