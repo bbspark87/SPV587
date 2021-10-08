@@ -3,7 +3,6 @@
         "pages/welcome/welcome",
         "pages/main/main",
         "pages/mine/mine",
-        "pages/posts/posts",
         "pages/shop/shop",
         "pages/setting/setting"
     ],

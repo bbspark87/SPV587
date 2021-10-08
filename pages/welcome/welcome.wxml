@@ -32,8 +32,8 @@
     </view>
 
     <view class="intent_container">
-        <navigator class="drawable" url="/pages/posts/posts">默认跳</navigator>
-        <navigator class="drawable" open-type="redirect" url="/pages/posts/posts">关闭跳</navigator>
+        <navigator class="drawable" url="/pages/setting/setting">默认跳</navigator>
+        <navigator class="drawable" open-type="redirect" url="/pages/mine/mine">关闭跳</navigator>
         <navigator class="drawable" open-type="switchTab" url="/pages/main/main">关非Tab跳</navigator>
         <navigator class="drawable" open-type="reLaunch" url="/pages/main/main">全关随便跳</navigator>
     </view>
@@ -58,10 +58,12 @@
     </view>
 
     <view class="intent_container">
-        <radio-group bindchange="selectCheck">
-            <checkbox value="{{item.value}}" wx:for="{{list}}" wx:key="id">
-                {{item.id}}</checkbox>
-        </radio-group>
+        <checkbox-group bindchange="selectCheck">
+            <checkbox value="{{item.name}}" wx:for="{{list}}" wx:key="id">
+                {{item.name}}</checkbox>
+        </checkbox-group>
+        <text>你选择的是：{{select}}</text>
     </view>
-    <text>你选择的是：{{gender}}</text>
 </view>
+
+<MTabs tabs="{{tabs}}"></MTabs>

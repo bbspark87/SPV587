@@ -8,6 +8,7 @@ Page({
     message: "hello shadiao!",
     num: 10000,
     checked: true,
+    select: "",
     gender: "male",
     list: [{
         id: 1,
@@ -17,7 +18,24 @@ Page({
         id: 12,
         name: "无情哈拉少"
       }
-    ]
+    ],
+    tabs: [{
+      id: 10,
+      name: "首页",
+      isActive: true
+    }, {
+      id: 11,
+      name: "原创",
+      isActive: false
+    }, {
+      id: 12,
+      name: "分类",
+      isActive: false
+    }, {
+      id: 13,
+      name: "关于",
+      isActive: false
+    }]
   },
 
   selectSex(e) {
@@ -29,8 +47,10 @@ Page({
 
   selectCheck(e) {
     let valve = e.detail.value
+    console.log(valve);
+
     this.setData({
-      // gender: valve
+      select: valve
     })
   },
 
@@ -41,7 +61,7 @@ Page({
   onTap: function (param) {
     console.log("hello")
     wx.navigateTo({
-      url: '/pages/posts/posts',
+      url: '/pages/setting/setting',
     })
   },
 
