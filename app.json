@@ -39,9 +39,7 @@
         ],
         "color": "#999999",
         "selectedColor": "#333333",
-        "backgroundColor": "#eeeeee",
-        "borderStyle": "black",
-        "position": "bottom"
+        "backgroundColor": "#eeeeee"
     },
     "style": "v2",
     "sitemapLocation": "sitemap.json"

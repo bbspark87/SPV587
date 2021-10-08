@@ -8,21 +8,55 @@ Page({
     message: "hello shadiao!",
     num: 10000,
     checked: true,
+    gender: "male",
     list: [{
         id: 1,
-        name: "halashao"
+        name: "哈拉少"
       },
       {
         id: 12,
-        name: "niaoshu"
+        name: "无情哈拉少"
       }
     ]
+  },
+
+  selectSex(e) {
+    let gender = e.detail.value
+    this.setData({
+      gender
+    })
+  },
+
+  selectCheck(e) {
+    let valve = e.detail.value
+    this.setData({
+      // gender: valve
+    })
+  },
+
+  getUserInfo(e) {
+    console.log(e);
   },
 
   onTap: function (param) {
     console.log("hello")
     wx.navigateTo({
       url: '/pages/posts/posts',
+    })
+  },
+
+  inputChange(param) {
+    console.log(param.detail.value)
+    this.setData({
+      num: +param.detail.value
+    })
+  },
+
+  inputTap(param) {
+    const operation = +param.currentTarget.dataset.operation;
+    console.log(operation)
+    this.setData({
+      num: this.data.num + operation
     })
   },
 
