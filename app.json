@@ -7,7 +7,7 @@
         "pages/shop/shop",
         "pages/setting/setting"
     ],
-    "entryPagePath": "pages/main/main",
+    "entryPagePath": "pages/welcome/welcome",
     "window": {
         "backgroundTextStyle": "dark",
         "backgroundColor": "#00b187",

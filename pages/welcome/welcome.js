@@ -26,6 +26,21 @@ Page({
     })
   },
 
+  inputChange(param) {
+    console.log(param.detail.value)
+    this.setData({
+      num: +param.detail.value
+    })
+  },
+
+  inputTap(param) {
+    const operation = +param.currentTarget.dataset.operation;
+    console.log(operation)
+    this.setData({
+      num: this.data.num + operation
+    })
+  },
+
   /**
    * 生命周期函数--监听页面加载
    */

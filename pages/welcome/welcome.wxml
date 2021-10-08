@@ -1,13 +1,35 @@
 <view class="container">
+
+    <!-- 微信头像显示 -->
     <l-avatar placement="bottom" size="80" open-data="{{['userAvatarUrl','userNickName']}}"></l-avatar>
 
+    <!-- 点击事件 -->
     <view bind:tap="onTap" class="drawable">
         <text>Button</text>
         <checkbox checked="{{checked}}"></checkbox>
     </view>
+
+    <!-- for循环 -->
     <view wx:for="{{list}}" wx:for-index="index" wx:for-item="item" wx:key="id">
         <text>{{index}}---</text>
         <text>{{item.id}}---</text>
         <text>{{item.name}}</text>
     </view>
+
+    <!-- if判断显示 -->
+    <view hidden="{{false}}">隐藏</view>
+    <view wx:if="{{num===1}}">1显示</view>
+    <view wx:elif="{{num===10000}}">10000显示</view>
+    <view wx:else>不显示</view>
+
+    <view>
+        <input type="number" bindinput="inputChange" />
+        <button bindtap="inputTap" data-operation="{{1}}">+</button>
+        <button bindtap="inputTap" data-operation="{{-1}}">-</button>
+        <text>{{num}}</text>
+    </view>
+
+    <image
+        src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fhbimg.b0.upaiyun.com%2Fb6acfddd5d2e067127a12e34bc34123e34e5b3b6161cf-Z73AMI_fw658&refer=http%3A%2F%2Fhbimg.b0.upaiyun.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1636270003&t=9dc4f73ea3b71f99e8b25e5789026d7c" class="image" mode="aspectFill">
+    </image>
 </view>
