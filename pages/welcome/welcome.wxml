@@ -1,5 +1,11 @@
 <view class="container">
 
+    <swiper indicator-dots="true" autoplay="true" interval="2000">
+        <swiper-item wx:for="{{3}}">
+            <image src="/images/avatar/panghu.jpg"></image>
+        </swiper-item>
+    </swiper>
+
     <!-- 微信头像显示 -->
     <l-avatar placement="right" size="80" open-data="{{['userAvatarUrl','userNickName']}}"></l-avatar>
 

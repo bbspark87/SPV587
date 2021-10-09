@@ -35,7 +35,10 @@ Page({
       id: 13,
       name: "关于",
       isActive: false
-    }]
+    }],
+    swiperList: [
+
+    ]
   },
 
   selectSex(e) {
@@ -48,7 +51,6 @@ Page({
   selectCheck(e) {
     let valve = e.detail.value
     console.log(valve);
-
     this.setData({
       select: valve
     })
@@ -58,7 +60,7 @@ Page({
     console.log(e);
   },
 
-  onTap: function (param) {
+  onTap(param) {
     console.log("hello")
     wx.navigateTo({
       url: '/pages/setting/setting',
@@ -84,7 +86,7 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    
   },
 
   /**
