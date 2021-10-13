@@ -1,55 +1,24 @@
-// pages/main/main.js
+// pages/login/login.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    menuList: [{
-        id: 1,
-        name: "扫一扫",
-        type: "scanCode",
-        page: ""
-      },
-      {
-        id: 2,
-        name: "排行榜",
-        type: "page",
-        page: "/pages/ranking/ranking"
-      },
-      {
-        id: 3,
-        name: "活动",
-        type: "page",
-        page: "/pages/active/active"
-      },
-      {
-        id: 4,
-        name: "攻略",
-        type: "page",
-        page: "/pages/intro/intro"
-      }
-    ]
+
   },
 
-  menuClick(event) {
-    const type = event.currentTarget.dataset.item.type
-    if (type === "scanCode") {
-      wx.scanCode({
-        onlyFromCamera: true,
-      })
-    } else if(type === "page"){
-      wx.navigateTo({
-        url: event.currentTarget.dataset.item.page,
-      })
-    }
+  intent(target) {
+    const page = target.currentTarget.dataset.page
+    wx.switchTab({
+      url: page,
+    })
   },
-
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    
+
   },
 
   /**

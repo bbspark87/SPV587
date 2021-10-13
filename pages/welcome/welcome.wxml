@@ -2,7 +2,7 @@
 
     <swiper indicator-dots="true" autoplay="true" interval="2000">
         <swiper-item wx:for="{{3}}">
-            <image src="/images/avatar/panghu.jpg"></image>
+            <image src="/images/avatar/panghu2.jpg"></image>
         </swiper-item>
     </swiper>
 
@@ -40,8 +40,8 @@
     <view class="intent_container">
         <navigator class="drawable" url="/pages/setting/setting">默认跳</navigator>
         <navigator class="drawable" open-type="redirect" url="/pages/mine/mine">关闭跳</navigator>
-        <navigator class="drawable" open-type="switchTab" url="/pages/main/main">关非Tab跳</navigator>
-        <navigator class="drawable" open-type="reLaunch" url="/pages/main/main">全关随便跳</navigator>
+        <navigator class="drawable" open-type="switchTab" url="/pages/index/index">关非Tab跳</navigator>
+        <navigator class="drawable" open-type="reLaunch" url="/pages/index/index">全关随便跳</navigator>
     </view>
 
     <view class="intent_container">
