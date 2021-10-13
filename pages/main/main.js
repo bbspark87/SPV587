@@ -9,25 +9,25 @@ Page({
         id: 1,
         name: "扫一扫",
         type: "scanCode",
-        page: "/pages/setting/setting"
+        page: ""
       },
       {
         id: 2,
         name: "排行榜",
         type: "page",
-        page: "/pages/setting/setting"
+        page: "/pages/ranking/ranking"
       },
       {
         id: 3,
         name: "活动",
         type: "page",
-        page: "/pages/setting/setting"
+        page: "/pages/active/active"
       },
       {
         id: 4,
         name: "攻略",
         type: "page",
-        page: "/pages/setting/setting"
+        page: "/pages/intro/intro"
       }
     ]
   },
@@ -49,9 +49,7 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    wx.setNavigationBarTitle({
-      title: '首页',
-    })
+    
   },
 
   /**

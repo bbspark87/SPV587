@@ -10,7 +10,10 @@
         "pages/coupon/coupon",
         "pages/help/help",
         "pages/order/order",
-        "pages/spread/spread"
+        "pages/spread/spread",
+        "pages/ranking/ranking",
+        "pages/active/active",
+        "pages/intro/intro"
     ],
     "entryPagePath": "pages/main/main",
     "window": {

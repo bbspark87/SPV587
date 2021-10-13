@@ -5,27 +5,31 @@
     </view>
 
     <view class="top-menu">
-        <view class="top-menu-block">
+        <view class="top-menu-block" bindtap="intent" data-page="/pages/order/order">
             <image class="top-menu-image" src="/images/icon/ic_order.png"></image>
             <text class="top-menu-name">订单</text>
             <text class="top-menu-count">10</text>
         </view>
-        <view class="top-menu-block">
+        <view class="top-menu-block" bindtap="intent" data-page="/pages/collect/collect">
             <image class="top-menu-image" src="/images/icon/ic_collect.png"></image>
             <text class="top-menu-name">收藏</text>
             <text class="top-menu-count">10</text>
         </view>
-        <view class="top-menu-block">
+        <view class="top-menu-block" bindtap="intent" data-page="/pages/bag/bag">
             <image class="top-menu-image" src="/images/icon/ic_bag.png"></image>
             <text class="top-menu-name">背包</text>
             <text class="top-menu-count">10</text>
         </view>
     </view>
 
-    <view >
-        <l-list is-link="true" title="优惠券" tag-content="0张" tag-position="right" tag-plain="true" gap="20" />
-        <l-list is-link="true" title="帮助中心" tag-position="right" tag-plain="true" gap="20" />
-        <l-list is-link="true" title="我的推广" tag-position="right" tag-plain="true" gap="20" />
-        <l-list url="/pages/setting/setting" is-link="true" title="设置" tag-position="right" tag-plain="true" gap="20" />
+    <view>
+        <l-list bindtap="intent" data-page="/pages/coupon/coupon" is-link="true" title="优惠券" tag-content="0张"
+            tag-position="right" tag-plain="true" gap="20" />
+        <l-list bindtap="intent" data-page="/pages/help/help" is-link="true" title="帮助中心" tag-position="right"
+            tag-plain="true" gap="20" />
+        <l-list bindtap="intent" data-page="/pages/spread/spread" is-link="true" title="我的推广" tag-position="right"
+            tag-plain="true" gap="20" />
+        <l-list bindtap="intent" data-page="/pages/setting/setting" is-link="true" title="设置" tag-position="right"
+            tag-plain="true" gap="20" />
     </view>
 </view>

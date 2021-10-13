@@ -6,5 +6,6 @@
   },
   "backgroundTextStyle": "light",
   "navigationBarBackgroundColor": "#ffffff",
-  "navigationBarTextStyle": "black"
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "设置"
 }

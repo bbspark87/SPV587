@@ -5,6 +5,5 @@
     "l-icon": "/miniprogram_npm/lin-ui/icon/index"
   },
   "backgroundTextStyle": "light",
-  "navigationBarBackgroundColor": "#ffffff",
-  "navigationBarTextStyle": "black"
+  "navigationBarTitleText": "我的"
 }
