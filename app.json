@@ -4,15 +4,20 @@
         "pages/main/main",
         "pages/mine/mine",
         "pages/shop/shop",
-        "pages/setting/setting"
+        "pages/setting/setting",
+        "pages/bag/bag",
+        "pages/collect/collect",
+        "pages/coupon/coupon",
+        "pages/help/help",
+        "pages/order/order",
+        "pages/spread/spread"
     ],
-    "entryPagePath": "pages/welcome/welcome",
+    "entryPagePath": "pages/main/main",
     "window": {
         "backgroundTextStyle": "dark",
-        "backgroundColor": "#00b187",
+        "backgroundColor": "#ffffff",
         "navigationBarBackgroundColor": "#ffffff",
         "navigationBarTextStyle": "black",
-        "navigationBarTitleText": "hello",
         "enablePullDownRefresh": true
     },
     "tabBar": {
@@ -38,7 +43,7 @@
         ],
         "color": "#999999",
         "selectedColor": "#333333",
-        "backgroundColor": "#eeeeee"
+        "backgroundColor": "#ffffff"
     },
     "style": "v2",
     "sitemapLocation": "sitemap.json"

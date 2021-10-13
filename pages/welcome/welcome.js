@@ -10,6 +10,7 @@ Page({
     checked: true,
     select: "",
     gender: "male",
+    msg: "123",
     list: [{
         id: 1,
         name: "哈拉少"
@@ -39,6 +40,15 @@ Page({
     swiperList: [
 
     ]
+  },
+
+  testClick() {
+
+    wx.scanCode({
+      success: (res) => {
+        console.log(res)
+      }
+    })
   },
 
   selectSex(e) {
@@ -86,7 +96,7 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    
+
   },
 
   /**

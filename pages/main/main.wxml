@@ -5,10 +5,17 @@
     </view>
 
     <view class="banner-style">
-        <swiper indicator-dots="true" autoplay="true" interval="2000">
+        <swiper circular="true" indicator-dots="true" autoplay="true" interval="2000">
             <swiper-item wx:for="{{3}}">
-                <image src="/images/avatar/panghu.jpg"></image>
+                <image mode="aspectFill" src="/images/avatar/banner1.png"></image>
             </swiper-item>
         </swiper>
+    </view>
+
+    <view class="container-menu">
+        <block wx:for="{{menuList}}" wx:key="id" >
+            <view bindtap="menuClick" data-item="{{item}}" class="button-menu">{{item.name}}
+            </view>
+        </block>
     </view>
 </view>
