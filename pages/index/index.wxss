@@ -38,7 +38,6 @@ swiper image {
     height: 150rpx;
     border-radius: 20rpx;
     display: flex;
-    justify-content: space-between;
     align-items: center;
     justify-content: center;
 }

@@ -1,0 +1,55 @@
+.container {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+}
+
+.container-background {
+  width: 690rpx;
+  height: 300rpx;
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+  margin-top: 30rpx;
+}
+
+.container-login {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60rpx;
+}
+
+.background-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 20rpx;
+}
+
+.wx-button {
+  display: flex;
+  width: 690rpx;
+  height: 80rpx;
+  background-color: #00ad3b;
+  color: white;
+  border-radius: 42rpx;
+  align-items: center;
+  justify-content: center;
+  font-size: 32rpx;
+}
+
+.phone-button {
+  display: flex;
+  width: 690rpx;
+  height: 80rpx;
+  background-color: white;
+  color: #d4d4d4;
+  border: 1rpx solid #d4d4d4;
+  border-radius: 42rpx;
+  margin-top: 30rpx;
+  align-items: center;
+  justify-content: center;
+  font-size: 32rpx;
+}
