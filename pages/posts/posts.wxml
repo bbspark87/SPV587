@@ -1,35 +1,19 @@
 <view>
-    <swiper circular="true" indicator-dots="true" autoplay="true" interval="2000">
-        <swiper-item>
-            <image src="/images/avatar/panghu.jpg"></image>
-        </swiper-item>
-        <swiper-item>
-            <image src="/images/avatar/daxiong2.jpg"></image>
-        </swiper-item>
-        <swiper-item>
-            <image src="/images/avatar/xiaofu.jpeg"></image>
-        </swiper-item>
-    </swiper>
     <block wx:for="{{posts}}">
         <view class="post-container">
             <view class="post-author-date">
-                <image class="post-author" src="/images/avatar/xiaofu.jpeg"></image>
-                <text bind:tap="onTap" class="post-date">MyName {{item.date}}</text>
+                <image class="post-author" src="{{item.image}}"></image>
+                <text bind:tap="onTap" class="post-date">{{item.date}}</text>
             </view>
-            <text class="post-title">2021LPL新赛季</text>
-            <image class="post-image" src="/images/avatar/xiaofu.jpeg"></image>
-
-            <text class="post-content">一个傻子，一个哑巴，死一边儿去吧</text>
+            <text class="post-title">{{item.title}}</text>
+            <image class="post-image" src="{{item.image}}"></image>
 
             <view class="post-like">
-                <image wx:if="{{false}}" src="/images/avatar/xiaofu.jpeg" class="post-like-image"></image>
-                <text class="post-like-font">{{item.name}}</text>
-                <image src="/images/avatar/xiaofu.jpeg" class="post-like-image"></image>
-                <text class="post-like-font">{{item.name}}</text>
+                <l-icon color="#00b187" size="40" name="research" />
+                <text class="post-like-font">{{item.collect}}</text>
+                <l-icon color="#00b187" size="40" name="research" />
+                <text class="post-like-font">{{item.review}}</text>
             </view>
-
-            <l-icon color="#00b187" size="40" name="research" />
         </view>
-
     </block>
 </view>
