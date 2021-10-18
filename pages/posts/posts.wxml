@@ -1,6 +1,6 @@
 <view>
-    <block wx:for="{{posts}}">
-        <view class="post-container">
+    <block wx:key="id" wx:for="{{information}}">
+        <view bind:tap="onGoToDetail" class="post-container">
             <view class="post-author-date">
                 <image class="post-author" src="{{item.image}}"></image>
                 <text bind:tap="onTap" class="post-date">{{item.date}}</text>

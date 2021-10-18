@@ -1,4 +1,11 @@
 // pages/posts/posts.js
+
+// var postData = require("../../data/data.js")
+import {
+    information
+} from '../../data/data.js'
+// console.log(information)
+
 Page({
 
     /**
@@ -11,41 +18,48 @@ Page({
     onTap: function (param) {
         console.log("hello")
     },
-    
+
+    onGoToDetail() {
+        console.log("onGoToDetail")
+        wx.navigateTo({
+          url: '/pages/post-detail/post-detail',
+        })
+    },
+
     /**
      * 生命周期函数--监听页面加载
      */
     onLoad: function (options) {
         var content = [{
                 date: "2021-10-02",
-                title:"S2赛季",
+                title: "S2赛季",
                 name: "hello",
                 age: 123,
-                collect:323,
-                review:32134,
-                image:"/images/avatar/banner1.png"
+                collect: 323,
+                review: 32134,
+                image: "/images/avatar/banner1.png"
             }, {
 
                 date: "2024-10-02",
-                title:"S232赛季",
+                title: "S232赛季",
                 name: "web",
                 age: 122325,
-                collect:22,
-                review:321,
-                image:"/images/avatar/banner2.png"
+                collect: 22,
+                review: 321,
+                image: "/images/avatar/banner2.png"
             },
             {
                 date: "2026-10-02",
-                title:"S12赛季",
+                title: "S12赛季",
                 name: "world",
                 age: 553,
-                collect:78,
-                review:4588,
-                image:"/images/avatar/panghu2.jpg"
+                collect: 78,
+                review: 4588,
+                image: "/images/avatar/panghu2.jpg"
             }
         ]
         this.setData({
-            posts: content
+            information: information
         })
     },
 
