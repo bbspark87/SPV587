@@ -8,11 +8,19 @@ Page({
 
     },
 
+    intent(target) {
+        const page = target.currentTarget.dataset.page
+        console.log("onclick")
+        wx.navigateTo({
+            url: page,
+        })
+    },
+
     /**
      * 生命周期函数--监听页面加载
      */
     onLoad: function (options) {
-        
+
     },
 
     /**

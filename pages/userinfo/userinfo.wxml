@@ -1,59 +1,16 @@
 <!--pages/userinfo/userinfo.wxml-->
-
-<view class="container">
-
+<view>
    <view class="avatar-menu">
       <text class="menu-text-title">头像</text>
-
-      <l-avatar size="80" open-data="{{['userAvatarUrl']}}"></l-avatar>
-
+      <van-image round width="40" height="40" open-data="{{['userAvatarUrl','userNickName']}}"></van-image>
       <view class="blank-flex"></view>
       <l-icon class="icon-rignt" name="right" size="30" color="#8e98ac"></l-icon>
    </view>
-
-   <view class="devider-line"></view>
-
-   <view class="base-menu">
-      <text class="menu-text-title">昵称</text>
-      <text class="menu-text">spark</text>
-      <view class="blank-flex"></view>
-      <l-icon class="icon-rignt" name="right" size="30" color="#8e98ac"></l-icon>
-   </view>
-
-   <view class="devider-line"></view>
-
-   <view class="base-menu">
-      <text class="menu-text-title">性别</text>
-      <text class="menu-text">先生</text>
-      <view class="blank-flex"></view>
-      <l-icon class="icon-rignt" name="right" size="30" color="#8e98ac"></l-icon>
-   </view>
-
-   <view class="devider-line"></view>
-
-   <view class="base-menu">
-      <text class="menu-text-title">ID</text>
-      <text class="menu-text">19230981</text>
-      <view class="blank-flex"></view>
-      <l-icon class="icon-rignt" name="right" size="30" color="#8e98ac"></l-icon>
-   </view>
-
-   <view class="devider-line"></view>
-
-   <view class="base-menu">
-      <text class="menu-text-title">段位</text>
-      <text class="menu-text">嘴强王者</text>
-      <view class="blank-flex"></view>
-      <l-icon class="icon-rignt" name="right" size="30" color="#8e98ac"></l-icon>
-   </view>
-
-   <view class="devider-line"></view>
-
-   <view class="base-menu">
-      <text class="menu-text-title">签名</text>
-      <text class="menu-text">你还啥也没写呢</text>
-      <view class="blank-flex"></view>
-      <l-icon class="icon-rignt" name="right" size="30" color="#8e98ac"></l-icon>
-   </view>
-
+   <van-cell-group>
+      <van-cell title="昵称" is-link value="spark" />
+      <van-cell title="性别" is-link value="男" />
+      <van-cell title="ID" is-link value="38981123" />
+      <van-cell title="段位" is-link value="嘴强王者" />
+      <van-cell title="签名" is-link value="你还啥也没写呢" />
+   </van-cell-group>
 </view>

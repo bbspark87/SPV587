@@ -17,7 +17,9 @@
       "pages/shop/shop",
       "pages/spread/spread",
       "pages/userinfo/userinfo",
-      "pages/welcome/welcome"
+      "pages/welcome/welcome",
+      "pages/account/account",
+      "pages/aboutus/aboutus"
    ],
    "entryPagePath": "pages/index/index",
    "window": {
@@ -30,9 +32,12 @@
    "usingComponents": {
       "l-avatar": "/miniprogram_npm/lin-ui/avatar/index",
       "l-list": "/miniprogram_npm/lin-ui/list/index",
-      "l-icon": "/miniprogram_npm/lin-ui/icon/index"
+      "l-icon": "/miniprogram_npm/lin-ui/icon/index",
+      "van-cell": "@vant/weapp/cell/index",
+      "van-cell-group": "@vant/weapp/cell-group/index",
+      "van-button": "@vant/weapp/button/index",
+      "van-image": "@vant/weapp/image/index"
    },
-   
    "tabBar": {
       "list": [
          {
@@ -58,6 +63,5 @@
       "selectedColor": "#333333",
       "backgroundColor": "#ffffff"
    },
-   "style": "v2",
    "sitemapLocation": "sitemap.json"
 }

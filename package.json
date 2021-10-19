@@ -8,7 +8,16 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@vant/weapp": "^1.9.1",
     "lin-ui": "^0.9.4"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bbspark87/SPV587.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bbspark87/SPV587/issues"
+  },
+  "homepage": "https://github.com/bbspark87/SPV587#readme",
   "description": ""
 }

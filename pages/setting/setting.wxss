@@ -1,60 +1,12 @@
-.avatar-style {
+.menu-container {
     margin-top: 20rpx;
-    margin-left: 20rpx;
-    margin-right: 20rpx;
-}
-.menu-container{
-
-    margin-top: 20rpx;
-
-}
-
-.container {
-    background-color: #ff0000;
     display: flex;
-    align-items: center;
-}
-
-.menu-style {
-    background: white;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-items: center;
-}
-
-.top-menu {
-    width: 100%;
-    background: #fff;
-    margin-top: 40rpx;
-    margin-bottom: 40rpx;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
 }
 
-.top-menu-block {
-    width: 30%;
-    background: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-items: center;
-}
-
-.top-menu-image {
-    width: 80rpx;
-    height: 80rpx;
-}
-
-.top-menu-name {
-    font-size: 32rpx;
-    color: #202020;
-    margin-top: 10rpx;
-}
-
-.top-menu-count {
-    font-size: 28rpx;
-    color: #5a5a5a;
+.button-logout {
+    margin-top: 120rpx;
+    margin-left: 30rpx;
+    margin-right: 30rpx;
 }

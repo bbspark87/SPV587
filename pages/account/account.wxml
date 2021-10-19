@@ -1,0 +1,7 @@
+<!--pages/account/account.wxml-->
+<view>
+   <van-cell-group>
+      <van-cell title="手机号绑定" value="1571552516" is-link="false" />
+      <van-cell title="微信绑定" value="spark" is-link />
+   </van-cell-group>
+</view>
