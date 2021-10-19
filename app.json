@@ -1,11 +1,11 @@
 {
    "pages": [
+      "pages/index/index",
       "pages/active/active",
       "pages/bag/bag",
       "pages/collect/collect",
       "pages/coupon/coupon",
       "pages/help/help",
-      "pages/index/index",
       "pages/intro/intro",
       "pages/login/login",
       "pages/mine/mine",
@@ -16,9 +16,10 @@
       "pages/setting/setting",
       "pages/shop/shop",
       "pages/spread/spread",
+      "pages/userinfo/userinfo",
       "pages/welcome/welcome"
    ],
-   "entryPagePath": "pages/posts/posts",
+   "entryPagePath": "pages/index/index",
    "window": {
       "backgroundTextStyle": "dark",
       "backgroundColor": "#ffffff",
@@ -26,6 +27,12 @@
       "navigationBarTextStyle": "black",
       "enablePullDownRefresh": false
    },
+   "usingComponents": {
+      "l-avatar": "/miniprogram_npm/lin-ui/avatar/index",
+      "l-list": "/miniprogram_npm/lin-ui/list/index",
+      "l-icon": "/miniprogram_npm/lin-ui/icon/index"
+   },
+   
    "tabBar": {
       "list": [
          {

@@ -1,0 +1,59 @@
+<!--pages/userinfo/userinfo.wxml-->
+
+<view class="container">
+
+   <view class="avatar-menu">
+      <text class="menu-text-title">头像</text>
+
+      <l-avatar size="80" open-data="{{['userAvatarUrl']}}"></l-avatar>
+
+      <view class="blank-flex"></view>
+      <l-icon class="icon-rignt" name="right" size="30" color="#8e98ac"></l-icon>
+   </view>
+
+   <view class="devider-line"></view>
+
+   <view class="base-menu">
+      <text class="menu-text-title">昵称</text>
+      <text class="menu-text">spark</text>
+      <view class="blank-flex"></view>
+      <l-icon class="icon-rignt" name="right" size="30" color="#8e98ac"></l-icon>
+   </view>
+
+   <view class="devider-line"></view>
+
+   <view class="base-menu">
+      <text class="menu-text-title">性别</text>
+      <text class="menu-text">先生</text>
+      <view class="blank-flex"></view>
+      <l-icon class="icon-rignt" name="right" size="30" color="#8e98ac"></l-icon>
+   </view>
+
+   <view class="devider-line"></view>
+
+   <view class="base-menu">
+      <text class="menu-text-title">ID</text>
+      <text class="menu-text">19230981</text>
+      <view class="blank-flex"></view>
+      <l-icon class="icon-rignt" name="right" size="30" color="#8e98ac"></l-icon>
+   </view>
+
+   <view class="devider-line"></view>
+
+   <view class="base-menu">
+      <text class="menu-text-title">段位</text>
+      <text class="menu-text">嘴强王者</text>
+      <view class="blank-flex"></view>
+      <l-icon class="icon-rignt" name="right" size="30" color="#8e98ac"></l-icon>
+   </view>
+
+   <view class="devider-line"></view>
+
+   <view class="base-menu">
+      <text class="menu-text-title">签名</text>
+      <text class="menu-text">你还啥也没写呢</text>
+      <view class="blank-flex"></view>
+      <l-icon class="icon-rignt" name="right" size="30" color="#8e98ac"></l-icon>
+   </view>
+
+</view>

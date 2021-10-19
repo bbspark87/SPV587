@@ -1,7 +1,8 @@
 <view>
 
     <view class="avatar-style">
-        <l-avatar placement="right" size="80" open-data="{{['userAvatarUrl','userNickName']}}"></l-avatar>
+        <l-avatar bindtap="intent" data-page="/pages/userinfo/userinfo" placement="right" size="80"
+            open-data="{{['userAvatarUrl','userNickName']}}"></l-avatar>
     </view>
 
     <view class="top-menu">
