@@ -5,6 +5,33 @@ Page({
     * 页面的初始数据
     */
    data: {
+      selectSex: ['男', '女'],
+
+   },
+
+   showRound() {
+      this.toggle('round', true);
+   },
+
+   hideRound() {
+      this.toggle('round', false);
+   },
+
+   toggle(type, show) {
+      this.setData({
+         [`show.${type}`]: show
+      });
+   },
+
+   onCancel() {
+      this.toggle('round', false);
+   },
+
+   onConfirm() {
+      this.toggle('round', false);
+   },
+
+   onChange(event) {
 
    },
 

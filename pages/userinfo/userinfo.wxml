@@ -8,9 +8,16 @@
    </view>
    <van-cell-group>
       <van-cell title="昵称" is-link value="spark" />
-      <van-cell title="性别" is-link value="男" />
-      <van-cell title="ID" is-link value="38981123" />
+      <van-cell bind:click="showRound" title="性别" is-link value="男" />
+      <van-cell title="ID" value="38981123" />
       <van-cell title="段位" is-link value="嘴强王者" />
       <van-cell title="签名" is-link value="你还啥也没写呢" />
    </van-cell-group>
+
+   <van-popup show="{{ show.round }}" round position="bottom" custom-style="height: 40%" bind:close="hideRound">
+
+      <van-picker show-toolbar title="选择性别" columns="{{ selectSex }}" bind:cancel="onCancel" bind:confirm="onConfirm"
+         bind:change="onChange" />
+
+   </van-popup>
 </view>

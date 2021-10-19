@@ -7,5 +7,6 @@
         <van-cell bind:tap="intent" data-page="/pages/aboutus/aboutus" title="关于我们" is-link />
     </van-cell-group>
 
-    <van-button block class="button-logout">退出登录</van-button>
+    <van-button bind:click="onClickConfirm" block class="button-logout">退出登录</van-button>
+    <van-dialog id="van-dialog" />
 </view>
