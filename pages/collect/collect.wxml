@@ -1,2 +1,25 @@
 <!--pages/collect/collect.wxml-->
-<text>pages/collect/collect.wxml</text>
+
+<block wx:for="{{20}}">
+   <view class="list-item">
+      <image class="img-shop" src="/images/avatar/banner2.png"></image>
+
+      <view class="item-shop">
+         <text class="txt-shop">商家名称</text>
+
+         <view class="container-star">
+            <van-rate readonly value="false" color="#f8d44e" value="4" />
+            <text class="txt-star">4.9分</text>
+         </view>
+
+         <view class="container-service">
+
+            <block wx:for="{{3}}">
+               <view class="tag-style">
+                  <van-tag plain color="#777777">免费Wi-Fi</van-tag>
+               </view>
+            </block>
+         </view>
+      </view>
+   </view>
+</block>

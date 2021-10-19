@@ -27,7 +27,7 @@
       "backgroundColor": "#ffffff",
       "navigationBarBackgroundColor": "#ffffff",
       "navigationBarTextStyle": "black",
-      "enablePullDownRefresh": false
+      "enablePullDownRefresh": true
    },
    "usingComponents": {
       "l-avatar": "/miniprogram_npm/lin-ui/avatar/index",
@@ -39,7 +39,10 @@
       "van-image": "@vant/weapp/image/index",
       "van-dialog": "@vant/weapp/dialog/index",
       "van-picker": "@vant/weapp/picker/index",
-      "van-popup": "@vant/weapp/popup/index"
+      "van-popup": "@vant/weapp/popup/index",
+      "van-card": "@vant/weapp/card/index",
+      "van-rate": "@vant/weapp/rate/index",
+      "van-tag": "@vant/weapp/tag/index"
    },
    "tabBar": {
       "list": [
