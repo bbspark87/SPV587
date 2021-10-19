@@ -6,7 +6,7 @@
 
     <view class="banner-style">
         <swiper circular="true" indicator-dots="true" autoplay="true" interval="2000">
-            <swiper-item wx:for="{{3}}">
+            <swiper-item wx:for="{{3}}" wx:key="id">
                 <image mode="aspectFill" src="/images/avatar/banner1.png"></image>
             </swiper-item>
         </swiper>

@@ -1,2 +1,2 @@
 <!--pages/shop/shop.wxml-->
-<text>this is shit 商城</text>
+<van-search value="{{ value }}" placeholder="请输入搜索关键词" />

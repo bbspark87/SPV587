@@ -8,7 +8,7 @@
     <view class="top-menu">
         <view class="top-menu-block" bindtap="intent" data-page="/pages/order/order">
             <image class="top-menu-image" src="/images/icon/ic_order.png"></image>
-            <text class="top-menu-name">订单</text>
+            <text class="top-menu-name">对局</text>
             <text class="top-menu-count">10</text>
         </view>
         <view class="top-menu-block" bindtap="intent" data-page="/pages/collect/collect">
@@ -25,6 +25,7 @@
 
     <view class="menu-container">
         <van-cell-group>
+            <van-cell bind:tap="intent" data-page="/pages/shopRecord/shopRecord" title="商城订单" is-link />
             <van-cell bind:tap="intent" data-page="/pages/coupon/coupon" title="优惠券" is-link value="30张" />
             <van-cell bind:tap="intent" data-page="/pages/help/help" title="帮助中心" is-link />
             <van-cell bind:tap="intent" data-page="/pages/spread/spread" title="我的推广" is-link />
