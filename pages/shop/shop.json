@@ -1,7 +1,5 @@
 {
   "usingComponents": {},
-  "backgroundTextStyle": "light",
-  "navigationBarBackgroundColor": "#ffffff",
-  "navigationBarTextStyle": "black",
-  "navigationBarTitleText": "商城"
+  "navigationBarTitleText": "商城",
+  "enablePullDownRefresh": true
 }

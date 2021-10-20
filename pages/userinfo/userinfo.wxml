@@ -1,0 +1,23 @@
+<!--pages/userinfo/userinfo.wxml-->
+<view>
+   <view class="avatar-menu">
+      <text class="menu-text-title">头像</text>
+      <van-image round width="40" height="40" open-data="{{['userAvatarUrl','userNickName']}}"></van-image>
+      <view class="blank-flex"></view>
+      <l-icon class="icon-rignt" name="right" size="30" color="#8e98ac"></l-icon>
+   </view>
+   <van-cell-group>
+      <van-cell title="昵称" is-link value="spark" />
+      <van-cell bind:click="showRound" title="性别" is-link value="男" />
+      <van-cell title="ID" value="38981123" />
+      <van-cell title="段位" is-link value="嘴强王者" />
+      <van-cell title="签名" is-link value="你还啥也没写呢" />
+   </van-cell-group>
+
+   <van-popup show="{{ show.round }}" round position="bottom" custom-style="height: 40%" bind:close="hideRound">
+
+      <van-picker show-toolbar title="选择性别" columns="{{ selectSex }}" bind:cancel="onCancel" bind:confirm="onConfirm"
+         bind:change="onChange" />
+
+   </van-popup>
+</view>

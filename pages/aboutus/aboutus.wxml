@@ -1,0 +1,14 @@
+<!--pages/aboutus/aboutus.wxml-->
+<view>
+
+   <view class="img-logo">
+      <van-image round width="100" height="100" src="https://img.yzcdn.cn/vant/cat.jpeg" />
+      <text class="text-version">版本号 V1.2.0</text>
+   </view>
+
+   <van-cell-group>
+      <van-cell title="用户协议" is-link />
+      <van-cell title="隐私政策" is-link />
+   </van-cell-group>
+
+</view>

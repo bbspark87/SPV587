@@ -1,0 +1,10 @@
+/* pages/userinfo/userinfo.wxss */
+
+.avatar-menu {
+   display: flex;
+   flex-direction: row;
+   width: 100%;
+   height: 120rpx;
+   align-items: center;
+   justify-content: center;
+ }

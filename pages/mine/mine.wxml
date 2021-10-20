@@ -1,13 +1,14 @@
 <view>
 
     <view class="avatar-style">
-        <l-avatar placement="right" size="80" open-data="{{['userAvatarUrl','userNickName']}}"></l-avatar>
+        <l-avatar bindtap="intent" data-page="/pages/userinfo/userinfo" placement="right" size="80"
+            open-data="{{['userAvatarUrl','userNickName']}}"></l-avatar>
     </view>
 
     <view class="top-menu">
         <view class="top-menu-block" bindtap="intent" data-page="/pages/order/order">
             <image class="top-menu-image" src="/images/icon/ic_order.png"></image>
-            <text class="top-menu-name">订单</text>
+            <text class="top-menu-name">对局</text>
             <text class="top-menu-count">10</text>
         </view>
         <view class="top-menu-block" bindtap="intent" data-page="/pages/collect/collect">
@@ -22,14 +23,13 @@
         </view>
     </view>
 
-    <view>
-        <l-list bindtap="intent" data-page="/pages/coupon/coupon" is-link="true" title="优惠券" tag-content="0张"
-            tag-position="right" tag-plain="true" gap="20" />
-        <l-list bindtap="intent" data-page="/pages/help/help" is-link="true" title="帮助中心" tag-position="right"
-            tag-plain="true" gap="20" />
-        <l-list bindtap="intent" data-page="/pages/spread/spread" is-link="true" title="我的推广" tag-position="right"
-            tag-plain="true" gap="20" />
-        <l-list bindtap="intent" data-page="/pages/setting/setting" is-link="true" title="设置" tag-position="right"
-            tag-plain="true" gap="20" />
+    <view class="menu-container">
+        <van-cell-group>
+            <van-cell bind:tap="intent" data-page="/pages/shopRecord/shopRecord" title="商城订单" is-link />
+            <van-cell bind:tap="intent" data-page="/pages/coupon/coupon" title="优惠券" is-link value="30张" />
+            <van-cell bind:tap="intent" data-page="/pages/help/help" title="帮助中心" is-link />
+            <van-cell bind:tap="intent" data-page="/pages/spread/spread" title="我的推广" is-link />
+            <van-cell bind:tap="intent" data-page="/pages/setting/setting" title="设置" is-link />
+        </van-cell-group>
     </view>
 </view>

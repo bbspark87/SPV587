@@ -10,6 +10,7 @@ Page({
 
     intent(target) {
         const page = target.currentTarget.dataset.page
+        console.log("onclick")
         wx.navigateTo({
             url: page,
         })

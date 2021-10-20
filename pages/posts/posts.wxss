@@ -55,13 +55,6 @@ swiper image {
     height: 340rpx;
 }
 
-.post-content {
-    font-size: 30rpx;
-    color: black;
-    margin-bottom: 20rpx;
-    margin-left: 20rpx;
-}
-
 .post-like {
     display: flex;
     flex-direction: columns;
