@@ -3,7 +3,7 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  background: #fafafa;
+  background: white;
 }
 
 .blank-flex {
