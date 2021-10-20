@@ -13,7 +13,6 @@
 }
 
 .active {
-  color: red;
   border-bottom: 5rpx solid currentColor;
 }
 

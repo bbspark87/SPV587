@@ -16,7 +16,6 @@
 }
 
 .item-goods {
-   background: red;
    width: 200rpx;
    height: 120rpx;
    border-radius: 4rpx;
