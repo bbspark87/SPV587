@@ -8,12 +8,11 @@
 .title_item {
   flex: 1;
   display: flex;
-  justify-content: center;
+  align-items: center;
   align-items: center;
 }
 
 .active {
-  color: red;
   border-bottom: 5rpx solid currentColor;
 }
 
