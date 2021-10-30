@@ -3,6 +3,7 @@
     <view class="avatar-style">
         <l-avatar bindtap="intent" data-page="/pages/userinfo/userinfo" placement="right" size="80"
             open-data="{{['userAvatarUrl','userNickName']}}"></l-avatar>
+            <image src="/images/icon/icon_order.svg"></image>
     </view>
 
     <view class="top-menu">
