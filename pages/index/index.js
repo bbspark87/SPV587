@@ -1,4 +1,3 @@
-// pages/index/index.js
 Page({
 
   /**
@@ -38,7 +37,7 @@ Page({
       wx.scanCode({
         onlyFromCamera: true,
       })
-    } else if(type === "page"){
+    } else if (type === "page") {
       wx.navigateTo({
         url: event.currentTarget.dataset.item.page,
       })
@@ -49,7 +48,8 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    
+    const app = getApp();   //引入全局变量
+    // console.log(app.globalData)
   },
 
   /**
@@ -99,5 +99,5 @@ Page({
    */
   onShareAppMessage: function () {
 
-  }
+  },
 })
