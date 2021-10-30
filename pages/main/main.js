@@ -4,6 +4,12 @@ Page({
    * 页面的初始数据
    */
   data: {
+    // 组件所需的参数
+    nvabarData: {
+      showCapsule: true, //是否显示左上角图标   1表示显示    0表示不显示
+      showCenter: true, //是否需要显示个人中心页
+      title: '长春市', //导航栏 中间的标题
+    },
     menuList: [{
         id: 1,
         name: "扫一扫",
@@ -48,7 +54,7 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    const app = getApp();   //引入全局变量
+    const app = getApp(); //引入全局变量
     // console.log(app.globalData)
   },
 

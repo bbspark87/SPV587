@@ -1,0 +1,25 @@
+<view>
+
+    <view class="container-main">
+        <block> 
+            <swiper circular="true" indicator-dots="true" autoplay="true" interval="3000">
+                <swiper-item wx:for="{{3}}" wx:key="id">
+                    <image mode="aspectFill" src="/images/avatar/banner1.png"></image>
+                </swiper-item>
+            </swiper>
+        </block>
+
+        <view class="container-card"></view>
+    </view>
+
+    <view class="avatar-style">
+        <l-avatar placement="right" size="128" open-data="{{['userAvatarUrl','userNickName']}}"></l-avatar>
+    </view>
+
+    <view class="container-menu">
+        <block wx:for="{{menuList}}" wx:key="id">
+            <view bindtap="menuClick" data-item="{{item}}" class="button-menu">{{item.name}}
+            </view>
+        </block>
+    </view>
+</view>

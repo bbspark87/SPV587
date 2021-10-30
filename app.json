@@ -1,6 +1,6 @@
 {
    "pages": [
-      "pages/index/index",
+      "pages/main/main",
       "pages/active/active",
       "pages/bag/bag",
       "pages/collect/collect",
@@ -22,11 +22,11 @@
       "pages/aboutus/aboutus",
       "pages/shopRecord/shopRecord"
    ],
-   "entryPagePath": "pages/index/index",
+   "entryPagePath": "pages/main/main",
    "window": {
       "backgroundTextStyle": "dark",
-      "backgroundColor": "#ffffff",
-      "navigationBarBackgroundColor": "#ffffff",
+      "backgroundColor": "#fff",
+      "navigationBarBackgroundColor": "#fff",
       "navigationBarTextStyle": "black",
       "enablePullDownRefresh": false
    },
@@ -50,7 +50,7 @@
       "list": [
          {
             "text": "首页",
-            "pagePath": "pages/index/index",
+            "pagePath": "pages/main/main",
             "iconPath": "/images/icon/ic_main_normal.png",
             "selectedIconPath": "/images/icon/ic_main_select.png"
          },

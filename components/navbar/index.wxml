@@ -1,0 +1,13 @@
+<view class="navbar" style='height:{{navH}}px;background:{{bgColor}}'>
+  <view class="navbar-action-wrap" wx:if="{{showNav}}">
+    <view wx:if="{{showHome}}" class="shareView" bindtap="showShare">
+      <!-- <image class="shareIcon" mode='widthFix' src='/assets/images/share{{bgColor=="#fff"?"":"_white"}}.png'></image> -->
+    </view>
+    <view wx:if="{{showBack}}" class="backView" bindtap="toIndex">
+      <!-- <image mode='widthFix' class="backIcon" src='/assets/images/leftIcon.png'></image> -->
+    </view>
+  </view>
+  <view class='navbar-title' style='background:{{bgColor}};color:{{bgColor=="#fff"?"#333":"#fff"}}'>
+    {{pageName}}
+  </view>
+</view>

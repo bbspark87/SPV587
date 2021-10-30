@@ -45,3 +45,7 @@
 .main-button {
   color: aqua;
 }
+
+page {
+  --theColor: #6469DB;
+}

@@ -38,13 +38,6 @@
     </view>
 
     <view class="intent_container">
-        <navigator class="drawable" url="/pages/setting/setting">默认跳</navigator>
-        <navigator class="drawable" open-type="redirect" url="/pages/mine/mine">关闭跳</navigator>
-        <navigator class="drawable" open-type="switchTab" url="/pages/index/index">关非Tab跳</navigator>
-        <navigator class="drawable" open-type="reLaunch" url="/pages/index/index">全关随便跳</navigator>
-    </view>
-
-    <view class="intent_container">
         <image
             src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fhbimg.b0.upaiyun.com%2Fb6acfddd5d2e067127a12e34bc34123e34e5b3b6161cf-Z73AMI_fw658&refer=http%3A%2F%2Fhbimg.b0.upaiyun.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1636270003&t=9dc4f73ea3b71f99e8b25e5789026d7c"
             class="image" mode="aspectFill">
