@@ -32,9 +32,10 @@ Component({
    * 组件的初始数据
    */
   data: {
-
+    
   },
   lifetimes: {
+    
     attached: function () {
       this.setData({
         navH: App.globalData.navHeight
@@ -62,4 +63,3 @@ Component({
     },
   }
 })
-

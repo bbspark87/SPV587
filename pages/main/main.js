@@ -1,3 +1,5 @@
+const App = getApp();
+
 Page({
 
   /**
@@ -56,6 +58,11 @@ Page({
   onLoad: function (options) {
     const app = getApp(); //引入全局变量
     // console.log(app.globalData)
+    this.setData({
+      navH: App.globalData.navHeight,
+      navTop: App.globalData.navTop,
+      capsHeight: App.globalData.capsHeight
+    })
   },
 
   /**

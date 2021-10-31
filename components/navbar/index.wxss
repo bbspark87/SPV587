@@ -1,65 +1,6 @@
 .navbar {
   width: 100%;
-  position: relative;
-  top: 0;
-  left: 0;
-  background-color: #fff;
-  z-index: 100;
-}
- 
- 
-.navbar-title {
-  width: 100%;
-  height: 46px;
-  line-height: 46px;
-  text-align: center;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  z-index: 10;
-  /* background-color: #fff;
-  color: #333; */
-  font-size: 18px;
-}
- 
-.navbar-action-wrap{
-  position: absolute;
-  left: 10px;
-  bottom: 7px;
-  z-index: 100;
-}
-.navbar-action_item{
-  padding:3px 0;
-  color: #333;
-}
-.navbar-action-group .navbar-action_item{
- border-right: 1px solid #e8e8e8;
- padding:3px 12px;
-}
-.shareView{
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  padding-left: 10px;
-  padding-bottom: 4px;
-  padding-right: 30px;
-  z-index: 100;
-}
-.shareIcon{ 
-  width: 28rpx;
-  height: 28rpx;
-  /* left: 10px;
-  bottom: 7px; */
-}
-.backView{
-  position: absolute;
-  left: 0;
-  bottom: -5px;
-  padding: 0 30px 7px 0;
-  z-index: 100;
-}
-.backIcon{
-  width: 20rpx;
-  height: 36rpx;
-  /* left: 0px; */
+  background: #f00;
+  display: flex;
+  flex-direction: column;
 }
