@@ -1,4 +1,4 @@
-import Dialog from '../../miniprogram_npm/@vant/weapp/dialog/dialog';
+import Dialog from '../../../miniprogram_npm/@vant/weapp/dialog/dialog';
 Page({
 
   /**
