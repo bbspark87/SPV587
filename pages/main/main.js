@@ -6,34 +6,33 @@ Page({
    * 页面的初始数据
    */
   data: {
-    // 组件所需的参数
-    nvabarData: {
-      showCapsule: true, //是否显示左上角图标   1表示显示    0表示不显示
-      showCenter: true, //是否需要显示个人中心页
-      title: '长春市', //导航栏 中间的标题
-    },
+
     menuList: [{
         id: 1,
         name: "扫一扫",
         type: "scanCode",
+        background: "/images/icon/menu_scan.svg",
         page: ""
       },
       {
         id: 2,
         name: "排行榜",
         type: "page",
+        background: "/images/icon/menu_ranking.svg",
         page: "/pages/ranking/ranking"
       },
       {
         id: 3,
-        name: "活动",
+        name: "附近商家",
         type: "page",
+        background: "/images/icon/menu_neer_shop.svg",
         page: "/pages/active/active"
       },
       {
         id: 4,
         name: "攻略",
         type: "page",
+        background: "/images/icon/menu_gonglve.svg",
         page: "/pages/intro/intro"
       }
     ]
@@ -56,12 +55,12 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    const app = getApp(); //引入全局变量
-    // console.log(app.globalData)
     this.setData({
       navH: App.globalData.navHeight,
       navTop: App.globalData.navTop,
-      capsHeight: App.globalData.capsHeight
+      capsHeight: App.globalData.capsHeight,
+      windowWidth: App.globalData.windowWidth,
+      halfWindow: App.globalData.windowWidth / 4 - 16
     })
   },
 

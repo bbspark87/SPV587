@@ -32,6 +32,7 @@ App({
           navHeight = statusBarHeight + menuButtonObject.height + (menuButtonObject.top - statusBarHeight) * 2; //导航高度
 
         this.globalData.windowHeight = res.windowHeight;
+        this.globalData.windowWidth = res.windowHeight;
         this.globalData.navHeight = navHeight;
         this.globalData.navTop = menuButtonObject.top;
         this.globalData.capsHeight = menuButtonObject.height;

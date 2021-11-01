@@ -1,8 +1,7 @@
-<view>
-
+<view class="container">
     <view class="container-main">
         <block>
-            <swiper circular="true" indicator-dots="true" autoplay="true" interval="3000">
+            <swiper circular="true" autoplay="true" interval="3000">
                 <swiper-item wx:for="{{3}}" wx:key="id">
                     <image mode="aspectFill" src="/images/avatar/banner1.png"></image>
                 </swiper-item>
@@ -10,23 +9,28 @@
         </block>
         <view class="container-navbar" style='height:{{navH}}px;'>
             <view class="container-capsure" style='height: {{capsHeight}}px;margin-top:{{navTop}}px;'>
-                <text class="text-city" >长春市长春市</text>
+                <text class="text-city">长春市</text>
                 <van-icon name="arrow-down" color="#555555" />
             </view>
         </view>
 
         <view class="container-card"></view>
-
     </view>
 
-    <view class="avatar-style">
-        <l-avatar placement="right" size="128" open-data="{{['userAvatarUrl','userNickName']}}"></l-avatar>
+    <view class="card-avatar">
+        <l-avatar class="img-avatar" placement="right" size="128" open-data="{{['userAvatarUrl','userNickName']}}">
+        </l-avatar>
     </view>
 
-    <view class="container-menu">
-        <block wx:for="{{menuList}}" wx:key="id">
-            <view bindtap="menuClick" data-item="{{item}}" class="button-menu">{{item.name}}
-            </view>
-        </block>
+    <view class="view-menus">
+        <image class="menus" src="/images/icon/menu_scan.svg" />
+        <image class="menus" src="/images/icon/menu_rank.svg" />
+        <image class="menus" src="/images/icon/menu_shops.svg" />
+        <image class="menus" src="/images/icon/menu_gonglve.svg" />
+        <image class="menus" src="/images/icon/menu_gonglve.svg" />
+        <image class="menus" src="/images/icon/menu_gonglve.svg" />
+        <image class="menus" src="/images/icon/menu_gonglve.svg" />
+        <image class="menus" src="/images/icon/menu_gonglve.svg" />
     </view>
+
 </view>

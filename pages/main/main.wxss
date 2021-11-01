@@ -1,4 +1,7 @@
 /* pages/posts/posts.wxss */
+page {
+    background: #f7f7f7;
+}
 
 swiper {
     display: flex;
@@ -23,7 +26,7 @@ swiper image {
 .container-card {
     width: 100%;
     height: 32rpx;
-    background-color: white;
+    background-color: #f7f7f7;
     border-top-left-radius: 32rpx;
     border-top-right-radius: 32rpx;
     margin-top: 540rpx;
@@ -34,19 +37,19 @@ swiper image {
 .container-navbar {
     display: flex;
     flex-direction: row;
-    position: absolute;
+    position: fixed;
     width: 100%;
-    background: rgba(256, 256, 0, 0.2);
 }
 
 .container-capsure {
     display: flex;
     flex-direction: row;
-    width: 180rpx;
-    margin-left: 24rpx;
+    width: 200rpx;
+    margin-left: 20rpx;
     border-radius: 40rpx;
-    border: solid 1px #dee7e7;
-    background-color: #ffffff;
+    background-color: white;
+    border: solid 1px #c7d0ce;
+    box-sizing: border-box;
     opacity: 0.6;
     justify-content: center;
     align-items: center;
@@ -63,38 +66,43 @@ swiper image {
     margin-right: 16rpx;
 }
 
-.avatar-style {
-    margin-top: 32rpx;
-    margin-left: 64rpx;
-    margin-right: 32rpx;
+.card-avatar {
+    width: calc(100% - 64rpx);
+    height: 200rpx;
+    background-color: white;
+    border: solid 1rpx #dbdbdb;
+    border-radius: 32rpx;
+    display: flex;
+    margin-bottom: 32rpx;
+    flex-direction: row;
+    align-items: center;
 }
 
-.container-menu {
-    flex-wrap: wrap;
+.card-menus {
+    width: calc(100% - 64rpx);
+    border: solid 1rpx #dbdbdb;
+    border-radius: 32rpx;
     display: flex;
     flex-direction: row;
-    margin-top: 32rpx;
+    justify-content: center;
+    align-items: flex-start;
 }
 
-.button-menu {
-    color: white;
-    background-color: var(--theColor);
-    width: calc(calc(100% / 2) - 45rpx);
-    height: 150rpx;
-    border-radius: 20rpx;
+.img-avatar {
+    margin: 32rpx;
+}
+
+.view-menus {
+    width: calc(100% - 64rpx);
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
+    padding-bottom: 20rpx;
+    flex-wrap: wrap;
 }
 
-.button-menu:nth-child(odd) {
-    margin-left: 30rpx;
-    margin-right: 15rpx;
-    margin-bottom: 30rpx;
-}
-
-.button-menu:nth-child(even) {
-    margin-right: 30rpx;
-    margin-left: 15rpx;
-    margin-bottom: 30rpx;
+.menus {
+    width: calc(100% / 2);
+    height: 220rpx;
 }
