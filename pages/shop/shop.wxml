@@ -1,20 +1,20 @@
 <view class="container">
-   <van-search value="{{ value }}" placeholder="请输入搜索关键词" />
+  <van-search value="{{ value }}" placeholder="请输入搜索关键词" />
 
-   <block wx:for="{{20}}">
-      <view class="list-item">
-         <image class="item-goods" src="/images/avatar/banner2.png"></image>
-         <view class="item-goods-info">
+  <block wx:for="{{20}}">
+    <view class="list-item">
+      <image class="item-goods" src="/images/avatar/banner1.png"></image>
+      <view class="item-goods-info">
 
-            <text class="txt-goods-name">预言家卡牌</text>
+        <text class="txt-goods-name">预言家卡牌</text>
 
-            <view class="item-price">
-               <text class="txt-now-price">19.00元</text>
-               <text class="txt-origin-price">29.00元</text>
-            </view>
-         </view>
-         <van-button color="#fb9538" plain type="primary" size="mini">去购买</van-button>
+        <view class="item-price">
+          <text class="txt-now-price">19.00元</text>
+          <text class="txt-origin-price">29.00元</text>
+        </view>
       </view>
+      <van-button color="#fb9538" plain type="primary" size="mini">去购买</van-button>
+    </view>
 
-   </block>
+  </block>
 </view>
