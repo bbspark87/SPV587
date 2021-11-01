@@ -6,23 +6,21 @@ import {
 } from '../../data/data.js'
 // console.log(information)
 
+import Toast from '../../miniprogram_npm/@vant/weapp/toast/toast'
+
 Page({
 
     /**
      * 页面的初始数据
      */
-    data: {
-
-    },
+    data: {},
 
     onTap: function (param) {
-        console.log("hello")
     },
 
     onGoToDetail() {
-        console.log("onGoToDetail")
         wx.navigateTo({
-          url: '/pages/post-detail/post-detail',
+            url: '/pages/post-detail/post-detail',
         })
     },
 
@@ -31,23 +29,23 @@ Page({
      */
     onLoad: function (options) {
         var content = [{
-                date: "2021-10-02",
-                title: "S2赛季",
-                name: "hello",
-                age: 123,
-                collect: 323,
-                review: 32134,
-                image: "/images/avatar/banner1.png"
-            }, {
+            date: "2021-10-02",
+            title: "S2赛季",
+            name: "hello",
+            age: 123,
+            collect: 323,
+            review: 32134,
+            image: "/images/avatar/banner1.png"
+        }, {
 
-                date: "2024-10-02",
-                title: "S232赛季",
-                name: "web",
-                age: 122325,
-                collect: 22,
-                review: 321,
-                image: "/images/avatar/banner2.png"
-            },
+            date: "2024-10-02",
+            title: "S232赛季",
+            name: "web",
+            age: 122325,
+            collect: 22,
+            review: 321,
+            image: "/images/avatar/banner2.png"
+        },
             {
                 date: "2026-10-02",
                 title: "S12赛季",

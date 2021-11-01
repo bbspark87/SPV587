@@ -7,10 +7,11 @@
                 </swiper-item>
             </swiper>
         </block>
-        <view class="container-navbar" style='height:{{navH}}px;'>
+        <view data-page="/pages/cityList/cityList" bindtap="menuClick" class="container-navbar"
+              style='height:{{navH}}px;'>
             <view class="container-capsure" style='height: {{capsHeight}}px;margin-top:{{navTop}}px;'>
-                <text class="text-city">长春市</text>
-                <van-icon name="arrow-down" color="#555555" />
+                <text class="text-city">{{currentCity}}</text>
+                <van-icon name="arrow-down" color="#555555"/>
             </view>
         </view>
 
@@ -20,13 +21,13 @@
     <view class="card-avatar">
         <l-avatar class="img-avatar" placement="right" size="128" open-data="{{['userAvatarUrl','userNickName']}}">
         </l-avatar>
-    </view> 
+    </view>
 
     <view class="view-menus">
-        <image data-page="" bindtap="menuClick" class="menus" src="/images/icon/menu_scan.svg" />
-        <image bindtap="menuClick" class="menus" src="/images/icon/menu_rank.svg" />
-        <image bindtap="menuClick" class="menus" src="/images/icon/menu_shops.svg" />
-        <image bindtap="menuClick" class="menus" src="/images/icon/menu_gonglve.svg" />
+        <image data-page="scanCode" bindtap="menuClick" class="menus" src="/images/icon/menu_scan.svg"/>
+        <image data-page="/pages/ranking/ranking" bindtap="menuClick" class="menus" src="/images/icon/menu_rank.svg"/>
+        <image data-page="/pages/shop/shop" bindtap="menuClick" class="menus" src="/images/icon/menu_shops.svg"/>
+        <image data-page="/pages/intro/intro" bindtap="menuClick" class="menus" src="/images/icon/menu_gonglve.svg"/>
     </view>
 
 </view>

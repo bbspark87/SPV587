@@ -1,4 +1,3 @@
-/* pages/posts/posts.wxss */
 page {
     background: #f7f7f7;
 }
@@ -44,7 +43,7 @@ swiper image {
 .container-capsure {
     display: flex;
     flex-direction: row;
-    width: 200rpx;
+    width: 240rpx;
     margin-left: 20rpx;
     border-radius: 40rpx;
     background-color: white;
@@ -62,7 +61,8 @@ swiper image {
     text-overflow: ellipsis;
     white-space: nowrap;
     font-size: 32rpx;
-    color: black;
+    font-weight: normal;
+    color: var(--textColor);
     margin-right: 16rpx;
 }
 

@@ -1,89 +1,91 @@
 {
-   "pages": [
-      "pages/main/main",
-      "pages/login/login",
-      "pages/mine/mine",
-      "pages/post-detail/post-detail",
-      "pages/posts/posts",
-      "pages/ranking/ranking",
-      "pages/userinfo/userinfo",
-      "pages/welcome/welcome",
-      "pages/shopRecord/shopRecord",
-      "pages/shop/shop"
-   ],
-   "subpackages": [
+  "pages": [
+    "pages/main/main",
+    "pages/login/login",
+    "pages/mine/mine",
+    "pages/post-detail/post-detail",
+    "pages/posts/posts",
+    "pages/ranking/ranking",
+    "pages/userinfo/userinfo",
+    "pages/welcome/welcome",
+    "pages/shopRecord/shopRecord",
+    "pages/shop/shop",
+    "pages/cityList/cityList"
+  ],
+  "subpackages": [
+    {
+      "root": "UserCenter",
+      "pages": [
+        "pages/aboutus/aboutus",
+        "pages/bag/bag",
+        "pages/collect/collect",
+        "pages/coupon/coupon",
+        "pages/help/help",
+        "pages/intro/intro",
+        "pages/setting/setting",
+        "pages/spread/spread",
+        "pages/order/order"
+      ]
+    },
+    {
+      "root": "ShopCenter",
+      "pages": []
+    }
+  ],
+  "entryPagePath": "pages/main/main",
+  "window": {
+    "backgroundTextStyle": "dark",
+    "backgroundColor": "#fff",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": false
+  },
+  "usingComponents": {
+    "l-avatar": "/miniprogram_npm/lin-ui/avatar/index",
+    "l-list": "/miniprogram_npm/lin-ui/list/index",
+    "l-icon": "/miniprogram_npm/lin-ui/icon/index",
+    "van-cell": "@vant/weapp/cell/index",
+    "van-cell-group": "@vant/weapp/cell-group/index",
+    "van-button": "@vant/weapp/button/index",
+    "van-image": "@vant/weapp/image/index",
+    "van-dialog": "@vant/weapp/dialog/index",
+    "van-picker": "@vant/weapp/picker/index",
+    "van-popup": "@vant/weapp/popup/index",
+    "van-card": "@vant/weapp/card/index",
+    "van-rate": "@vant/weapp/rate/index",
+    "van-tag": "@vant/weapp/tag/index",
+    "van-search": "@vant/weapp/search/index",
+    "van-icon": "@vant/weapp/icon/index",
+    "van-grid": "@vant/weapp/grid/index",
+    "van-grid-item": "@vant/weapp/grid-item/index",
+    "van-index-bar": "@vant/weapp/index-bar/index",
+    "van-index-anchor": "@vant/weapp/index-anchor/index",
+    "van-toast": "@vant/weapp/toast/index"
+  },
+  "tabBar": {
+    "list": [
       {
-         "root": "UserCenter",
-         "pages": [
-            "pages/aboutus/aboutus",
-            "pages/bag/bag",
-            "pages/collect/collect",
-            "pages/coupon/coupon",
-            "pages/help/help",
-            "pages/intro/intro",
-            "pages/setting/setting",
-            "pages/spread/spread",
-            "pages/order/order"
-         ]
+        "text": "首页",
+        "pagePath": "pages/main/main",
+        "iconPath": "/images/icon/ic_main_normal.png",
+        "selectedIconPath": "/images/icon/ic_main_select.png"
       },
       {
-         "root": "ShopCenter",
-         "pages": []
+        "text": "商城",
+        "pagePath": "pages/shop/shop",
+        "iconPath": "/images/icon/ic_shop_normal.png",
+        "selectedIconPath": "/images/icon/ic_shop_select.png"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/mine/mine",
+        "iconPath": "/images/icon/ic_mine_normal.png",
+        "selectedIconPath": "/images/icon/ic_mine_select.png"
       }
-   ],
-   "entryPagePath": "pages/main/main",
-   "window": {
-      "backgroundTextStyle": "dark",
-      "backgroundColor": "#fff",
-      "navigationBarBackgroundColor": "#fff",
-      "navigationBarTextStyle": "black",
-      "enablePullDownRefresh": false
-   },
-   "usingComponents": {
-      "l-avatar": "/miniprogram_npm/lin-ui/avatar/index",
-      "l-list": "/miniprogram_npm/lin-ui/list/index",
-      "l-icon": "/miniprogram_npm/lin-ui/icon/index",
-      "van-cell": "@vant/weapp/cell/index",
-      "van-cell-group": "@vant/weapp/cell-group/index",
-      "van-button": "@vant/weapp/button/index",
-      "van-image": "@vant/weapp/image/index",
-      "van-dialog": "@vant/weapp/dialog/index",
-      "van-picker": "@vant/weapp/picker/index",
-      "van-popup": "@vant/weapp/popup/index",
-      "van-card": "@vant/weapp/card/index",
-      "van-rate": "@vant/weapp/rate/index",
-      "van-tag": "@vant/weapp/tag/index",
-      "van-search": "@vant/weapp/search/index",
-      "van-icon": "@vant/weapp/icon/index",
-      "van-grid": "@vant/weapp/grid/index",
-      "van-grid-item": "@vant/weapp/grid-item/index",
-      "van-index-bar": "@vant/weapp/index-bar/index",
-      "van-index-anchor": "@vant/weapp/index-anchor/index"
-   },
-   "tabBar": {
-      "list": [
-         {
-            "text": "首页",
-            "pagePath": "pages/main/main",
-            "iconPath": "/images/icon/ic_main_normal.png",
-            "selectedIconPath": "/images/icon/ic_main_select.png"
-         },
-         {
-            "text": "商城",
-            "pagePath": "pages/shop/shop",
-            "iconPath": "/images/icon/ic_shop_normal.png",
-            "selectedIconPath": "/images/icon/ic_shop_select.png"
-         },
-         {
-            "text": "我的",
-            "pagePath": "pages/mine/mine",
-            "iconPath": "/images/icon/ic_mine_normal.png",
-            "selectedIconPath": "/images/icon/ic_mine_select.png"
-         }
-      ],
-      "color": "#999999",
-      "selectedColor": "#333333",
-      "backgroundColor": "#ffffff"
-   },
-   "sitemapLocation": "sitemap.json"
+    ],
+    "color": "#999999",
+    "selectedColor": "#333333",
+    "backgroundColor": "#ffffff"
+  },
+  "sitemapLocation": "sitemap.json"
 }

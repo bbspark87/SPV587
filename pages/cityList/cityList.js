@@ -1,36 +1,34 @@
-const App = getApp();
+import {
+    cityList
+} from "../../data/Cities"
+
+import Toast from '../../miniprogram_npm/@vant/weapp/toast/toast';
 
 Page({
     /**
      * 页面的初始数据
      */
     data: {
-        currentCity: '长春市', //当前定位城市
+        currentCity: "",
+        indexList: []
     },
 
-    menuClick(event) {
-        const targetPage = event.currentTarget.dataset.page
-        if (targetPage === "scanCode") {
-            wx.scanCode({
-                onlyFromCamera: true,
-            })
-        } else {
-            wx.navigateTo({
-                url: targetPage,
-            })
+    ItemClick(params) {
+        const selectCity = params.currentTarget.dataset.select
+        try {
+            wx.setStorageSync('currentCity', selectCity)
+        } catch (e) {
         }
+        wx.navigateBack()
     },
-
     /**
      * 生命周期函数--监听页面加载
      */
     onLoad: function (options) {
+
         this.setData({
-            navH: App.globalData.navHeight,
-            navTop: App.globalData.navTop,
-            capsHeight: App.globalData.capsHeight,
-            windowWidth: App.globalData.windowWidth,
-            halfWindow: App.globalData.windowWidth / 4 - 16
+            currentCity: wx.getStorageSync('currentCity') ? wx.getStorageSync('currentCity') : "定位失败",
+            cityList: cityList
         })
     },
 
@@ -45,9 +43,7 @@ Page({
      * 生命周期函数--监听页面显示
      */
     onShow: function () {
-        this.setData({
-            currentCity: wx.getStorageSync('currentCity') ? wx.getStorageSync('currentCity') : "定位失败"
-        });
+
     },
 
     /**
@@ -83,5 +79,5 @@ Page({
      */
     onShareAppMessage: function () {
 
-    },
+    }
 })

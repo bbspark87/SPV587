@@ -48,4 +48,5 @@
 
 page {
   --theColor: #6469DB;
+  --textColor: #141414;
 }
