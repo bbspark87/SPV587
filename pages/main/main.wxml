@@ -24,10 +24,23 @@
     </view>
 
     <view class="view-menus">
-        <image data-page="scanCode" bindtap="menuClick" class="menus" src="/images/icon/menu_scan.svg"/>
-        <image data-page="/pages/ranking/ranking" bindtap="menuClick" class="menus" src="/images/icon/menu_rank.svg"/>
-        <image data-page="/pages/shop/shop" bindtap="menuClick" class="menus" src="/images/icon/menu_shops.svg"/>
-        <image data-page="/pages/intro/intro" bindtap="menuClick" class="menus" src="/images/icon/menu_gonglve.svg"/>
+        <image data-page="scanCode" bindtap="menuClick" class="menus" src="/images/icon/btn_scan.png"/>
+        <image data-page="/pages/ranking/ranking" bindtap="menuClick" class="menus" src="/images/icon/btn_rank.png"/>
+    </view>
+    <view class="view-menus">
+        <image data-page="/pages/shop/shop" bindtap="menuClick" class="menus" src="/images/icon/btn_neer.png"/>
+        <image data-page="/pages/intro/intro" bindtap="menuClick" class="menus" src="/images/icon/btn_gonglve.png"/>
+    </view>
+
+    <view class="container-bottom" style="position:fixed;bottom:0;">
+        <text class="txt-login">登录账号，更多好礼享不停</text>
+        <view>
+            <text bind:tap="goToLogin" class="btn-login">马上登录</text>
+        </view>
+    </view>
+
+    <view class="container-tuiguang" style="position:fixed;bottom:0;">
+        <image class="img-tuiguang" src="/images/icon/img_tuiguang.png"></image>
     </view>
 
 </view>

@@ -93,16 +93,58 @@ swiper image {
 }
 
 .view-menus {
-    width: calc(100% - 64rpx);
+    width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
-    padding-bottom: 20rpx;
+    justify-content: space-between;
+    margin-bottom: 20rpx;
     flex-wrap: wrap;
 }
 
 .menus {
-    width: calc(100% / 2);
-    height: 220rpx;
+    width: 374rpx;
+    height: 192rpx;
+}
+
+.container-bottom {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 112rpx;
+    background: #626262;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.txt-login {
+    color: white;
+    font-size: 28rpx;
+    margin-left: 32rpx;
+    opacity: 0.8;
+}
+
+.btn-login {
+    color: white;
+    font-size: 28rpx;
+    background: var(--theColor);
+    border-radius: 6rpx;
+    margin-right: 32rpx;
+    padding: 14rpx 32rpx 14rpx 32rpx;
+}
+
+.container-tuiguang {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 112rpx;
+    justify-content: flex-end;
+    margin-bottom: 140rpx;
+    margin-right: 32rpx;
+    align-items: center;
+}
+
+.img-tuiguang {
+    width: 128rpx;
+    height: 128rpx;
 }

@@ -10,7 +10,8 @@
     "pages/welcome/welcome",
     "pages/shopRecord/shopRecord",
     "pages/shop/shop",
-    "pages/cityList/cityList"
+    "pages/cityList/cityList",
+    "pages/battles/battles"
   ],
   "subpackages": [
     {
@@ -60,7 +61,9 @@
     "van-grid-item": "@vant/weapp/grid-item/index",
     "van-index-bar": "@vant/weapp/index-bar/index",
     "van-index-anchor": "@vant/weapp/index-anchor/index",
-    "van-toast": "@vant/weapp/toast/index"
+    "van-toast": "@vant/weapp/toast/index",
+    "van-checkbox": "@vant/weapp/checkbox/index",
+    "van-checkbox-group": "@vant/weapp/checkbox-group/index"
   },
   "tabBar": {
     "list": [
@@ -77,14 +80,20 @@
         "selectedIconPath": "/images/icon/ic_shop_select.png"
       },
       {
+        "text": "对局",
+        "pagePath": "pages/battles/battles",
+        "iconPath": "/images/icon/icon_battle_normal.png",
+        "selectedIconPath": "/images/icon/icon_battle_select.png"
+      },
+      {
         "text": "我的",
         "pagePath": "pages/mine/mine",
         "iconPath": "/images/icon/ic_mine_normal.png",
         "selectedIconPath": "/images/icon/ic_mine_select.png"
       }
     ],
-    "color": "#999999",
-    "selectedColor": "#333333",
+    "color": "#bfbfbf",
+    "selectedColor": "#6469DB",
     "backgroundColor": "#ffffff"
   },
   "sitemapLocation": "sitemap.json"

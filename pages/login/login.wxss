@@ -1,55 +1,61 @@
-.container {
-  display: flex;
-  width: 100%;
-  flex-direction: column;
-  align-items: center;
-  background-color: white;
+.background-image {
+    width: 100%;
+    height: 100%;
 }
 
-.container-background {
-  width: 690rpx;
-  height: 300rpx;
-  margin-left: 30rpx;
-  margin-right: 30rpx;
-  margin-top: 30rpx;
+.container-bottom {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 64rpx);
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 86rpx;
+    border-radius: 32rpx;
+    background-color: white;
+    border: solid 1rpx #dbdbdb;
+}
+
+.container-agree {
+    display: flex;
+    flex-direction: row;
+    width: calc(100% - 64rpx);
+    height: 54rpx;
+    align-items: center;
+    margin-top: 40rpx;
+}
+
+.txt-agree {
+    color: #a09f9e;
+    font-size: 24rpx;
+}
+
+.btn-agree {
+    color: #141414;
+    font-size: 24rpx;
 }
 
 .container-login {
-  display: flex;
-  width: 100%;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 60rpx;
+    display: flex;
+    flex-direction: row;
+    width: calc(100% - 64rpx);
+    height: 96rpx;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16rpx;
+    margin-top: 32rpx;
+    margin-bottom: 40rpx;
+    background: var(--theColor);
 }
 
-.background-image {
-  width: 100%;
-  height: 100%;
-  border-radius: 20rpx;
+.btn-login {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
-.wx-button {
-  display: flex;
-  width: 690rpx;
-  height: 80rpx;
-  background-color: #00ad3b;
-  color: white;
-  border-radius: 42rpx;
-  align-items: center;
-  justify-content: center;
-  font-size: 32rpx;
-}
-
-.phone-button {
-  display: flex;
-  width: 690rpx;
-  height: 80rpx;
-  background-color: white;
-  color: #d4d4d4;
-  border: 1rpx solid #d4d4d4;
-  border-radius: 42rpx;
-  margin-top: 30rpx;
-  align-items: center;
-  justify-content: center;
-  font-size: 32rpx;
+.txt-login {
+    color: white;
+    margin-left: 16rpx;
+    font-size: 32rpx;
 }

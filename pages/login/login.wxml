@@ -1,14 +1,24 @@
 <view class="container">
 
-  <view class="container-background">
-    <image mode="aspectFill" class="background-image" src="/images/avatar/background_login.jpg"></image>
-  </view>
+    <image class="background-image" mode="widthFix" src="/images/background/bg_login.png"></image>
 
-  <view class="container-login">
-    <view class="wx-button" bindtap="intent" data-page="/pages/main/main">微信用户一键登录
+    <view class="container-bottom" style="position:fixed;bottom:0;">
+
+
+        <view class="container-agree">
+            <van-checkbox checked-color="#6469DB" value="{{ checked }}" bind:change="onChange"></van-checkbox>
+            <text class="txt-agree">我已阅读并同意</text>
+            <text class="btn-agree">《用户协议》</text>
+            <text class="txt-agree">和</text>
+            <text class="btn-agree">《隐私政策》</text>
+        </view>
+
+        <button class="container-login">
+            <view class="btn-login">
+                <image class="icon-24" mode="widthFix" src="/images/icon/icon_wechat.svg"></image>
+                <text class="txt-login">微信用户一键登录</text>
+            </view>
+        </button>
+
     </view>
-    <view class="phone-button" bindtap="intent" data-page="/pages/main/main">
-      输入手机号码登录/注册</view>
-  </view>
-
 </view>
