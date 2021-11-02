@@ -1,8 +1,0 @@
-<view >
-    <view class="container-rec container-white">
-
-        <van-cell-group>
-            <van-cell bind:tap="intent" data-page="/pages/shopRecord/shopRecord" title="单元格" is-link/>
-        </van-cell-group>
-    </view>
-</view>

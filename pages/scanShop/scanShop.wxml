@@ -1,0 +1,36 @@
+<view class="container">
+    <view class="container-rec container-white">
+        <view class="menu-shop">
+            <text class="txt-black txt-big txt-shop-name">Off The Seven</text>
+            <van-icon class="img-margin" name="arrow" color="#e4e4e4"/>
+        </view>
+
+        <view class="item-star">
+            <van-rate readonly color="#f8d44e" value="4"/>
+            <text class="txt-small txt-red">4.9分</text>
+        </view>
+
+        <view class="container-shop">
+            <block>
+                <swiper circular="true" autoplay="true" interval="3000">
+                    <swiper-item wx:for="{{3}}" wx:key="id">
+                        <image mode="aspectFill" src="/images/avatar/banner1.png"></image>
+                    </swiper-item>
+                </swiper>
+            </block>
+        </view>
+
+        <view class="line-divider">
+            <van-divider hairline/>
+        </view>
+
+        <text class="txt-black txt-normal txt-shop-name">当前玩家：12名</text>
+
+        <view class="line-divider">
+            <van-divider hairline/>
+        </view>
+
+        <text class="txt-black txt-normal txt-shop-name">当前设备</text>
+
+    </view>
+</view>

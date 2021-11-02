@@ -1,0 +1,54 @@
+.container-white {
+    width: 100%;
+    margin-top: 32rpx;
+    background: white;
+}
+
+.item-star {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 32rpx;
+    margin-top: 16rpx;
+}
+
+.menu-shop {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 108rpx;
+    background: white;
+}
+
+.txt-shop-name {
+    margin-left: 32rpx;
+}
+
+.img-margin {
+    margin-right: 32rpx;
+}
+
+.container-shop {
+    display: flex;
+    width: 100%;
+    height: 300rpx;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 32rpx;
+}
+
+swiper {
+    width: calc(100% - 64rpx);
+    height: 300rpx;
+    border: solid 1px #c7d0ce;
+    border-radius: 32rpx;
+}
+
+swiper image {
+    width: 100%;
+    height: 100%;
+    border-radius: 32rpx;
+}

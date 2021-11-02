@@ -7,7 +7,7 @@
                 <text class="txt-shop-name">商家名称</text>
 
                 <view class="item-star">
-                    <van-rate readonly value="false" color="#f8d44e" value="4"/>
+                    <van-rate readonly color="#f8d44e" value="4"/>
                     <text class="txt-star">4.9分</text>
                 </view>
 

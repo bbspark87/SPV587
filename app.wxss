@@ -1,11 +1,12 @@
 .container {
-    background: #f7f7f7;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .container-rec {
-    align-items: center;
-    justify-content: flex-start;
-    background: red;
+    background: white;
 }
 
 .container-radius {
@@ -49,7 +50,38 @@
     margin-right: 30rpx;
 }
 
+.txt-small {
+    font-size: 24rpx;
+}
+
+.txt-narmal {
+    font-size: 28rpx;
+}
+
+.txt-big {
+    font-size: 32rpx;
+}
+
+.txt-black {
+    color: #141414;
+}
+
+.txt-gray {
+    color: #6F6F6F;
+}
+
+.txt-red {
+    color: #FF290C;
+}
+
+.line-divider {
+    margin-left: 32rpx;
+    margin-right: 32rpx;
+    background: #e5e5e5;
+}
+
 page {
+    background: #f7f7f7;
     --theColor: #6469DB;
     --textColor: #141414;
 }

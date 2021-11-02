@@ -12,7 +12,7 @@
     "pages/shop/shop",
     "pages/cityList/cityList",
     "pages/battles/battles",
-    "pages/shopScan/shopScan"
+    "pages/scanShop/scanShop"
   ],
   "subpackages": [
     {
@@ -34,11 +34,11 @@
       "pages": []
     }
   ],
-  "entryPagePath": "pages/shopScan/shopScan",
+  "entryPagePath": "pages/scanShop/scanShop",
   "window": {
     "backgroundTextStyle": "dark",
-    "backgroundColor": "#fff",
-    "navigationBarBackgroundColor": "#fff",
+    "backgroundColor": "#ffffff",
+    "navigationBarBackgroundColor": "#ffffff",
     "navigationBarTextStyle": "black",
     "enablePullDownRefresh": false
   },
@@ -64,7 +64,8 @@
     "van-index-anchor": "@vant/weapp/index-anchor/index",
     "van-toast": "@vant/weapp/toast/index",
     "van-checkbox": "@vant/weapp/checkbox/index",
-    "van-checkbox-group": "@vant/weapp/checkbox-group/index"
+    "van-checkbox-group": "@vant/weapp/checkbox-group/index",
+    "van-divider": "@vant/weapp/divider/index"
   },
   "tabBar": {
     "list": [

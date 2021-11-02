@@ -1,6 +1,0 @@
-.container-white {
-    width: 100%;
-    margin-top: 32rpx;
-    height: 300rpx;
-    background: red;
-}
