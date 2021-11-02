@@ -1,41 +1,55 @@
 .container {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    background: #f7f7f7;
 }
 
-.icon-24{
-  width: 48rpx;
-  height: 48rpx;
+.container-rec {
+    align-items: center;
+    justify-content: flex-start;
+    background: red;
+}
+
+.container-radius {
+    width: calc(100% - 64rpx);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 16rpx;
+    border: solid 1px #c7d0ce;
+    background: white;
+}
+
+.icon-24 {
+    width: 48rpx;
+    height: 48rpx;
 }
 
 .blank-flex {
-  display: flex;
-  flex: 1;
+    display: flex;
+    flex: 1;
 }
 
 .menu-text-title {
-  padding-left: 30rpx;
-  align-items: center;
-  width: 120rpx;
-  color: #535353;
-  justify-content: center;
-  font-size: 32rpx;
+    padding-left: 30rpx;
+    align-items: center;
+    width: 120rpx;
+    color: #535353;
+    justify-content: center;
+    font-size: 32rpx;
 }
 
 .menu-text {
-  align-items: center;
-  color: #3b3b3b;
-  justify-content: center;
-  font-size: 32rpx;
+    align-items: center;
+    color: #3b3b3b;
+    justify-content: center;
+    font-size: 32rpx;
 }
 
 .icon-rignt {
-  margin-right: 30rpx;
+    margin-right: 30rpx;
 }
 
 page {
-  --theColor: #6469DB;
-  --textColor: #141414;
+    --theColor: #6469DB;
+    --textColor: #141414;
 }

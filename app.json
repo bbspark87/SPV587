@@ -11,7 +11,8 @@
     "pages/shopRecord/shopRecord",
     "pages/shop/shop",
     "pages/cityList/cityList",
-    "pages/battles/battles"
+    "pages/battles/battles",
+    "pages/shopScan/shopScan"
   ],
   "subpackages": [
     {
@@ -33,7 +34,7 @@
       "pages": []
     }
   ],
-  "entryPagePath": "pages/main/main",
+  "entryPagePath": "pages/shopScan/shopScan",
   "window": {
     "backgroundTextStyle": "dark",
     "backgroundColor": "#fff",

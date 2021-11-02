@@ -7,11 +7,8 @@ Page({
         radio: 'checked',
     },
 
-    intent(target) {
-        const page = target.currentTarget.dataset.page
-        wx.switchTab({
-            url: page,
-        })
+    getPhoneNumber(param) {
+        console.log(param)
     },
 
     onChange(event) {
@@ -24,7 +21,22 @@ Page({
      * 生命周期函数--监听页面加载
      */
     onLoad: function (options) {
-
+        wx.login({
+            success(res) {
+                // console.log(res.code)
+                if (res.code) {
+                    //发起网络请求
+                    wx.request({
+                        url: 'https://example.com/onLogin',
+                        data: {
+                            code: res.code
+                        }
+                    })
+                } else {
+                    // console.log('登录失败！' + res.errMsg)
+                }
+            }
+        })
     },
 
     /**

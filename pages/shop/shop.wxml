@@ -1,4 +1,4 @@
-<view class="container">
+<view >
   <van-search value="{{ value }}" placeholder="请输入搜索关键词" />
 
   <block wx:for="{{20}}">

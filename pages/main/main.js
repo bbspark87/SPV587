@@ -22,7 +22,6 @@ Page({
     },
 
     goToLogin(e) {
-        console.log(e)
         wx.navigateTo({
             url: "/pages/login/login",
         })

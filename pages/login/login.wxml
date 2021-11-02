@@ -1,4 +1,4 @@
-<view class="container">
+<view >
 
     <image class="background-image" mode="widthFix" src="/images/background/bg_login.png"></image>
 
@@ -13,7 +13,7 @@
             <text class="btn-agree">《隐私政策》</text>
         </view>
 
-        <button class="container-login">
+        <button open-type="getPhoneNumber" bindgetphonenumber="getPhoneNumber" class="container-login">
             <view class="btn-login">
                 <image class="icon-24" mode="widthFix" src="/images/icon/icon_wechat.svg"></image>
                 <text class="txt-login">微信用户一键登录</text>
