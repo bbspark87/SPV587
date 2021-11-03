@@ -33,7 +33,7 @@
 
 .txt-goods-name {
   color: #999999;
-  font-size: 30rpx;
+  font-size: 32rpx;
   flex: 1;
 }
 

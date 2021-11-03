@@ -1,19 +1,33 @@
-<view >
+<view>
 
-    <block wx:for="{{20}}">
-        <view class="list-item">
-            <image class="item-goods" src="/images/avatar/banner1.png"></image>
-            <view class="item-goods-info">
+    <van-sticky animated offset-top="{{ 0 }}">
+        <van-tabs color="#6469DB" title-active-color="#6469DB" title-inactive-color="#6F6F6F" active="{{ active }}"
+                  bind:change="onChange">
+            <van-tab title="日榜"></van-tab>
+            <van-tab title="周榜"></van-tab>
+            <van-tab title="总榜"></van-tab>
+        </van-tabs>
+    </van-sticky>
 
-                <text class="txt-goods-name">预言家卡牌</text>
-
-                <view class="item-price">
-                    <text class="txt-now-price">19.00元</text>
-                    <text class="txt-origin-price">29.00元</text>
-                </view>
+    <block>
+        <view class="container-item" wx:for="{{20}}" wx:key="id">
+            <view class="container-list">
+                <image class="img-rank-num" src="/images/icon/icon_rank_num.svg"></image>
+                <image class="img-avatar" src="/images/avatar/banner1.png"></image>
+                <text class="txt-normal txt-black txt-nickname">spark</text>
+                <image class="img-rank" src="/images/avatar/banner1.png"></image>
             </view>
-            <van-button color="#fb9538" plain type="primary" size="mini">去购买</van-button>
         </view>
-
     </block>
+
+    <view class="container-bottom" style="position:fixed;bottom:0;">
+
+        <view class="container-self">
+            <image class="img-rank-num" src="/images/icon/icon_rank_num.svg"></image>
+            <image class="img-avatar" src="/images/avatar/banner1.png"></image>
+            <text class="txt-normal txt-black txt-nickname">我自己</text>
+            <image class="img-rank" src="/images/avatar/banner1.png"></image>
+        </view>
+    </view>
+
 </view>

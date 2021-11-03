@@ -12,16 +12,17 @@
             <text class="btn-agree">《隐私政策》</text>
         </view>
 
-        <button class="container-login" open-type="getPhoneNumber" bindgetphonenumber="getPhoneNumber">
+        <view class="container-login-btn">
 
-            <view class="container-login-btn">
-                <image class="btn-main-small" mode="scaleToFill" src="/images/drawable/btn_main.svg">
-                </image>
-                <view class="container-icon-txt">
-                    <image class="icon-24" mode="aspectFill" src="/images/icon/icon_wechat.svg"></image>
-                    <text class="txt-login">微信用户一键登录</text>
-                </view>
+            <button class="container-login" plain="true" open-type="getPhoneNumber" bindgetphonenumber="getPhoneNumber">
+
+            </button>
+            <image class="btn-main-small" mode="scaleToFill" src="/images/drawable/btn_main.svg">
+            </image>
+            <view class="container-icon-txt">
+                <image class="icon-24" mode="aspectFill" src="/images/icon/icon_wechat.svg"></image>
+                <text class="txt-btn-main">微信用户一键登录</text>
             </view>
-        </button>
+        </view>
     </view>
 </view>

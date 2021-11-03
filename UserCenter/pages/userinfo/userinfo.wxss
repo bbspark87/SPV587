@@ -1,0 +1,18 @@
+.avatar-menu {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 120rpx;
+    align-items: center;
+    justify-content: center;
+}
+
+.fill-horizone {
+    flex: 1;
+}
+
+.container-white {
+    width: 100%;
+    margin-top: 32rpx;
+    background: white;
+}

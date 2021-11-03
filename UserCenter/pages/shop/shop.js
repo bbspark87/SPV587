@@ -1,4 +1,3 @@
-// UserCenter/pages/shop/shop.js
 Page({
 
   /**

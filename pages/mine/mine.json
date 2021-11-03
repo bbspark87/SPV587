@@ -1,6 +1,6 @@
 {
   "usingComponents": {
   },
-  "backgroundTextStyle": "light",
+  "backgroundTextStyle": "dark",
   "navigationBarTitleText": "我的"
 }

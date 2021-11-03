@@ -1,12 +1,14 @@
-<!--pages/setting/setting.wxml-->
-
 <view class="menu-container">
     <van-cell-group>
-        <van-cell bind:tap="intent" data-page="/pages/account/account" title="账号与安全" is-link />
-        <van-cell title="游戏攻略" is-link />
-        <van-cell bind:tap="intent" data-page="/pages/aboutus/aboutus" title="关于我们" is-link />
+        <van-cell bind:tap="intent" data-page="/UserCenter/pages/intro/intro" title="用户协议" is-link/>
+        <van-cell bind:tap="intent" data-page="/UserCenter/pages/intro/intro" title="隐私政策" is-link/>
     </van-cell-group>
 
-    <van-button bind:click="onClickConfirm" block class="button-logout">退出登录</van-button>
-    <van-dialog id="van-dialog" />
+    <view class="container-save" bind:tap="onClickConfirm">
+        <image class="btn-main" mode="aspectFill" src="/images/drawable/btn_main.svg">
+        </image>
+        <text class="txt-white txt-normal txt-btn">退出登录</text>
+    </view>
+
+    <van-dialog id="van-dialog" confirm-button-color="#6469DB"/>
 </view>

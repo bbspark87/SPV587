@@ -6,15 +6,26 @@
     "pages/post-detail/post-detail",
     "pages/posts/posts",
     "pages/ranking/ranking",
-    "pages/userinfo/userinfo",
     "pages/welcome/welcome",
     "pages/shopRecord/shopRecord",
-    "pages/shop/shop",
+    "pages/shoppingCenter/shoppingCenter",
     "pages/cityList/cityList",
     "pages/battles/battles",
-    "pages/scanShop/scanShop"
+    "pages/scanShop/scanShop",
+    "pages/neerShop/neerShop",
+    "pages/shopDetail/shopDetail"
   ],
   "subpackages": [
+    {
+      "root": "ShopCenter",
+      "pages": []
+    },
+    {
+      "root": "GameCenter",
+      "pages": [
+        "pages/gameList/gameList"
+      ]
+    },
     {
       "root": "UserCenter",
       "pages": [
@@ -26,21 +37,14 @@
         "pages/intro/intro",
         "pages/setting/setting",
         "pages/spread/spread",
-        "pages/order/order"
-      ]
-    },
-    {
-      "root": "ShopCenter",
-      "pages": []
-    },
-    {
-      "root": "GameCenter",
-      "pages": [
-        "pages/gameList/gameList"
+        "pages/userinfo/userinfo",
+        "pages/order/order",
+        "pages/setSign/setSign",
+        "pages/rankIntro/rankIntro"
       ]
     }
   ],
-  "entryPagePath": "pages/scanShop/scanShop",
+  "entryPagePath": "pages/main/main",
   "window": {
     "backgroundTextStyle": "dark",
     "backgroundColor": "#ffffff",
@@ -71,7 +75,12 @@
     "van-toast": "@vant/weapp/toast/index",
     "van-checkbox": "@vant/weapp/checkbox/index",
     "van-checkbox-group": "@vant/weapp/checkbox-group/index",
-    "van-divider": "@vant/weapp/divider/index"
+    "van-divider": "@vant/weapp/divider/index",
+    "van-tab": "@vant/weapp/tab/index",
+    "van-tabs": "@vant/weapp/tabs/index",
+    "van-sticky": "@vant/weapp/sticky/index",
+    "van-dropdown-menu": "@vant/weapp/dropdown-menu/index",
+    "van-dropdown-item": "@vant/weapp/dropdown-item/index"
   },
   "tabBar": {
     "list": [
@@ -83,7 +92,7 @@
       },
       {
         "text": "商城",
-        "pagePath": "pages/shop/shop",
+        "pagePath": "pages/shoppingCenter/shoppingCenter",
         "iconPath": "/images/icon/ic_shop_normal.png",
         "selectedIconPath": "/images/icon/ic_shop_select.png"
       },

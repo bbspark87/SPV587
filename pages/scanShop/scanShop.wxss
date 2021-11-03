@@ -28,7 +28,7 @@
 }
 
 .img-margin {
-    margin-right: 32rpx;
+    margin: 32rpx;
 }
 
 .container-shop {

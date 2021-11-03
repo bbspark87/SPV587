@@ -6,9 +6,6 @@
         </swiper-item>
     </swiper>
 
-    <!-- 微信头像显示 -->
-    <l-avatar placement="right" size="80" open-data="{{['userAvatarUrl','userNickName']}}"></l-avatar>
-
     <!-- 点击事件 -->
     <view bind:tap="onTap" class="drawable">
         <text>Button</text>

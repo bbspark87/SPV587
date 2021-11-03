@@ -1,4 +1,3 @@
-// pages/intro/intro.js
 Page({
 
     /**

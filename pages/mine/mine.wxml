@@ -1,8 +1,8 @@
 <view>
 
     <view class="avatar-style">
-        <l-avatar bindtap="intent" data-page="/pages/userinfo/userinfo" placement="right" size="80"
-                  open-data="{{['userAvatarUrl','userNickName']}}"></l-avatar>
+        <l-avatar bindtap="intent" data-page="/UserCenter/pages/userinfo/userinfo" size="80"
+                  open-data="{{['userAvatarUrl']}}"></l-avatar>
     </view>
 
     <view class="top-menu">
@@ -28,6 +28,6 @@
         <van-cell bind:tap="intent" data-page="/pages/coupon/coupon" title="优惠券" is-link value="30张"/>
         <van-cell bind:tap="intent" data-page="/pages/help/help" title="帮助中心" is-link/>
         <van-cell bind:tap="intent" data-page="/pages/spread/spread" title="我的推广" is-link/>
-        <van-cell bind:tap="intent" data-page="/pages/setting/setting" title="设置" is-link/>
+        <van-cell bind:tap="intent" data-page="/UserCenter/pages/setting/setting" title="设置" is-link/>
     </van-cell-group>
 </view>

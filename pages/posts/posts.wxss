@@ -70,7 +70,7 @@ swiper image {
 }
 
 .post-like-font {
-    font-size: 30rpx;
+    font-size: 32rpx;
     color: black;
     display: inline-block;
     margin-bottom: 20rpx;
