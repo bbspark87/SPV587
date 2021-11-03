@@ -1,4 +1,3 @@
-// pages/ranking/ranking.js
 Page({
 
     /**

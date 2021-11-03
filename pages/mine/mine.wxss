@@ -4,10 +4,62 @@
     margin-right: 20rpx;
 }
 
-.container {
-    background-color: #ff0000;
+.container-top {
+    width: 100%;
+    background: white;
     display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
     align-items: center;
+}
+
+.container-user {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 32rpx;
+}
+
+.container-capsure {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20rpx;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    padding-left: 16rpx;
+    padding-right: 16rpx;
+}
+
+.container-navbar {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    width: 100%;
+}
+
+.img-avatar {
+    margin: 32rpx;
+}
+
+.card-avatar {
+    width: calc(100% - 64rpx);
+    background-color: white;
+    border: solid 1rpx #dbdbdb;
+    border-radius: 32rpx;
+    display: flex;
+    margin-bottom: 32rpx;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.container-user-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .menu-style {
@@ -20,9 +72,7 @@
 
 .top-menu {
     width: 100%;
-    background: #fff;
-    margin-top: 40rpx;
-    margin-bottom: 40rpx;
+    margin-bottom: 32rpx;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -39,8 +89,8 @@
 }
 
 .top-menu-image {
-    width: 80rpx;
-    height: 80rpx;
+    width: 64rpx;
+    height: 64rpx;
 }
 
 .top-menu-name {

@@ -1,4 +1,4 @@
-<view class="container">
+<view >
     <view class="container-main">
         <block>
             <swiper circular="true" autoplay="true" interval="3000">
@@ -18,9 +18,11 @@
         <view class="container-card"></view>
     </view>
 
-    <view class="card-avatar">
-        <l-avatar class="img-avatar" placement="right" size="128" open-data="{{['userAvatarUrl','userNickName']}}">
-        </l-avatar>
+    <view class="container-user">
+        <view class="card-avatar">
+            <l-avatar class="img-avatar" placement="right" size="128" open-data="{{['userAvatarUrl','userNickName']}}">
+            </l-avatar>
+        </view>
     </view>
 
     <view class="view-menus">

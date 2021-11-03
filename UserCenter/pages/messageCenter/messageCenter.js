@@ -1,3 +1,4 @@
+// UserCenter/pages/messageCenter/messageCenter.js
 Page({
 
   /**

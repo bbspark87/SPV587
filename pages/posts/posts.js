@@ -1,12 +1,6 @@
-// pages/posts/posts.js
-
-// var postData = require("../../data/data.js")
 import {
     information
 } from '../../data/data.js'
-// console.log(information)
-
-import Toast from '../../miniprogram_npm/@vant/weapp/toast/toast'
 
 Page({
 

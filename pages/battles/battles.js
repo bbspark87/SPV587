@@ -1,4 +1,3 @@
-// pages/battles/battles.js
 Page({
 
   /**

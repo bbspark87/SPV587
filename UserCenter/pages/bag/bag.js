@@ -1,4 +1,3 @@
-// pages/bag/bag.js
 Page({
 
     /**

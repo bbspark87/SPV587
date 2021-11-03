@@ -1,4 +1,3 @@
-/* pages/collect/collect.wxss */
 .containers {
    width: 100%;
    display: flex;

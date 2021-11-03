@@ -1,4 +1,3 @@
-// pages/post-detail/post-detail.js
 Page({
 
    /**

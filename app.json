@@ -40,7 +40,8 @@
         "pages/userinfo/userinfo",
         "pages/order/order",
         "pages/setSign/setSign",
-        "pages/rankIntro/rankIntro"
+        "pages/rankIntro/rankIntro",
+        "pages/messageCenter/messageCenter"
       ]
     }
   ],

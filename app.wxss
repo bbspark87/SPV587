@@ -1,8 +1,5 @@
 .container {
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 .container-white {
@@ -142,7 +139,7 @@
 }
 
 .img-margin-right {
-    margin-right: 32rpx;
+    margin-left: 32rpx;
 }
 
 .txt-btn-main {

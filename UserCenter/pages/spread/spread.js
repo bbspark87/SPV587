@@ -1,4 +1,3 @@
-// pages/spread/spread.js
 Page({
 
     /**

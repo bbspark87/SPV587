@@ -1,4 +1,3 @@
-// pages/shopRecord/shopRecord.js
 Page({
 
    /**

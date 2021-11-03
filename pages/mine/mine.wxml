@@ -1,33 +1,47 @@
 <view>
 
-    <view class="avatar-style">
-        <l-avatar bindtap="intent" data-page="/UserCenter/pages/userinfo/userinfo" size="80"
-                  open-data="{{['userAvatarUrl']}}"></l-avatar>
+    <view data-page="/UserCenter/pages/messageCenter/messageCenter" bindtap="intent" class="container-top"
+          style='height: {{navH}}px;'>
+        <image style='margin-top:{{navTop}}px;' class="img-24 img-margin-right" mode="aspectFill"
+               src="/images/icon/icon_message.svg"></image>
     </view>
 
-    <view class="top-menu">
-        <view class="top-menu-block" bindtap="intent" data-page="/pages/order/order">
-            <image class="top-menu-image" src="/images/icon/ic_order.png"></image>
-            <text class="top-menu-name">对局</text>
-            <text class="top-menu-count">10</text>
+    <view class="container-user">
+        <view class="card-avatar">
+
+            <view class="container-user-info">
+                <l-avatar class="img-avatar" placement="right" size="128"
+                          open-data="{{['userAvatarUrl','userNickName']}}">
+                </l-avatar>
+            </view>
+
+            <view class="top-menu">
+                <view class="top-menu-block" bindtap="intent" data-page="/pages/collect/collect">
+                    <image class="top-menu-image" src="/images/icon/ic_collect.png"></image>
+                    <text class="top-menu-name">收藏</text>
+                    <text class="top-menu-count">10</text>
+                </view>
+
+                <view class="top-menu-block" bindtap="intent" data-page="/UserCenter/pages/coupon/coupon">
+                    <image class="top-menu-image" src="/images/icon/ic_order.png"></image>
+                    <text class="top-menu-name">优惠券</text>
+                    <text class="top-menu-count">10</text>
+                </view>
+                <view class="top-menu-block" bindtap="intent" data-page="/UserCenter/pages/bag/bag">
+                    <image class="top-menu-image" src="/images/icon/ic_bag.png"></image>
+                    <text class="top-menu-name">背包</text>
+                    <text class="top-menu-count">10</text>
+                </view>
+            </view>
         </view>
-        <view class="top-menu-block" bindtap="intent" data-page="/pages/collect/collect">
-            <image class="top-menu-image" src="/images/icon/ic_collect.png"></image>
-            <text class="top-menu-name">收藏</text>
-            <text class="top-menu-count">10</text>
-        </view>
-        <view class="top-menu-block" bindtap="intent" data-page="/pages/bag/bag">
-            <image class="top-menu-image" src="/images/icon/ic_bag.png"></image>
-            <text class="top-menu-name">背包</text>
-            <text class="top-menu-count">10</text>
-        </view>
+
     </view>
 
     <van-cell-group>
-        <van-cell bind:tap="intent" data-page="/pages/shopRecord/shopRecord" title="商城订单" is-link/>
-        <van-cell bind:tap="intent" data-page="/pages/coupon/coupon" title="优惠券" is-link value="30张"/>
+        <van-cell bind:tap="intent" data-page="/pages/shopRecord/shopRecord" title="购买记录" is-link/>
         <van-cell bind:tap="intent" data-page="/pages/help/help" title="帮助中心" is-link/>
-        <van-cell bind:tap="intent" data-page="/pages/spread/spread" title="我的推广" is-link/>
+        <van-cell bind:tap="intent" data-page="/pages/spread/spread" title="推荐有奖" is-link/>
+        <van-cell bind:tap="intent" data-page="/pages/intro/intro" title="游戏攻略" is-link/>
         <van-cell bind:tap="intent" data-page="/UserCenter/pages/setting/setting" title="设置" is-link/>
     </van-cell-group>
 </view>

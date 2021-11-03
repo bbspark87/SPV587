@@ -1,11 +1,10 @@
+const App = getApp();
 Page({
 
     /**
      * 页面的初始数据
      */
-    data: {
-
-    },
+    data: {},
 
     intent(target) {
         const page = target.currentTarget.dataset.page
@@ -18,7 +17,14 @@ Page({
      * 生命周期函数--监听页面加载
      */
     onLoad: function (options) {
-
+        this.setData({
+            navH: App.globalData.navHeight,
+            navTop: App.globalData.navTop,
+            topDistance: App.globalData.navTop + 32,
+            capsHeight: App.globalData.capsHeight,
+            windowWidth: App.globalData.windowWidth,
+            halfWindow: App.globalData.windowWidth / 4 - 16
+        })
     },
 
     /**
