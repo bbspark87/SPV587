@@ -23,7 +23,7 @@
     background: white;
 }
 
-.txt-shop-name {
+.txt-title {
     margin-left: 32rpx;
 }
 
@@ -38,17 +38,61 @@
     flex-direction: column;
     align-items: center;
     margin-top: 32rpx;
+    border-radius: 32rpx;
 }
 
 swiper {
     width: calc(100% - 64rpx);
     height: 300rpx;
-    border: solid 1px #c7d0ce;
+    border-radius: 32rpx;
+    overflow: hidden;
+}
+
+swiper-item {
+    width: 100%;
+    height: 100%;
     border-radius: 32rpx;
 }
 
 swiper image {
     width: 100%;
     height: 100%;
-    border-radius: 32rpx;
+    border: solid 1px #c7d0ce;
+}
+
+.container-device {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    margin-bottom: 32rpx;
+}
+
+.txt-device {
+    font-size: 100rpx;
+    margin-right: 8rpx;
+}
+
+.container-need-know {
+    margin: 16rpx 32rpx 32rpx 32rpx;
+}
+
+.container-join {
+    display: flex;
+    width: 100%;
+    height: 96rpx;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 64rpx;
+}
+
+.container-rescan {
+    display: flex;
+    width: 100%;
+    height: 96rpx;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 64rpx;
 }

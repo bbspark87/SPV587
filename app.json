@@ -32,6 +32,12 @@
     {
       "root": "ShopCenter",
       "pages": []
+    },
+    {
+      "root": "GameCenter",
+      "pages": [
+        "pages/gameList/gameList"
+      ]
     }
   ],
   "entryPagePath": "pages/scanShop/scanShop",
