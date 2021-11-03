@@ -1,1 +1,58 @@
-/* pages/ranking/ranking.wxss */
+.containers {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.list-item {
+    height: 120rpx;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 16rpx;
+    background: white;
+}
+
+.item-goods {
+    width: 200rpx;
+    height: 120rpx;
+    border-radius: 4rpx;
+}
+
+.item-goods-info {
+    height: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 32rpx;
+}
+
+.txt-goods-name {
+    color: #999999;
+    font-size: 30rpx;
+    flex: 1;
+}
+
+.item-price {
+    height: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.txt-now-price {
+    color: #ff7316;
+    font-size: 32rpx;
+}
+
+.txt-origin-price {
+    color: #A6A6A6;
+    font-size: 20rpx;
+    margin-left: 32rpx;
+    text-decoration: line-through;
+}
