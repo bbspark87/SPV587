@@ -119,12 +119,12 @@
     position: absolute;
 }
 
-.icon-12  {
+.icon-12 {
     width: 24rpx;
     height: 24rpx;
 }
 
-.icon-6  {
+.icon-6 {
     width: 12rpx;
     height: 12rpx;
 }

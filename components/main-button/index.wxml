@@ -1,0 +1,8 @@
+<view class="container-full">
+
+    <image class="container-btn" mode="aspectFill" src="/images/drawable/btn_main.svg">
+    </image>
+
+    <text class="txt-main-btn txt-fixed">{{title}}</text>
+
+</view>

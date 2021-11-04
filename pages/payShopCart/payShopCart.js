@@ -1,17 +1,11 @@
-// pages/commitOrder/commitOrder.js
+// pages/payShopCart/payShopCart.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    radio: 'checked',
-  },
 
-  onChange(event) {
-    this.setData({
-      checked: event.detail,
-    });
   },
 
   /**

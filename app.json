@@ -14,7 +14,8 @@
     "pages/scanShop/scanShop",
     "pages/neerShop/neerShop",
     "pages/shopDetail/shopDetail",
-    "pages/commitOrder/commitOrder"
+    "pages/commitOrder/commitOrder",
+    "pages/payShopCart/payShopCart"
   ],
   "subpackages": [
     {
@@ -48,7 +49,7 @@
       ]
     }
   ],
-  "entryPagePath": "pages/commitOrder/commitOrder",
+  "entryPagePath": "pages/payShopCart/payShopCart",
   "window": {
     "backgroundTextStyle": "dark",
     "backgroundColor": "#ffffff",
@@ -86,7 +87,8 @@
     "van-dropdown-menu": "@vant/weapp/dropdown-menu/index",
     "van-dropdown-item": "@vant/weapp/dropdown-item/index",
     "van-collapse": "@vant/weapp/collapse/index",
-    "van-collapse-item": "@vant/weapp/collapse-item/index"
+    "van-collapse-item": "@vant/weapp/collapse-item/index",
+    "s-button": "components/main-button/index"
   },
   "tabBar": {
     "list": [

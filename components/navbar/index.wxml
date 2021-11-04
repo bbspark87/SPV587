@@ -1,3 +1,0 @@
-<view class="navbar" style='height:{{navH}}px;background:"00b187"'>
-  {{pageName}}
-</view>

@@ -1,0 +1,23 @@
+.container-full {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.container-btn {
+    width: calc(100% - 64rpx);
+    height: 96rpx;
+    border-radius: 16rpx;
+}
+
+.txt-fixed {
+    position: fixed;
+}
+
+.txt-main-btn {
+    color: #ffffff;
+    font-size: 32rpx;
+    font-weight: bold;
+}

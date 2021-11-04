@@ -22,6 +22,8 @@
         </view>
     </view>
 
+    <s-button content="test"></s-button>
+
     <view class="container-bottom" bind:tap="ClickSave">
 
         <image class="btn-main" mode="aspectFill" src="/images/drawable/btn_main.svg">
