@@ -1,8 +1,8 @@
-<view >
+<view>
 
     <image class="background-image" mode="widthFix" src="/images/background/bg_login.png"></image>
 
-    <view class="container-bottom" style="position:fixed;bottom:0;">
+    <view class="container-bottom">
 
         <view class="container-agree">
             <van-checkbox checked-color="#6469DB" value="{{ checked }}" bind:change="onChange"></van-checkbox>

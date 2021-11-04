@@ -13,6 +13,8 @@
     border-radius: 32rpx;
     background-color: white;
     border: solid 1rpx #dbdbdb;
+    position: fixed;
+    bottom: 0;
 }
 
 .container-agree {

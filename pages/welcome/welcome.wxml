@@ -2,7 +2,7 @@
 
     <swiper indicator-dots="true" autoplay="true" interval="2000">
         <swiper-item wx:for="{{3}}">
-            <image src="/images/avatar/panghu2.jpg"></image>
+            <image src="/images/pic/panghu2.jpg"></image>
         </swiper-item>
     </swiper>
 

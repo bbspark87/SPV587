@@ -3,8 +3,13 @@ Page({
     /**
      * 页面的初始数据
      */
-    data: {
+    data: {},
 
+    GoToShopDetail() {
+        console.log("print")
+        wx.navigateTo({
+            url: "/pages/shopDetail/shopDetail",
+        })
     },
 
     /**

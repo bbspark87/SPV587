@@ -3,7 +3,7 @@
 
   <block wx:for="{{20}}">
     <view class="list-item">
-      <image class="item-goods" src="/images/avatar/banner1.png"></image>
+      <image class="item-goods" src="/images/pic/banner1.png"></image>
       <view class="item-goods-info">
 
         <text class="txt-goods-name">预言家卡牌</text>

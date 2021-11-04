@@ -119,9 +119,14 @@
     position: absolute;
 }
 
-.img-24 {
-    width: 48rpx;
-    height: 48rpx;
+.icon-12  {
+    width: 24rpx;
+    height: 24rpx;
+}
+
+.icon-6  {
+    width: 12rpx;
+    height: 12rpx;
 }
 
 .txt-big-title {
@@ -152,4 +157,5 @@ page {
     background: #f7f7f7;
     --theColor: #6469DB;
     --textColor: #141414;
+    --borderColor: #7f7f7f;
 }

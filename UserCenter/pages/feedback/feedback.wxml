@@ -1,0 +1,21 @@
+<view>
+
+    <view class="container-rec container-base">
+        <textarea placeholder="请输入反馈内容" class="input-area"></textarea>
+    </view>
+
+    <view class="container-pics">
+        <image class="img-upload-pic" mode="aspectFill" src="/images/pic/icon_upload_pic.svg"></image>
+        <image class="img-upload-pic" mode="aspectFill" src="/images/pic/icon_upload_pic.svg"></image>
+        <image class="img-upload-pic" mode="aspectFill" src="/images/pic/icon_upload_pic.svg"></image>
+    </view>
+
+    <text class="txt-gray txt-small txt-tips">上传问题相关照片</text>
+
+    <view class="container-save" bind:tap="ClickSave">
+        <image class="btn-main" mode="aspectFill" src="/images/drawable/btn_main.svg">
+        </image>
+        <text class="txt-white txt-normal txt-btn">提交</text>
+    </view>
+
+</view>

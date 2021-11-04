@@ -4,7 +4,19 @@ Page({
      * 页面的初始数据
      */
     data: {
+        activeNames: ['1'],
+    },
 
+    GoToFeedback() {
+        wx.navigateTo({
+            url: "/UserCenter/pages/feedback/feedback",
+        })
+    },
+
+    onChange(event) {
+        this.setData({
+            activeNames: event.detail,
+        });
     },
 
     /**

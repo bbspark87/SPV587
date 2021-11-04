@@ -10,7 +10,7 @@
     <block>
         <view bind:tap="GoToShopDetail" class="container-item" wx:for="{{20}}" wx:key="id">
 
-            <image class="img-shop-logo" src="/images/avatar/banner1.png"></image>
+            <image class="img-shop-logo" src="/images/pic/banner1.png"></image>
 
             <view class="container-shop-info">
                 <text class="txt-normal txt-black txt-title">Off The Seven（红旗街店）</text>

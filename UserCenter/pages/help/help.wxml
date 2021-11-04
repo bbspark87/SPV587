@@ -1,1 +1,31 @@
-<text>pages/help/help.wxml</text>
+<view>
+
+    <view class="container-top">
+        <text class="txt-black txt-big txt-title">常见问题</text>
+        <view class="txt-gonglve">
+            <text class="txt-black txt-small ">游戏攻略</text>
+        </view>
+    </view>
+
+    <van-collapse value="{{ activeNames }}" bind:change="onChange">
+        <van-collapse-item title="有赞微商城" name="1" disabled>
+            提供多样店铺模板，快速搭建网上商城
+        </van-collapse-item>
+        <van-collapse-item title="有赞零售" name="2" disabled>
+            网店吸粉获客、会员分层营销、一机多种收款，告别经营低效和客户流失
+        </van-collapse-item>
+
+    </van-collapse>
+
+    <view class="container-bottom">
+
+        <view class="container-left-btn">
+            <text class="txt-main txt-normal">联系客服</text>
+        </view>
+
+        <view class="container-ritht-btn" bind:tap="GoToFeedback">
+            <text class="txt-white txt-normal">意见反馈</text>
+        </view>
+    </view>
+
+</view>

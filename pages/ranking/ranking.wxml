@@ -13,9 +13,9 @@
         <view class="container-item" wx:for="{{20}}" wx:key="id">
             <view class="container-list">
                 <image class="img-rank-num" src="/images/icon/icon_rank_num.svg"></image>
-                <image class="img-avatar" src="/images/avatar/banner1.png"></image>
+                <image class="img-avatar" src="/images/pic/banner1.png"></image>
                 <text class="txt-normal txt-black txt-nickname">spark</text>
-                <image class="img-rank" src="/images/avatar/banner1.png"></image>
+                <image class="img-rank" src="/images/pic/banner1.png"></image>
             </view>
         </view>
     </block>
@@ -24,9 +24,9 @@
 
         <view class="container-self">
             <image class="img-rank-num" src="/images/icon/icon_rank_num.svg"></image>
-            <image class="img-avatar" src="/images/avatar/banner1.png"></image>
+            <image class="img-avatar" src="/images/pic/banner1.png"></image>
             <text class="txt-normal txt-black txt-nickname">我自己</text>
-            <image class="img-rank" src="/images/avatar/banner1.png"></image>
+            <image class="img-rank" src="/images/pic/banner1.png"></image>
         </view>
     </view>
 
