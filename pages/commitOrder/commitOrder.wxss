@@ -1,0 +1,51 @@
+.container-time {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 64rpx;
+}
+
+.txt-price {
+    font-size: 64rpx;
+    margin-left: 16rpx;
+}
+
+.container-price {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    margin-top: 32rpx;
+}
+
+.container-shop {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    margin-top: 64rpx;
+}
+
+.container-pay-type {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 64rpx;
+}
+
+.container-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 64rpx;
+    background: red;
+    border: solid 1px var(--borderColor);
+    width: calc(100% - 64rpx);
+}
+
+.txt-pay-title {
+    margin-left: 32rpx;
+}

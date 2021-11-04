@@ -157,5 +157,5 @@ page {
     background: #f7f7f7;
     --theColor: #6469DB;
     --textColor: #141414;
-    --borderColor: #7f7f7f;
+    --borderColor: #e5e5e5;
 }

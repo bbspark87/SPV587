@@ -13,7 +13,8 @@
     "pages/battles/battles",
     "pages/scanShop/scanShop",
     "pages/neerShop/neerShop",
-    "pages/shopDetail/shopDetail"
+    "pages/shopDetail/shopDetail",
+    "pages/commitOrder/commitOrder"
   ],
   "subpackages": [
     {
@@ -47,7 +48,7 @@
       ]
     }
   ],
-  "entryPagePath": "pages/main/main",
+  "entryPagePath": "pages/commitOrder/commitOrder",
   "window": {
     "backgroundTextStyle": "dark",
     "backgroundColor": "#ffffff",
