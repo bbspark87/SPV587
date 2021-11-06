@@ -19,17 +19,13 @@
   ],
   "subpackages": [
     {
-      "root": "ShopCenter",
-      "pages": []
-    },
-    {
-      "root": "GameCenter",
+      "root": "pages/GameCenter/",
       "pages": [
         "pages/gameList/gameList"
       ]
     },
     {
-      "root": "UserCenter",
+      "root": "pages/UserCenter/",
       "pages": [
         "pages/aboutus/aboutus",
         "pages/bag/bag",
