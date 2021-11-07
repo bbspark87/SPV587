@@ -5,18 +5,11 @@ Page({
      */
     data: {},
 
-    RescanCode() {
-        wx.scanCode({
-            onlyFromCamera: true,
-        })
-    },
-
-    JoinGame() {
+    GoToDetail() {
         wx.navigateTo({
-            url: "/package-game-center/pages/gameList/gameList",
+            url: "/package-user-center/pages/messageDetail/messageDetail",
         })
     },
-
     /**
      * 生命周期函数--监听页面加载
      */

@@ -3,18 +3,20 @@ Page({
     /**
      * 页面的初始数据
      */
-    data: {},
+    data: {
+        activeNames: ['1'],
+    },
 
-    RescanCode() {
-        wx.scanCode({
-            onlyFromCamera: true,
+    GoToFeedback() {
+        wx.navigateTo({
+            url: "/package-user-center/pages/feedback/feedback",
         })
     },
 
-    JoinGame() {
-        wx.navigateTo({
-            url: "/package-game-center/pages/gameList/gameList",
-        })
+    onChange(event) {
+        this.setData({
+            activeNames: event.detail,
+        });
     },
 
     /**
