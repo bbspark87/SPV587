@@ -30,6 +30,7 @@
 .txt-biggest {
     font-size: 72rpx;
 }
+
 /* 不同尺寸边距*/
 .marginLeft-Normal {
     margin-left: 32rpx;
@@ -61,4 +62,12 @@
 
 .marginBottom-Small {
     margin-bottom: 16rpx;
+}
+
+.radius-small {
+    border-radius: 4rpx;
+}
+
+.radius-normal {
+    border-radius: 8rpx;
 }

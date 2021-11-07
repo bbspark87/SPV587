@@ -1,4 +1,4 @@
-const App = getApp();
+const App = getApp().globalData;
 
 Page({
     /**
@@ -32,11 +32,10 @@ Page({
      */
     onLoad: function (options) {
         this.setData({
-            navH: App.globalData.navHeight,
-            navTop: App.globalData.navTop,
-            capsHeight: App.globalData.capsHeight,
-            windowWidth: App.globalData.windowWidth,
-            halfWindow: App.globalData.windowWidth / 4 - 16
+            navH: App.navHeight,
+            navTop: App.navTop,
+            capsHeight: App.capsHeight,
+            windowWidth: App.windowWidth,
         })
     },
 

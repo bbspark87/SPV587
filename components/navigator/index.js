@@ -1,5 +1,4 @@
-const App = getApp();
-const systemInfo = wx.getSystemInfoSync()
+const App = getApp().globalData;
 
 Component({
     /**
@@ -7,18 +6,16 @@ Component({
      */
     properties: {
         title: String,
+        src: {
+            type: String,
+            value: "/images/icon/icon_back.svg",
+        },
     },
 
     ready() {
-
         this.setData({
-            navH: App.globalData.navHeight,
-            navTop: App.globalData.navTop,
-            capsHeight: App.globalData.capsHeight,
-            windowWidth: App.globalData.windowWidth,
-            halfWindow: App.globalData.windowWidth / 4 - 16,
-            navHeight: App.globalData.navHeight,
-            statusBar: App.globalData.statusBarHeight,
+            navH: App.navHeight,
+            statusBar: App.statusBarHeight,
         })
     },
 
@@ -30,17 +27,5 @@ Component({
     /**
      * 组件的方法列表
      */
-    methods: {
-        getSystemInfo() {
-            wx.getSystemInfoSync({
-                success: res => {
-                    console.log(res)
-                    //导航高度
-                    // this.globalData.navHeight = res.statusBarHeight + 46;
-                }, fail(err) {
-                    console.log(err);
-                }
-            })
-        }
-    }
+    methods: {}
 })

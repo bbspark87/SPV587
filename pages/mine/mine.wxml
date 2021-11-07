@@ -10,7 +10,8 @@
         <view class="card-avatar">
 
             <view class="container-user-info">
-                <l-avatar class="img-avatar" placement="right" size="128"
+                <l-avatar data-page="/package-user-center/pages/userinfo/userinfo" bindtap="intent"
+                          class="img-avatar" placement="right" size="128"
                           open-data="{{['userAvatarUrl','userNickName']}}">
                 </l-avatar>
             </view>

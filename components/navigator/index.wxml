@@ -5,7 +5,7 @@
             <text class="txt-normal txt-black">{{title}}</text>
         </view>
         <view class="container-icon">
-            <van-icon class="img-back" name="arrow-left" color="#141414"/>
+            <image class="img-back" hidden="{{!src}}" src="{{src}}" mode="aspectFill"></image>
         </view>
     </view>
 </view>

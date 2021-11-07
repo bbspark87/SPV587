@@ -10,9 +10,20 @@
 
 /**白色阴影方框*/
 .container-rec {
+    display: flex;
+    flex-direction: column;
     width: 100%;
     background: white;
     box-shadow: 1px 2rpx 5rpx #E5E5E5;
+}
+
+/*左对齐，垂直排列*/
+.container-left-vertical {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex: 1;
 }
 
 .container-center-horizon {

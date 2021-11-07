@@ -7,9 +7,8 @@ Page({
      */
     data: {
         radio: 'checked',
-        time: 5 * 60 * 60 * 1000,
+        time: 5 * 60 * 1000,
     },
-
 
     CheckExit() {
         Dialog.confirm({

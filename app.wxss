@@ -8,6 +8,9 @@ page {
     --textColor: #141414;
     --borderColor: #e5e5e5;
     --dividerColor: #f5f6f8;
+
+    --cell-text-color: #141414;
+    --cell-font-size: 32rpx;
 }
 
 .half-divider {

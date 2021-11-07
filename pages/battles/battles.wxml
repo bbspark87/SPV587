@@ -1,1 +1,31 @@
-<text>pages/battles/battles.wxml</text>
+<view>
+    <view class="container-cardview marginTop-Normal">
+        <view class="container-center-horizon">
+            <view class="container-left-vertical marginTop-Normal marginBottom-Normal marginLeft-Normal">
+                <text class="txt-big txt-black">Off The Seven(守卫)</text>
+                <text class="txt-normal txt-gray marginTop-Small">对局中</text>
+            </view>
+            <image class="icon-24 marginRight-Normal" src="/images/icon/icon_right.svg" mode="aspectFill"></image>
+        </view>
+    </view>
+
+    <view class="blank-view"></view>
+    <text class="txt-gray txt-normal marginLeft-Normal">历史对局</text>
+
+    <block bind:tap="GoBattleDetail" wx:for="{{10}}" wx:key="id">
+        <view class="container-rec">
+            <view class="container-list-item">
+                <image class="img-role marginLeft-Normal marginTop-Small marginBottom-Small radius-small"
+                       src="/images/background/img_shops.png"></image>
+
+                <view class="container-vertical marginLeft-Normal">
+                    <text class="txt-normal txt-black">扮演身份</text>
+                    <text class="txt-normal txt-gray">2021-10-21 19:28</text>
+                </view>
+
+                <text class="txt-normal txt-green marginRight-Normal">胜利</text>
+            </view>
+            <view class="full-divider"></view>
+        </view>
+    </block>
+</view>

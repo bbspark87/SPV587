@@ -1,5 +1,8 @@
 <view>
 
+    <s-navigator bind:tap="CheckExit" title="提交订单"></s-navigator>
+    <van-dialog cancel-button-text="确认离开" confirm-button-text="继续支付" id="van-dialog" confirm-button-color="#6469DB"/>
+
     <view class="container-center-horizon container-time">
         <text class="txt-small txt-gray marginRight-Small">支付剩余时间 </text>
         <van-count-down class="txt-gray" time="{{ time }}"/>
