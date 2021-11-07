@@ -1,4 +1,4 @@
-// UserCenter/pages/messageDetail/messageDetail.js
+// user-center/pages/messageDetail/messageDetail.js
 Page({
 
   /**

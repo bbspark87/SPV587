@@ -1,0 +1,26 @@
+.icon-24 {
+    width: 48rpx;
+    height: 48rpx;
+}
+
+.txt-small {
+    font-size: 24rpx;
+}
+
+.txt-normal {
+    font-size: 32rpx;
+}
+
+.txt-big {
+    font-size: 36rpx;
+}
+
+.icon-12 {
+    width: 24rpx;
+    height: 24rpx;
+}
+
+.icon-6 {
+    width: 12rpx;
+    height: 12rpx;
+}

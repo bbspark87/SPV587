@@ -1,0 +1,15 @@
+.container-bottom {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    margin-bottom: 48rpx;
+}
+
+.container-white {
+    background: white;
+}
+
+.container-rec {
+    background: white;
+    box-shadow: 1px 2rpx 5rpx #E5E5E5;
+}

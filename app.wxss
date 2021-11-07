@@ -1,15 +1,6 @@
-.container {
-    width: 100%;
-}
-
-.container-white {
-    background: white;
-}
-
-.container-rec {
-    background: white;
-    box-shadow: 1px 2rpx 5rpx #E5E5E5;
-}
+@import "style/layout.wxss";
+@import "style/dimen.wxss";
+@import "style/color.wxss";
 
 .container-radius {
     display: flex;
@@ -20,11 +11,6 @@
     border: solid 1px #c7d0ce;
     background: white;
     box-shadow: 1px 2rpx 5rpx #E5E5E5;
-}
-
-.icon-24 {
-    width: 48rpx;
-    height: 48rpx;
 }
 
 .menu-text-title {
@@ -41,46 +27,6 @@
     color: #3b3b3b;
     justify-content: center;
     font-size: 32rpx;
-}
-
-.icon-rignt {
-    margin-right: 32rpx;
-}
-
-.txt-small {
-    font-size: 24rpx;
-}
-
-.txt-normal {
-    font-size: 32rpx;
-}
-
-.txt-big {
-    font-size: 36rpx;
-}
-
-.txt-white {
-    color: #ffffff;
-}
-
-.txt-black {
-    color: #141414;
-}
-
-.txt-gray {
-    color: #6F6F6F;
-}
-
-.txt-light-gray {
-    color: #B0B0B0;
-}
-
-.txt-main {
-    color: #6469DB;
-}
-
-.txt-red {
-    color: #FF290C;
 }
 
 .line-divider {
@@ -104,9 +50,8 @@
 }
 
 .btn-main {
-    width: calc(100% - 64rpx);
-    height: 100%;
-    border-radius: 16rpx;
+    width: calc(100% - 32rpx);
+    height: 96rpx;
 }
 
 .btn-main-small {
@@ -117,16 +62,6 @@
 
 .txt-btn {
     position: absolute;
-}
-
-.icon-12 {
-    width: 24rpx;
-    height: 24rpx;
-}
-
-.icon-6 {
-    width: 12rpx;
-    height: 12rpx;
 }
 
 .txt-big-title {

@@ -1,4 +1,4 @@
-// UserCenter/pages/rankIntro/rankIntro.js
+// user-center/pages/rankIntro/rankIntro.js
 Page({
 
   /**

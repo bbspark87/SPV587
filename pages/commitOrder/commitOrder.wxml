@@ -22,11 +22,7 @@
         </view>
     </view>
 
-    <view class="container-bottom" bind:tap="ClickSave">
-
-        <image class="btn-main" mode="aspectFill" src="/images/drawable/btn_main.svg">
-        </image>
-        <text class="txt-white txt-normal txt-btn">确认支付</text>
-
+    <view class="container-bottom">
+        <s-button title="确认支付" src="/images/drawable/btn_main.svg"></s-button>
     </view>
 </view>

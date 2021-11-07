@@ -1,0 +1,24 @@
+
+.txt-white {
+    color: #ffffff;
+}
+
+.txt-black {
+    color: #141414;
+}
+
+.txt-gray {
+    color: #6F6F6F;
+}
+
+.txt-light-gray {
+    color: #B0B0B0;
+}
+
+.txt-main {
+    color: #6469DB;
+}
+
+.txt-red {
+    color: #FF290C;
+}

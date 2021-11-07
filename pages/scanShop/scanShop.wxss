@@ -77,16 +77,6 @@ swiper image {
     margin: 16rpx 32rpx 32rpx 32rpx;
 }
 
-.container-join {
-    display: flex;
-    width: 100%;
-    height: 96rpx;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 64rpx;
-}
-
 .container-rescan {
     display: flex;
     width: 100%;

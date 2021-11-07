@@ -29,7 +29,7 @@
       ]
     },
     {
-      "root": "UserCenter",
+      "root": "user-center",
       "pages": [
         "pages/aboutus/aboutus",
         "pages/bag/bag",

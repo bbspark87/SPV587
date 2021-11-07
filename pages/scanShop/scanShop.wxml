@@ -1,4 +1,4 @@
-<view >
+<view>
     <view class="container-rec container-white">
         <view class="menu-shop">
             <text class="txt-black txt-big txt-title">Off The Seven</text>
@@ -47,13 +47,13 @@
 
     </view>
 
-    <view class="container-join" bind:tap="JoinGame">
-        <image class="btn-main" mode="aspectFill" src="/images/drawable/btn_main.svg">
-        </image>
-        <text class="txt-white txt-normal txt-btn">加入对局</text>
+
+    <view class="container-bottom">
+        <s-button bind:tap="JoinGame" title="加入对局" src="/images/drawable/btn_main.svg"></s-button>
+
+        <view class="container-rescan" bind:tap="RescanCode">
+            <text class="txt-light-gray txt-small">识别有误，重新扫码</text>
+        </view>
     </view>
 
-    <view class="container-rescan" bind:tap="RescanCode">
-        <text class="txt-light-gray txt-small">识别有误，重新扫码</text>
-    </view>
 </view>

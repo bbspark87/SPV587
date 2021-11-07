@@ -1,4 +1,4 @@
-// UserCenter/pages/feedback/feedback.js
+// user-center/pages/feedback/feedback.js
 Page({
 
   /**
