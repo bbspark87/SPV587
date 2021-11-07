@@ -1,9 +1,8 @@
 <view>
     <view class="container-rec container-white">
         <view class="avatar-menu">
-            <text class="menu-text-title">头像</text>
             <view class="fill-horizone"></view>
-            <l-avatar class="img-margin-right" size="80" open-data="{{['userAvatarUrl']}}"></l-avatar>
+            <l-avatar class="marginRight-Normal" size="80" open-data="{{['userAvatarUrl']}}"></l-avatar>
         </view>
 
         <van-cell-group>

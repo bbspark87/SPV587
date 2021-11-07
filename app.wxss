@@ -2,43 +2,26 @@
 @import "style/dimen.wxss";
 @import "style/color.wxss";
 
-.container-radius {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    border-radius: 16rpx;
-    border: solid 1px #c7d0ce;
-    background: white;
-    box-shadow: 1px 2rpx 5rpx #E5E5E5;
-}
-
-.menu-text-title {
-    padding-left: 32rpx;
-    align-items: center;
-    width: 120rpx;
-    color: #535353;
-    justify-content: center;
-    font-size: 32rpx;
-}
-
-.menu-text {
-    align-items: center;
-    color: #3b3b3b;
-    justify-content: center;
-    font-size: 32rpx;
-}
-
-.line-divider {
+.half-divider {
     margin-left: 32rpx;
     margin-right: 32rpx;
-    background: #e5e5e5;
+    height: 1px;
+    background: var(--dividerColor);
 }
 
 .full-divider {
-    width: 100%;
     height: 1px;
-    background: #e5e5e5;
+    background: var(--dividerColor);
+}
+
+.blank-view {
+    width: 100%;
+    height: 32rpx;
+}
+
+.blank-view-small {
+    width: 100%;
+    height: 16rpx;
 }
 
 .margin-divider {
@@ -74,14 +57,6 @@
     flex: 1;
 }
 
-.img-margin-left {
-    margin-left: 32rpx;
-}
-
-.img-margin-right {
-    margin-left: 32rpx;
-}
-
 .txt-btn-main {
     color: white;
     margin-left: 16rpx;
@@ -93,4 +68,5 @@ page {
     --theColor: #6469DB;
     --textColor: #141414;
     --borderColor: #e5e5e5;
+    --dividerColor: #f5f6f8;
 }

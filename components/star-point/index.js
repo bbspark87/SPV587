@@ -3,11 +3,8 @@ Component({
      * 组件的属性列表
      */
     properties: {
-        title: String,
-        src: {
-            type: String,
-            value: "/images/drawable/btn_main.svg",
-        },
+        stars: Number,
+        point: String,
     },
 
     /**

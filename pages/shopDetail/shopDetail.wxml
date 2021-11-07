@@ -18,8 +18,8 @@
 
     <view class="container-name">
         <text class="txt-big-title txt-title">Off The Seven</text>
-        <image class="icon-24  img-margin-right" mode="aspectFill" src="/images/icon/icon_share.svg"></image>
-        <image class="icon-24  img-margin-right" mode="aspectFill" src="/images/icon/icon_collect.svg"></image>
+        <image class="icon-24 marginRight-Normal" mode="aspectFill" src="/images/icon/icon_share.svg"></image>
+        <image class="icon-24 marginRight-Normal" mode="aspectFill" src="/images/icon/icon_collect.svg"></image>
     </view>
 
     <view class="margin-divider"></view>
@@ -30,20 +30,20 @@
     </view>
 
     <view class="container-infos">
-        <image class="icon-24  img-margin-left" mode="aspectFill" src="/images/icon/icon_locate.svg"></image>
+        <image class="icon-24  marginLeft-Normal" mode="aspectFill" src="/images/icon/icon_locate.svg"></image>
         <text class="txt-black txt-normal txt-address">红旗街万达广场2号门</text>
-        <image class="icon-24  img-margin-right" mode="aspectFill" src="/images/icon/icon_phone.svg"></image>
+        <image class="icon-24  marginRight-Normal" mode="aspectFill" src="/images/icon/icon_phone.svg"></image>
     </view>
 
     <view class="container-infos">
-        <image class="icon-24  img-margin-left" mode="aspectFill" src="/images/icon/icon_time.svg"></image>
+        <image class="icon-24  marginLeft-Normal" mode="aspectFill" src="/images/icon/icon_time.svg"></image>
         <text class="txt-black txt-normal txt-address">营业时间 周一至周日 20:00～03:00</text>
     </view>
 
     <view class="margin-divider"></view>
 
     <view class="container-infos">
-        <image class="icon-24  img-margin-left" mode="aspectFill" src="/images/icon/icon_time.svg"></image>
+        <image class="icon-24  marginLeft-Normal" mode="aspectFill" src="/images/icon/icon_time.svg"></image>
         <text class="txt-black txt-normal txt-address">门店概况</text>
     </view>
 
@@ -66,7 +66,7 @@
     </view>
 
     <view class="container-infos">
-        <image class="icon-24  img-margin-left" mode="aspectFill" src="/images/icon/icon_time.svg"></image>
+        <image class="icon-24  marginLeft-Normal" mode="aspectFill" src="/images/icon/icon_time.svg"></image>
         <text class="txt-black txt-normal txt-address">店内服务</text>
     </view>
 

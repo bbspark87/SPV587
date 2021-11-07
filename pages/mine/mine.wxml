@@ -2,7 +2,7 @@
 
     <view data-page="/package-user-center/pages/messageCenter/messageCenter" bindtap="intent" class="container-top"
           style='height: {{navH}}px;'>
-        <image style='margin-top:{{navTop}}px;' class="icon-24 img-margin-right" mode="aspectFill"
+        <image style='margin-top:{{navTop}}px;' class="icon-24 marginRight-Normal" mode="aspectFill"
                src="/images/icon/icon_message.svg"></image>
     </view>
 

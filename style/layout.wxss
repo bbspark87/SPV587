@@ -1,15 +1,20 @@
+/**
+    底部按钮
+ */
 .container-bottom {
     position: fixed;
     width: 100%;
     bottom: 0;
     margin-bottom: 48rpx;
+    display: flex;
+    flex-direction: column;
 }
 
-.container-white {
-    background: white;
-}
-
+/**
+    白色阴影方框
+ */
 .container-rec {
+    width: 100%;
     background: white;
     box-shadow: 1px 2rpx 5rpx #E5E5E5;
 }

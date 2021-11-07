@@ -4,10 +4,9 @@
         <van-cell bind:tap="intent" data-page="/package-user-center/pages/intro/intro" title="隐私政策" is-link/>
     </van-cell-group>
 
-    <view class="container-save" bind:tap="onClickConfirm">
-        <image class="btn-main" mode="aspectFill" src="/images/drawable/btn_main.svg">
-        </image>
-        <text class="txt-white txt-normal txt-btn">退出登录</text>
+
+    <view class="container-bottom" bind:tap="onClickConfirm">
+        <s-button title="退出登录"></s-button>
     </view>
 
     <van-dialog id="van-dialog" confirm-button-color="#6469DB"/>

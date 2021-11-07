@@ -1,56 +1,47 @@
 <view>
-    <view class="container-rec container-white">
-        <view class="menu-shop">
-            <text class="txt-black txt-big txt-title">Off The Seven</text>
+    <view class="container-rec">
+        <view class="container-shop">
+            <text class="txt-black txt-big marginLeft-Normal marginRight-Normal">Off The Seven</text>
             <van-icon class="img-margin" name="arrow" color="#e4e4e4"/>
         </view>
 
-        <view class="item-star">
-            <van-rate readonly color="#f8d44e" value="4"/>
-            <text class="txt-small txt-red">4.9分</text>
+        <view class="container-stars">
+            <s-star-point stars="4" point="4.1"></s-star-point>
         </view>
 
-        <view class="container-shop">
-            <block>
-                <swiper circular="true" autoplay="true" interval="3000">
-                    <swiper-item wx:for="{{3}}" wx:key="id">
-                        <image mode="aspectFill" src="/images/pic/banner1.png"></image>
-                    </swiper-item>
-                </swiper>
-            </block>
+        <view class="banner-shop">
+            <swiper circular="true" autoplay="true" interval="3000">
+                <swiper-item wx:for="{{3}}" wx:key="id">
+                    <image mode="aspectFill" src="/images/background/img_shops.png"></image>
+                </swiper-item>
+            </swiper>
         </view>
 
-        <view class="line-divider">
-            <van-divider hairline/>
-        </view>
+        <view class="blank-view"></view>
 
-        <text class="txt-black txt-normal txt-title">当前玩家：12名</text>
+        <view class="half-divider"></view>
 
-        <view class="line-divider">
-            <van-divider hairline/>
-        </view>
+        <van-cell title="当前玩家：6名" size="large"/>
 
-        <text class="txt-black txt-normal txt-title">当前设备</text>
+        <van-cell title="当前设备" size="large" border="{{ false }}"/>
 
         <view class="container-device">
             <text class="txt-main txt-device">12</text>
             <text class="txt-main txt-normal">号</text>
         </view>
 
-        <text class="txt-black txt-normal txt-title">使用须知</text>
-
-        <view class="container-need-know">
-            <text class="txt-gray txt-small">· 支付完成后立即开局，24小时内有效；
-                · 加入对局前，请仔细核对识别终端编号，如识别有误，
-                可进行重新扫码操作。</text>
+        <view>
+            <van-cell title="使用须知" border="{{ false }}" size="large"/>
+            <view class="txt-need-know">
+                <text class="txt-gray txt-small">· 支付完成后立即开局，24小时内有效；
+                    · 加入对局前，请仔细核对识别终端编号，可进行重新扫码操作。</text>
+            </view>
+            <view class="blank-view"></view>
         </view>
-
     </view>
 
-
     <view class="container-bottom">
-        <s-button bind:tap="JoinGame" title="加入对局" src="/images/drawable/btn_main.svg"></s-button>
-
+        <s-button bind:tap="JoinGame" title="加入对局"></s-button>
         <view class="container-rescan" bind:tap="RescanCode">
             <text class="txt-light-gray txt-small">识别有误，重新扫码</text>
         </view>

@@ -1,8 +1,20 @@
+/* 不同尺寸图标*/
 .icon-24 {
     width: 48rpx;
     height: 48rpx;
 }
 
+.icon-12 {
+    width: 24rpx;
+    height: 24rpx;
+}
+
+.icon-6 {
+    width: 12rpx;
+    height: 12rpx;
+}
+
+/* 不同尺寸文字*/
 .txt-small {
     font-size: 24rpx;
 }
@@ -15,12 +27,19 @@
     font-size: 36rpx;
 }
 
-.icon-12 {
-    width: 24rpx;
-    height: 24rpx;
+/* 不同尺寸边距*/
+.marginLeft-Normal {
+    margin-left: 32rpx;
 }
 
-.icon-6 {
-    width: 12rpx;
-    height: 12rpx;
+.marginRight-Normal {
+    margin-right: 32rpx;
+}
+
+.marginTop-Normal {
+    margin-top: 32rpx;
+}
+
+.marginBottom-Normal {
+    margin-bottom: 32rpx;
 }
