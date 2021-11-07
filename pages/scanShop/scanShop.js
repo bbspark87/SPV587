@@ -5,15 +5,21 @@ Page({
      */
     data: {},
 
-    RescanCode() {
-        wx.scanCode({
-            onlyFromCamera: true,
+    GoShopDetail() {
+        wx.navigateTo({
+            url: "/pages/shopDetail/shopDetail",
         })
     },
 
     JoinGame() {
         wx.navigateTo({
             url: "/package-game-center/pages/gameList/gameList",
+        })
+    },
+
+    RescanCode() {
+        wx.scanCode({
+            onlyFromCamera: true,
         })
     },
 

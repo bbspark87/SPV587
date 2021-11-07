@@ -42,9 +42,6 @@ swiper image {
 }
 
 .container-device {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
     align-items: baseline;
 }
 

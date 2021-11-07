@@ -16,19 +16,12 @@ App({
         logs.unshift(Date.now())
         wx.setStorageSync('logs', logs)
 
-        // 登录
-        wx.login({
-            success: res => {
-                // 发送 res.code 到后台换取 openId, sessionKey, unionId
-            }
-        })
-
         let menuButtonObject = wx.getMenuButtonBoundingClientRect();
         wx.getSystemInfo({
             success: res => {
                 let statusBarHeight = res.statusBarHeight,
                     navHeight = statusBarHeight + menuButtonObject.height + (menuButtonObject.top - statusBarHeight) * 2; //导航高度
-
+                this.globalData.statusBarHeight = res.statusBarHeight;
                 this.globalData.windowHeight = res.windowHeight;
                 this.globalData.windowWidth = res.windowHeight;
                 this.globalData.navHeight = navHeight;
@@ -56,7 +49,4 @@ App({
         //   that.globalData.mqttData = packet.payload.toString()
         // })
     },
-    globalData: {
-        userInfo: null
-    }
 })

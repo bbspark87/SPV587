@@ -1,20 +1,40 @@
-/**
-    底部按钮
- */
+/**底部按钮*/
 .container-bottom {
-    position: fixed;
     width: 100%;
     bottom: 0;
+    position: fixed;
     margin-bottom: 48rpx;
     display: flex;
     flex-direction: column;
 }
 
-/**
-    白色阴影方框
- */
+/**白色阴影方框*/
 .container-rec {
     width: 100%;
     background: white;
+    box-shadow: 1px 2rpx 5rpx #E5E5E5;
+}
+
+.container-center-horizon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-center-vertical {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-cardview {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 64rpx);
+    margin-left: 32rpx;
+    background: white;
+    border-radius: 16rpx;
     box-shadow: 1px 2rpx 5rpx #E5E5E5;
 }

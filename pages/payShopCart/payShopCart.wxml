@@ -1,23 +1,26 @@
 <view>
 
-    <view class="container-time">
-        <text class="txt-small txt-gray">支付剩余时间</text>
-        <text class="txt-small txt-gray">04：49</text>
+    <s-navigator bind:tap="CheckExit" title="提交订单"></s-navigator>
+    <van-dialog cancel-button-text="确认离开" confirm-button-text="继续支付" id="van-dialog" confirm-button-color="#6469DB"/>
+
+    <view class="container-center-horizon container-time">
+        <text class="txt-small txt-gray marginRight-Small">支付剩余时间 </text>
+        <van-count-down class="txt-gray" time="{{ time }}"/>
     </view>
 
-    <view class="container-price">
-        <text class="txt-small txt-black">¥</text>
-        <text class="txt-big txt-black txt-price">29.90</text>
+    <view class="container-center-horizon container-price">
+        <text class="txt-normal txt-black">¥</text>
+        <text class="txt-big txt-black txt-biggest marginLeft-Small">29.90</text>
     </view>
 
-    <view class="container-shop">
+    <view class="container-center-horizon container-shop">
         <text class="txt-normal txt-black">Off The Seven</text>
     </view>
 
-    <view class="container-pay-type">
-        <view class="container-card">
-            <text class="txt-normal txt-black txt-pay-title">微信支付</text>
-            <van-checkbox label-position="left" class="checkbox" checked-color="#6469DB" value="{{ true }}"
+    <view class="container-cardview container-pay-card">
+        <view class="container-pay-type">
+            <text class="txt-normal txt-black marginLeft-Normal">微信支付</text>
+            <van-checkbox label-position="left" class="marginRight-Normal" checked-color="#6469DB" value="{{ true }}"
                           bind:change="onChange"></van-checkbox>
         </view>
     </view>
@@ -25,5 +28,6 @@
     <view class="container-bottom">
         <s-button title="确认支付"></s-button>
     </view>
+
 
 </view>

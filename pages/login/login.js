@@ -7,6 +7,10 @@ Page({
         radio: 'checked',
     },
 
+    GoWebview(url){
+
+    },
+
     getPhoneNumber(param) {
         console.log(param)
     },

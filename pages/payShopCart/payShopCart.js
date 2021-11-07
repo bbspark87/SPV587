@@ -1,9 +1,28 @@
+import Dialog from "../../miniprogram_npm/@vant/weapp/dialog/dialog";
+
 Page({
 
     /**
      * 页面的初始数据
      */
-    data: {},
+    data: {
+        radio: 'checked',
+        time: 5 * 60 * 60 * 1000,
+    },
+
+
+    CheckExit() {
+        Dialog.confirm({
+            title: '确认离开',
+            message: '您的订单还未完成支付，请尽快支付',
+        });
+    },
+
+    onChange(event) {
+        this.setData({
+            checked: event.detail,
+        });
+    },
 
     /**
      * 生命周期函数--监听页面加载

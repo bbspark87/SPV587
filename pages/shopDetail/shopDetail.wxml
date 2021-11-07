@@ -22,7 +22,7 @@
         <image class="icon-24 marginRight-Normal" mode="aspectFill" src="/images/icon/icon_collect.svg"></image>
     </view>
 
-    <view class="margin-divider"></view>
+    <view class="half-divider"></view>
 
     <view class="item-star">
         <van-rate readonly color="#f8d44e" value="4"/>
@@ -40,7 +40,7 @@
         <text class="txt-black txt-normal txt-address">营业时间 周一至周日 20:00～03:00</text>
     </view>
 
-    <view class="margin-divider"></view>
+    <view class="half-divider"></view>
 
     <view class="container-infos">
         <image class="icon-24  marginLeft-Normal" mode="aspectFill" src="/images/icon/icon_time.svg"></image>

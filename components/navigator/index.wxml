@@ -1,0 +1,11 @@
+<view class="container" style='height:{{navH}}px;margin-top:{{0}}px;'>
+
+    <view class="container-navbar" style='margin-top:{{statusBar}}px;height:{{navH}}px'>
+        <view class="container-title">
+            <text class="txt-normal txt-black">{{title}}</text>
+        </view>
+        <view class="container-icon">
+            <van-icon class="img-back" name="arrow-left" color="#141414"/>
+        </view>
+    </view>
+</view>

@@ -27,6 +27,9 @@
     font-size: 36rpx;
 }
 
+.txt-biggest {
+    font-size: 72rpx;
+}
 /* 不同尺寸边距*/
 .marginLeft-Normal {
     margin-left: 32rpx;
@@ -42,4 +45,20 @@
 
 .marginBottom-Normal {
     margin-bottom: 32rpx;
+}
+
+.marginLeft-Small {
+    margin-left: 16rpx;
+}
+
+.marginRight-Small {
+    margin-right: 16rpx;
+}
+
+.marginTop-Small {
+    margin-top: 16rpx;
+}
+
+.marginBottom-Small {
+    margin-bottom: 16rpx;
 }
