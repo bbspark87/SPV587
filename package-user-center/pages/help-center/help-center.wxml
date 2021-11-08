@@ -1,10 +1,8 @@
 <view>
 
-    <view class="container-top">
-        <text class="txt-black txt-big txt-title">常见问题</text>
-        <view class="txt-gonglve">
-            <text class="txt-black txt-small ">游戏攻略</text>
-        </view>
+    <view class="container-top marginTop-Normal marginBottom-Normal">
+        <text class="txt-black txt-big marginLeft-Normal">常见问题</text>
+        <text class="txt-main txt-normal marginRight-Normal">联系客服</text>
     </view>
 
     <van-collapse value="{{ activeNames }}" bind:change="onChange">
@@ -17,14 +15,7 @@
     </van-collapse>
 
     <view class="container-bottom">
-
-        <view class="container-left-btn">
-            <text class="txt-main txt-normal">联系客服</text>
-        </view>
-
-        <view class="container-ritht-btn" bind:tap="GoToFeedback">
-            <text class="txt-white txt-normal">意见反馈</text>
-        </view>
+        <s-button bind:tap="ClickSave" title="意见反馈"></s-button>
     </view>
 
 </view>

@@ -23,6 +23,15 @@
       ]
     },
     {
+      "root": "package-shop-center",
+      "pages": [
+        "pages/goods-detail/goods-detail",
+        "pages/shop-cart/shop-cart",
+        "pages/select-coupon/select-coupon",
+        "pages/pay-success/pay-success"
+      ]
+    },
+    {
       "root": "package-user-center",
       "pages": [
         "pages/bag/bag",
@@ -42,7 +51,7 @@
       ]
     }
   ],
-  "entryPagePath": "pages/main/main",
+  "entryPagePath": "package-user-center/pages/help-center/help-center",
   "window": {
     "backgroundTextStyle": "dark",
     "backgroundColor": "#ffffff",

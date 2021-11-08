@@ -16,6 +16,12 @@ Page({
         valueDistance: '0',
     },
 
+    GoGoodDetail(param) {
+        wx.navigateTo({
+            url: "/package-shop-center/pages/goods-detail/goods-detail",
+        })
+    },
+
     /**
      * 生命周期函数--监听页面加载
      */

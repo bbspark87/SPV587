@@ -26,3 +26,11 @@
 .txt-red {
     color: #FF290C;
 }
+
+.txt-price {
+    color: #ff7316;
+}
+
+.txt-origin-price {
+    text-decoration: line-through;
+}
