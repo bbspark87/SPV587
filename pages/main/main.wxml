@@ -3,7 +3,7 @@
         <block>
             <swiper circular="true" autoplay="true" interval="3000">
                 <swiper-item wx:for="{{3}}" wx:key="id">
-                    <image mode="aspectFill" src="/images/pic/banner1.png"></image>
+                    <image mode="aspectFill" src="/images/background/img_shops.png"></image>
                 </swiper-item>
             </swiper>
         </block>

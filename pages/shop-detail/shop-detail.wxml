@@ -1,79 +1,74 @@
-<view class="container-white">
+<view>
     <view class="container-main">
-        <block>
-            <swiper circular="true" autoplay="true" interval="3000">
-                <swiper-item wx:for="{{3}}" wx:key="id">
-                    <image mode="aspectFill" src="/images/pic/banner1.png"></image>
-                </swiper-item>
-            </swiper>
-        </block>
-        <view class="container-navbar"
-              style='height:{{navH}}px;'>
-            <view bindtap="ExitPage" class="container-capsure"
-                  style='width: {{capsHeight}}px;height: {{capsHeight}}px;margin-top:{{navTop}}px;'>
-                <van-icon name="arrow-left" color="#555555"/>
+        <swiper circular="true" autoplay="true" interval="3000">
+            <swiper-item wx:for="{{3}}" wx:key="id">
+                <image mode="aspectFill" src="/images/background/img_shops.png"></image>
+            </swiper-item>
+        </swiper>
+
+        <view class="container-navbar">
+            <van-icon style='width: {{capsHeight}}px;height: {{capsHeight}}px;margin-top:{{navTop}}px;'
+                      bindtap="ExitPage" class="container-capsure marginLeft-Normal" name="arrow-left" color="#555555"/>
+        </view>
+    </view>
+
+    <view class="container-rec">
+        <view class="container-name marginTop-Normal">
+            <text class="txt-black txt-big txt-fill marginLeft-Normal">Off The Seven</text>
+            <image class="icon-24 marginRight-Normal" mode="aspectFill" src="/images/icon/ic_share.svg"></image>
+            <image class="icon-24 marginRight-Normal" mode="aspectFill" src="/images/icon/ic_collect.svg"></image>
+        </view>
+
+        <s-star-point class="marginLeft-Normal marginTop-Normal" stars="4" point="4.1"></s-star-point>
+
+        <view class="full-divider"></view>
+
+        <view class="container-infos marginTop-Normal">
+            <image class="icon-24  marginLeft-Normal" mode="aspectFill" src="/images/icon/ic_locate.svg"></image>
+            <text class="txt-black txt-normal txt-address">红旗街万达广场2号门</text>
+            <image class="icon-24  marginRight-Normal" mode="aspectFill" src="/images/icon/ic_phone.svg"></image>
+        </view>
+
+        <view class="container-infos">
+            <image class="icon-24  marginLeft-Normal" mode="aspectFill" src="/images/icon/ic_time.svg"></image>
+            <text class="txt-black txt-normal txt-address">营业时间 周一至周日 20:00～03:00</text>
+        </view>
+
+        <view class="half-divider"></view>
+
+        <view class="container-infos">
+            <image class="icon-24  marginLeft-Normal" mode="aspectFill" src="/images/icon/ic_time.svg"></image>
+            <text class="txt-black txt-normal txt-address">门店概况</text>
+        </view>
+
+        <view class="container-info-menu">
+            <view class="half-menu">
+                <text class="txt-gray txt-small txt-left-info">门店面积：960万m2</text>
+            </view>
+            <view class="half-menu">
+                <text class="txt-gray txt-small txt-right-info">容纳人数：960万人</text>
             </view>
         </view>
-    </view>
 
-    <view class="container-name">
-        <text class="txt-big-title txt-title">Off The Seven</text>
-        <image class="icon-24 marginRight-Normal" mode="aspectFill" src="/images/icon/ic_share.svg"></image>
-        <image class="icon-24 marginRight-Normal" mode="aspectFill" src="/images/icon/ic_collect.svg"></image>
-    </view>
-
-    <view class="half-divider"></view>
-
-    <view class="item-star">
-        <van-rate readonly color="#f8d44e" value="4"/>
-        <text class="txt-small txt-red">4.9分</text>
-    </view>
-
-    <view class="container-infos">
-        <image class="icon-24  marginLeft-Normal" mode="aspectFill" src="/images/icon/ic_locate.svg"></image>
-        <text class="txt-black txt-normal txt-address">红旗街万达广场2号门</text>
-        <image class="icon-24  marginRight-Normal" mode="aspectFill" src="/images/icon/ic_phone.svg"></image>
-    </view>
-
-    <view class="container-infos">
-        <image class="icon-24  marginLeft-Normal" mode="aspectFill" src="/images/icon/ic_time.svg"></image>
-        <text class="txt-black txt-normal txt-address">营业时间 周一至周日 20:00～03:00</text>
-    </view>
-
-    <view class="half-divider"></view>
-
-    <view class="container-infos">
-        <image class="icon-24  marginLeft-Normal" mode="aspectFill" src="/images/icon/ic_time.svg"></image>
-        <text class="txt-black txt-normal txt-address">门店概况</text>
-    </view>
-
-    <view class="container-info-menu">
-        <view class="half-menu">
-            <text class="txt-gray txt-small txt-left-info">门店面积：960万m2</text>
+        <view class="container-info-menu">
+            <view class="half-menu">
+                <text class="txt-gray txt-small txt-left-info">开业时间：2021-10-21</text>
+            </view>
+            <view class="half-menu">
+                <text class="txt-gray txt-small txt-right-info">最近装修：2021-10-21</text>
+            </view>
         </view>
-        <view class="half-menu">
-            <text class="txt-gray txt-small txt-right-info">容纳人数：960万人</text>
-        </view>
-    </view>
 
-    <view class="container-info-menu">
-        <view class="half-menu">
-            <text class="txt-gray txt-small txt-left-info">开业时间：2021-10-21</text>
+        <view class="container-infos">
+            <image class="icon-24  marginLeft-Normal" mode="aspectFill" src="/images/icon/ic_time.svg"></image>
+            <text class="txt-black txt-normal txt-address">店内服务</text>
         </view>
-        <view class="half-menu">
-            <text class="txt-gray txt-small txt-right-info">最近装修：2021-10-21</text>
-        </view>
-    </view>
 
-    <view class="container-infos">
-        <image class="icon-24  marginLeft-Normal" mode="aspectFill" src="/images/icon/ic_time.svg"></image>
-        <text class="txt-black txt-normal txt-address">店内服务</text>
-    </view>
+        <view class="container-info-menu">
 
-    <view class="container-info-menu">
-        <view class="item-tags">
-            <text class="txt-small txt-gray txt-tag">免费停车</text>
-            <text class="txt-small txt-gray txt-tag">Wi-Fi</text>
+            <view class="item-tags marginTop-Small">
+                <text wx:for="{{3}}" wx:key="id" class="txt-small txt-gray txt-tag">免费停车</text>
+            </view>
         </view>
     </view>
 

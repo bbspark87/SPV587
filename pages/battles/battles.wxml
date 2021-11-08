@@ -12,8 +12,11 @@
     <view class="blank-view"></view>
     <text class="txt-gray txt-normal marginLeft-Normal">历史对局</text>
 
+    <view class="blank-view-small"></view>
+
     <block bind:tap="GoBattleDetail" wx:for="{{10}}" wx:key="id">
         <view class="container-rec">
+            <view class="full-divider"></view>
             <view class="container-list-item">
                 <image class="img-role marginLeft-Normal marginTop-Small marginBottom-Small radius-small"
                        src="/images/background/img_shops.png"></image>
@@ -25,7 +28,6 @@
 
                 <text class="txt-normal txt-green marginRight-Normal">胜利</text>
             </view>
-            <view class="full-divider"></view>
         </view>
     </block>
 </view>

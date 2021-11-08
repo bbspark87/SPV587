@@ -1,20 +1,37 @@
-<view >
-  <van-search value="{{ value }}" placeholder="请输入搜索关键词" />
+<view>
+    <van-sticky animated offset-top="{{ 0 }}">
+        <view class="container-tabs">
+            <van-tabs class="tabs" swipeable color="#6469DB" title-active-color="#6469DB"
+                      title-inactive-color="#6F6F6F"
+                      active="{{ active }}" bind:change="onChange">
+                <block wx:for="{{3}}" wx:key="id">
+                    <van-tab title="狼人卡"></van-tab>
+                </block>
+            </van-tabs>
 
-  <block wx:for="{{20}}">
-    <view class="list-item">
-      <image class="item-goods" src="/images/pic/banner1.png"></image>
-      <view class="item-goods-info">
-
-        <text class="txt-goods-name">预言家卡牌</text>
-
-        <view class="item-price">
-          <text class="txt-now-price">19.00元</text>
-          <text class="txt-origin-price">29.00元</text>
+            <view class="btn-buy-record">
+                <text class="marginRight-Normal marginLeft-Normal txt-main txt-normal">购买记录</text>
+            </view>
         </view>
-      </view>
-      <van-button color="#fb9538" plain type="primary" size="mini">去购买</van-button>
-    </view>
 
-  </block>
+        <view class="full-divider"></view>
+    </van-sticky>
+
+    <view class="container-rec">
+        <block wx:for="{{20}}" wx:key="id">
+            <view class="list-item">
+                <image class="item-goods" src="/images/background/img_shops.png"></image>
+                <view class="item-goods-info">
+
+                    <text class="txt-goods-name">预言家卡牌</text>
+
+                    <view class="item-price">
+                        <text class="txt-now-price">19.00元</text>
+                        <text class="txt-origin-price">29.00元</text>
+                    </view>
+                </view>
+                <van-button color="#fb9538" plain type="primary" size="mini">去购买</van-button>
+            </view>
+        </block>
+    </view>
 </view>

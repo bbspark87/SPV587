@@ -10,7 +10,7 @@
         <view bind:tap="GoToShopDetail" class="container-center-horizon">
             <image class="img-shop-logo radius-small marginLeft-Normal marginTop-Small marginBottom-Small"
                    mode="aspectFill"
-                   src="/images/pic/banner1.png"></image>
+                   src="/images/background/img_shops.png"></image>
 
             <view class="container-shop-info marginLeft-Normal marginTop-Small marginBottom-Small">
                 <text class="txt-normal txt-black">Off The Seven（红旗街店）</text>

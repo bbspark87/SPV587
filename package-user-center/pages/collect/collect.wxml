@@ -1,7 +1,7 @@
 <view>
     <block bind:tap="GoToShopDetail" wx:for="{{20}}" wx:key="id">
         <view class="list-item">
-            <image class="img-shop" src="/images/pic/banner1.png"></image>
+            <image class="img-shop" src="/images/background/img_shops.png"></image>
 
             <view class="container-shop-info">
                 <text class="txt-shop-name">商家名称</text>

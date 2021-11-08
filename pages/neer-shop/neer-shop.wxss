@@ -17,10 +17,3 @@
     align-items: center;
     justify-content: flex-start;
 }
-
-.txt-tag {
-    background: white;
-    border-radius: 4rpx;
-    border: solid 1rpx #e5e5e5;
-    margin-right: 16rpx;
-}
