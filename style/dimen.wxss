@@ -4,6 +4,11 @@
     height: 48rpx;
 }
 
+.icon-18 {
+    width: 36rpx;
+    height: 36rpx;
+}
+
 .icon-12 {
     width: 24rpx;
     height: 24rpx;

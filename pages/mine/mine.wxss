@@ -1,8 +1,3 @@
-.avatar-style {
-    margin-top: 20rpx;
-    margin-left: 20rpx;
-    margin-right: 20rpx;
-}
 
 .container-top {
     width: 100%;
@@ -40,25 +35,10 @@
     width: 100%;
 }
 
-.img-avatar {
-    margin: 32rpx;
-}
-
-.card-avatar {
-    width: calc(100% - 64rpx);
-    background-color: white;
-    border: solid 1rpx #dbdbdb;
-    border-radius: 32rpx;
-    display: flex;
-    margin-bottom: 32rpx;
-    flex-direction: column;
-    align-items: flex-start;
-}
-
 .container-user-info {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
 }
 
@@ -71,7 +51,6 @@
 }
 
 .top-menu {
-    width: 100%;
     margin-bottom: 32rpx;
     display: flex;
     flex-direction: row;
@@ -80,7 +59,7 @@
 }
 
 .top-menu-block {
-    width: 30%;
+    flex: 1;
     background: white;
     display: flex;
     flex-direction: column;
@@ -93,13 +72,11 @@
     height: 64rpx;
 }
 
-.top-menu-name {
-    font-size: 32rpx;
-    color: #202020;
-    margin-top: 10rpx;
-}
-
-.top-menu-count {
-    font-size: 28rpx;
-    color: #5a5a5a;
+.container-menu {
+    flex: 1;
+    height: 96rpx;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
