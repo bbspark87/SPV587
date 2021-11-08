@@ -52,3 +52,11 @@
     border-radius: 16rpx;
     box-shadow: 1px 2rpx 5rpx #E5E5E5;
 }
+
+.container-space-between {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}

@@ -1,4 +1,3 @@
-// package-shop-center/pages/shop-cart/shop-cart.js
 Page({
 
   /**

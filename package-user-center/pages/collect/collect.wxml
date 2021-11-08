@@ -1,20 +1,16 @@
 <view>
     <block bind:tap="GoToShopDetail" wx:for="{{20}}" wx:key="id">
-        <view class="list-item">
-            <image class="img-shop" src="/images/background/img_shops.png"></image>
+
+        <view class="full-divider"></view>
+        <view class="container-rec container-center-horizon">
+            <image class="img-shop marginLeft-Normal marginTop-Small marginBottom-Small"
+                   src="/images/background/img_shops.png"></image>
 
             <view class="container-shop-info">
                 <text class="txt-shop-name">商家名称</text>
-
-                <view class="item-star">
-                    <van-rate readonly color="#f8d44e" value="4"/>
-                    <text class="txt-star">4.9分</text>
-                </view>
-
-                <view class="container-tags">
-                    <block wx:for="{{3}}" wx:key="id">
-                        <van-tag class="txt-tags" plain color="#777777">免费Wi-Fi</van-tag>
-                    </block>
+                <s-star-point stars="4" point="4.1"></s-star-point>
+                <view class="item-tags marginTop-Small">
+                    <text wx:for="{{3}}" wx:key="id" class="txt-small txt-gray txt-tag">免费停车</text>
                 </view>
             </view>
         </view>

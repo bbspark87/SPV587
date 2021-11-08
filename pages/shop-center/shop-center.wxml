@@ -31,6 +31,6 @@
         </van-grid-item>
     </van-grid>
 
-    <image class="container-cart" src="/images/icon/ic_cart.svg"></image>
+    <image bind:tap="GoCart" class="container-cart" src="/images/icon/ic_cart.svg"></image>
 
 </view>

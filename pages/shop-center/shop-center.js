@@ -1,24 +1,17 @@
 Page({
 
     data: {
-        sortType: [
-            {text: '综合排序', value: 0},
-            {text: '评价最高', value: 1},
-            {text: '离我最近', value: 2},
-        ],
-        distance: [
-            {text: '1km', value: '1'},
-            {text: '3km', value: '3'},
-            {text: '5km', value: '5'},
-            {text: '附近', value: '0'},
-        ],
-        valueSort: 0,
-        valueDistance: '0',
     },
 
-    GoGoodDetail(param) {
+    GoOrderDetail(param) {
         wx.navigateTo({
             url: "/package-shop-center/pages/goods-detail/goods-detail",
+        })
+    },
+
+    GoCart(param) {
+        wx.navigateTo({
+            url: "/package-shop-center/pages/shop-cart/shop-cart",
         })
     },
 

@@ -7,6 +7,12 @@ Page({
 
    },
 
+   GoGoodDetail(param) {
+      wx.navigateTo({
+         url: "/package-shop-center/pages/shop-order-detail/shop-order-detail",
+      })
+   },
+
    /**
     * 生命周期函数--监听页面加载
     */

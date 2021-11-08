@@ -12,3 +12,10 @@ input-area::-webkit-input-placeholder {
     /* placeholder位置  */
     text-align: left;
 }
+
+.container-align-right {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: flex-end;
+}

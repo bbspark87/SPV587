@@ -3,7 +3,17 @@ Page({
     /**
      * 页面的初始数据
      */
-    data: {},
+    data: {
+        inputLength: String,
+    },
+
+    InputContent(contents) {
+        console.log(contents.detail)
+
+        this.setData({
+            inputLength: contents.detail.cursor + "/200",
+        });
+    },
 
     ClickSave() {
         wx.navigateBack({
@@ -14,7 +24,9 @@ Page({
      * 生命周期函数--监听页面加载
      */
     onLoad: function (options) {
-
+        this.setData({
+            inputLength: "0/200",
+        });
     },
 
     /**

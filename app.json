@@ -1,18 +1,17 @@
 {
   "pages": [
     "pages/main/main",
+    "pages/ranking/ranking",
     "pages/login/login",
     "pages/mine/mine",
-    "pages/ranking/ranking",
-    "pages/welcome/welcome",
-    "pages/shop-record/shop-record",
     "pages/shop-center/shop-center",
+    "pages/shop-scan/shop-scan",
+    "pages/shop-detail/shop-detail",
     "pages/city-list/city-list",
     "pages/battles/battles",
-    "pages/shop-scan/shop-scan",
     "pages/neer-shop/neer-shop",
-    "pages/shop-detail/shop-detail",
     "pages/commit-order/commit-order",
+    "pages/welcome/welcome",
     "pages/pay-shop-cart/pay-shop-cart"
   ],
   "subpackages": [
@@ -28,7 +27,7 @@
         "pages/goods-detail/goods-detail",
         "pages/shop-cart/shop-cart",
         "pages/select-coupon/select-coupon",
-        "pages/pay-success/pay-success"
+        "pages/shop-order-detail/shop-order-detail"
       ]
     },
     {
@@ -42,16 +41,16 @@
         "pages/setting/setting",
         "pages/my-spread/my-spread",
         "pages/user-info/user-info",
-        "pages/shop-order/shop-order",
         "pages/set-sign/set-sign",
         "pages/rank-intro/rank-intro",
         "pages/msg-center/msg-center",
         "pages/msg-detail/msg-detail",
+        "pages/shop-record/shop-record",
         "pages/feedback/feedback"
       ]
     }
   ],
-  "entryPagePath": "package-user-center/pages/help-center/help-center",
+  "entryPagePath": "package-user-center/pages/msg-center/msg-center",
   "window": {
     "backgroundTextStyle": "dark",
     "backgroundColor": "#ffffff",

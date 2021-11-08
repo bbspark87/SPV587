@@ -1,7 +1,13 @@
 <view>
 
-    <view class="container-rec container-base">
-        <textarea placeholder="请输入反馈内容" class="input-area"></textarea>
+    <view class="container-rec marginTop-Normal">
+        <textarea maxlength="200" bind:input="InputContent"
+                  class="input-area marginTop-Normal marginLeft-Normal marginRight-Normal txt-normal txt-black"
+                  placeholder="请输入"></textarea>
+    </view>
+
+    <view class="container-align-right">
+        <text class="txt-gray txt-small marginRight-Normal marginTop-Small">{{inputLength}}</text>
     </view>
 
     <view class="container-pics">
@@ -10,12 +16,9 @@
         <image class="img-upload-pic" mode="aspectFill" src="/images/pic/icon_upload_pic.svg"></image>
     </view>
 
-    <text class="txt-gray txt-small txt-tips">上传问题相关照片</text>
+    <text class="txt-gray txt-normal marginLeft-Normal marginTop-Normal">上传问题相关照片</text>
 
-    <view class="container-save" bind:tap="ClickSave">
-        <image class="btn-main" mode="aspectFill" src="/images/drawable/btn_main.svg">
-        </image>
-        <text class="txt-white txt-normal txt-btn">提交</text>
-    </view>
+    <view class="marginTop-Big"></view>
+    <s-button bind:tap="ClickSave" title="提交"></s-button>
 
 </view>

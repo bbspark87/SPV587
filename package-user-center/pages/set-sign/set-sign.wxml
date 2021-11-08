@@ -1,7 +1,13 @@
 <view>
 
     <view class="container-rec marginTop-Normal">
-        <textarea class="input-area marginTop-Normal marginLeft-Normal marginRight-Normal" placeholder="请输入"></textarea>
+        <textarea maxlength="200" bind:input="InputContent"
+                  class="input-area marginTop-Normal marginLeft-Normal marginRight-Normal txt-normal txt-black"
+                  placeholder="请输入"></textarea>
+    </view>
+
+    <view class="container-align-right">
+        <text class="txt-gray txt-small marginRight-Normal marginTop-Small">{{inputLength}}</text>
     </view>
 
     <view class="marginTop-Big"></view>

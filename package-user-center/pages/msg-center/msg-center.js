@@ -5,7 +5,7 @@ Page({
      */
     data: {},
 
-    GoToDetail() {
+    GoMsgDetail() {
         wx.navigateTo({
             url: "/package-user-center/pages/msg-detail/msg-detail",
         })
