@@ -1,5 +1,4 @@
 <view>
-
     <van-sticky animated offset-top="{{ 0 }}">
         <van-tabs color="#6469DB" title-active-color="#6469DB" title-inactive-color="#6F6F6F" active="{{ active }}"
                   bind:change="onChange">
@@ -9,24 +8,27 @@
         </van-tabs>
     </van-sticky>
 
-    <block>
-        <view class="container-item" wx:for="{{20}}" wx:key="id">
-            <view class="container-list">
-                <image class="img-rank-num" src="/images/icon/ic_rank_num.svg"></image>
-                <image class="img-avatar" src="/images/background/img_shops.png"></image>
+    <block wx:for="{{20}}" wx:key="id">
+        <view class="container-rec">
+            <view class="container-center-horizon">
+                <image class="icon-24 marginLeft-Normal" src="/images/background/img_shops.png"></image>
+                <image class="img-avatar marginLeft-Normal marginRight-Normal marginTop-Small marginBottom-Small"
+                       src="/images/background/img_shops.png"></image>
                 <text class="txt-normal txt-black txt-nickname">spark</text>
                 <image class="img-rank" src="/images/background/img_shops.png"></image>
             </view>
         </view>
     </block>
 
-    <view class="container-bottom" style="position:fixed;bottom:0;">
-
-        <view class="container-self">
-            <image class="img-rank-num" src="/images/icon/ic_rank_num.svg"></image>
-            <image class="img-avatar" src="/images/background/img_shops.png"></image>
-            <text class="txt-normal txt-black txt-nickname">我自己</text>
-            <image class="img-rank" src="/images/background/img_shops.png"></image>
+    <view class="container-bottom" >
+        <view class="container-rec">
+            <view class="container-center-horizon">
+                <image class="icon-24 marginLeft-Normal" src="/images/background/img_shops.png"></image>
+                <image class="img-avatar marginLeft-Normal marginRight-Normal marginTop-Small marginBottom-Small"
+                       src="/images/background/img_shops.png"></image>
+                <text class="txt-normal txt-black txt-nickname">spark</text>
+                <image class="img-rank" src="/images/background/img_shops.png"></image>
+            </view>
         </view>
     </view>
 

@@ -50,7 +50,7 @@
       ]
     }
   ],
-  "entryPagePath": "pages/pay-shop-cart/pay-shop-cart",
+  "entryPagePath": "pages/main/main",
   "window": {
     "backgroundTextStyle": "dark",
     "backgroundColor": "#ffffff",
