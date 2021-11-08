@@ -1,4 +1,3 @@
-// package-shop-center/pages/shop-order-detail/shop-order-detail.js
 Page({
 
   /**

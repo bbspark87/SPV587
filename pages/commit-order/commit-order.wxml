@@ -5,7 +5,7 @@
 
     <view class="container-center-horizon container-time">
         <text class="txt-small txt-gray marginRight-Small">支付剩余时间 </text>
-        <van-count-down class="txt-gray" time="{{ time }}"/>
+        <van-count-down format="mm:ss" class="txt-gray" time="{{ time }}"/>
     </view>
 
     <view class="container-center-horizon container-price">

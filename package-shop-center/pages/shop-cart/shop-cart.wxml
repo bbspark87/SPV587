@@ -1,0 +1,41 @@
+<view>
+
+    <view class="blank-view"></view>
+    <text class="txt-black txt-normal marginLeft-Normal">商品信息</text>
+
+    <view class="container-rec marginTop-Small">
+        <block bind:tap="GoOrderDetail" wx:for="{{3}}" wx:key="id">
+            <view class="container-rec">
+                <view class="full-divider"></view>
+                <view class="container-list-item">
+                    <image class="img-role marginLeft-Normal marginTop-Small marginBottom-Small radius-small"
+                           src="/images/background/img_shops.png"></image>
+
+                    <view class="container-vertical marginLeft-Normal">
+                        <text class="txt-normal txt-black">商品名称</text>
+                    </view>
+
+                    <view class="container-price marginRight-Normal">
+                        <text class="txt-normal txt-black marginTop-Small">¥19.00</text>
+                        <text class="txt-small txt-light-gray marginBottom-Small">x1</text>
+                    </view>
+                </view>
+            </view>
+        </block>
+
+        <view class="container-right-align marginTop-Normal marginBottom-Normal marginRight-Normal">
+            <text class="txt-normal txt-black">商品总价：¥192.00</text>
+        </view>
+    </view>
+
+    <view class="container-bottom">
+        <view class="container-space-between container-rec">
+            <text class="txt-normal txt-black marginLeft-Normal">需支付 ¥39.80</text>
+            <view bind:tap="CommitOrder" class="container-submit marginRight-Normal">
+                <image class="container-btn" mode="aspectFill" src="/images/drawable/btn_main.svg"></image>
+                <text class="txt-button txt-normal txt-white">提交订单</text>
+            </view>
+        </view>
+    </view>
+
+</view>

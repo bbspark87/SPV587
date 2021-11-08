@@ -1,5 +1,4 @@
 <view>
-
     <van-dropdown-menu active-color="#6469DB">
         <van-dropdown-item value="{{ valueSort }}" options="{{ sortType }}"/>
         <van-dropdown-item value="{{ valueDistance }}" options="{{ distance }}"/>

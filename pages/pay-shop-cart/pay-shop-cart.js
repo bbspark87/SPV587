@@ -10,6 +10,12 @@ Page({
         time: 5 * 60 * 1000,
     },
 
+    PayShopOrder(){
+        wx.navigateTo({
+            url: "/package-shop-center/pages/shop-order-detail/shop-order-detail",
+        })
+    },
+
     CheckExit() {
         Dialog.confirm({
             title: '确认离开',

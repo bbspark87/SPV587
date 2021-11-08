@@ -1,18 +1,18 @@
 {
   "pages": [
     "pages/main/main",
-    "pages/ranking/ranking",
+    "pages/battles/battles",
+    "pages/city-list/city-list",
+    "pages/commit-order/commit-order",
     "pages/login/login",
     "pages/mine/mine",
-    "pages/shop-center/shop-center",
-    "pages/shop-scan/shop-scan",
-    "pages/shop-detail/shop-detail",
-    "pages/city-list/city-list",
-    "pages/battles/battles",
     "pages/neer-shop/neer-shop",
-    "pages/commit-order/commit-order",
-    "pages/welcome/welcome",
-    "pages/pay-shop-cart/pay-shop-cart"
+    "pages/pay-shop-cart/pay-shop-cart",
+    "pages/rank-list/rank-list",
+    "pages/shop-center/shop-center",
+    "pages/shop-detail/shop-detail",
+    "pages/shop-scan/shop-scan",
+    "pages/welcome/welcome"
   ],
   "subpackages": [
     {
@@ -25,8 +25,8 @@
       "root": "package-shop-center",
       "pages": [
         "pages/goods-detail/goods-detail",
-        "pages/shop-cart/shop-cart",
         "pages/select-coupon/select-coupon",
+        "pages/shop-cart/shop-cart",
         "pages/shop-order-detail/shop-order-detail"
       ]
     },
@@ -36,21 +36,21 @@
         "pages/bag/bag",
         "pages/collect/collect",
         "pages/coupon/coupon",
+        "pages/feedback/feedback",
         "pages/help-center/help-center",
-        "pages/webview/webview",
-        "pages/setting/setting",
-        "pages/my-spread/my-spread",
-        "pages/user-info/user-info",
-        "pages/set-sign/set-sign",
-        "pages/rank-intro/rank-intro",
         "pages/msg-center/msg-center",
         "pages/msg-detail/msg-detail",
+        "pages/my-spread/my-spread",
+        "pages/rank-intro/rank-intro",
+        "pages/set-sign/set-sign",
+        "pages/setting/setting",
         "pages/shop-record/shop-record",
-        "pages/feedback/feedback"
+        "pages/user-info/user-info",
+        "pages/webview/webview"
       ]
     }
   ],
-  "entryPagePath": "package-user-center/pages/msg-center/msg-center",
+  "entryPagePath": "pages/pay-shop-cart/pay-shop-cart",
   "window": {
     "backgroundTextStyle": "dark",
     "backgroundColor": "#ffffff",

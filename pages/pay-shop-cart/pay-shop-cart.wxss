@@ -7,10 +7,6 @@
     margin-top: 32rpx;
 }
 
-.container-shop {
-    margin-top: 64rpx;
-}
-
 .container-pay-card {
     margin-top: 128rpx;
 }
@@ -23,3 +19,14 @@
     height: 96rpx;
 }
 
+.container-coupon {
+    display: flex;
+    flex-direction: row;
+}
+
+.container-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}

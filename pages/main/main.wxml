@@ -27,7 +27,7 @@
 
     <view class="view-menus">
         <image data-page="scanCode" bindtap="menuClick" class="menus" src="/images/icon/btn_scan.png"/>
-        <image data-page="/pages/ranking/ranking" bindtap="menuClick" class="menus" src="/images/icon/btn_rank.png"/>
+        <image data-page="/pages/rank-list/rank-list" bindtap="menuClick" class="menus" src="/images/icon/btn_rank.png"/>
     </view>
     <view class="view-menus">
         <image data-page="/pages/neer-shop/neer-shop" bindtap="menuClick" class="menus" src="/images/icon/btn_neer.png"/>
