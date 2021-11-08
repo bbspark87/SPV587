@@ -4,9 +4,9 @@ Component({
      */
     properties: {
         title: String,
-        src: {
+        icon: {
             type: String,
-            value: "/images/drawable/btn_main.svg",
+            value: "",
         },
     },
 

@@ -5,40 +5,39 @@
     "pages/mine/mine",
     "pages/ranking/ranking",
     "pages/welcome/welcome",
-    "pages/shopRecord/shopRecord",
-    "pages/shoppingCenter/shoppingCenter",
-    "pages/cityList/cityList",
+    "pages/shop-record/shop-record",
+    "pages/shop-center/shop-center",
+    "pages/city-list/city-list",
     "pages/battles/battles",
-    "pages/scanShop/scanShop",
-    "pages/neerShop/neerShop",
-    "pages/shopDetail/shopDetail",
-    "pages/commitOrder/commitOrder",
-    "pages/payShopCart/payShopCart"
+    "pages/shop-scan/shop-scan",
+    "pages/neer-shop/neer-shop",
+    "pages/shop-detail/shop-detail",
+    "pages/commit-order/commit-order",
+    "pages/pay-shop-cart/pay-shop-cart"
   ],
   "subpackages": [
     {
       "root": "package-game-center",
       "pages": [
-        "pages/gameList/gameList"
+        "pages/game-record/game-record"
       ]
     },
     {
       "root": "package-user-center",
       "pages": [
-        "pages/aboutus/aboutus",
         "pages/bag/bag",
         "pages/collect/collect",
         "pages/coupon/coupon",
-        "pages/help/help",
-        "pages/intro/intro",
+        "pages/help-center/help-center",
+        "pages/webview/webview",
         "pages/setting/setting",
-        "pages/spread/spread",
-        "pages/userinfo/userinfo",
-        "pages/order/order",
-        "pages/setSign/setSign",
-        "pages/rankIntro/rankIntro",
-        "pages/messageCenter/messageCenter",
-        "pages/messageDetail/messageDetail",
+        "pages/my-spread/my-spread",
+        "pages/user-info/user-info",
+        "pages/shop-order/shop-order",
+        "pages/set-sign/set-sign",
+        "pages/rank-intro/rank-intro",
+        "pages/msg-center/msg-center",
+        "pages/msg-detail/msg-detail",
         "pages/feedback/feedback"
       ]
     }
@@ -97,15 +96,15 @@
       },
       {
         "text": "商城",
-        "pagePath": "pages/shoppingCenter/shoppingCenter",
+        "pagePath": "pages/shop-center/shop-center",
         "iconPath": "/images/icon/ic_shop_normal.png",
         "selectedIconPath": "/images/icon/ic_shop_select.png"
       },
       {
         "text": "对局",
         "pagePath": "pages/battles/battles",
-        "iconPath": "/images/icon/icon_battle_normal.png",
-        "selectedIconPath": "/images/icon/icon_battle_select.png"
+        "iconPath": "/images/icon/ic_battle_normal.png",
+        "selectedIconPath": "/images/icon/ic_battle_select.png"
       },
       {
         "text": "我的",

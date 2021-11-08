@@ -1,0 +1,10 @@
+<view>
+
+    <view class="container-rec marginTop-Normal">
+        <textarea class="input-area marginTop-Normal marginLeft-Normal marginRight-Normal" placeholder="请输入"></textarea>
+    </view>
+
+    <view class="marginTop-Big"></view>
+    <s-button bind:tap="ClickSave" title="保存"></s-button>
+
+</view>

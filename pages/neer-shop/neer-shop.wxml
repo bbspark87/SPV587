@@ -1,0 +1,28 @@
+<view>
+
+    <van-dropdown-menu active-color="#6469DB">
+        <van-dropdown-item value="{{ valueSort }}" options="{{ sortType }}"/>
+        <van-dropdown-item value="{{ valueDistance }}" options="{{ distance }}"/>
+    </van-dropdown-menu>
+
+    <block wx:for="{{20}}" wx:key="id">
+        <view class="full-divider"></view>
+        <view bind:tap="GoToShopDetail" class="container-center-horizon">
+            <image class="img-shop-logo radius-small marginLeft-Normal marginTop-Small marginBottom-Small"
+                   mode="aspectFill"
+                   src="/images/pic/banner1.png"></image>
+
+            <view class="container-shop-info marginLeft-Normal marginTop-Small marginBottom-Small">
+                <text class="txt-normal txt-black">Off The Seven（红旗街店）</text>
+                <s-star-point stars="4" point="4.1"></s-star-point>
+
+                <view class="item-tags marginTop-Small">
+                    <text wx:for="{{3}}" wx:key="id" class="txt-small txt-gray txt-tag">免费停车</text>
+                </view>
+            </view>
+
+            <text class="txt-small txt-gray marginRight-Normal">2.9km</text>
+        </view>
+    </block>
+
+</view>

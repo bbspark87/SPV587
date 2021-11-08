@@ -5,10 +5,21 @@ Page({
      */
     data: {},
 
-    GoToShopDetail() {
-        console.log("print")
+    GoShopDetail() {
         wx.navigateTo({
             url: "/pages/shop-detail/shop-detail",
+        })
+    },
+
+    JoinGame() {
+        wx.navigateTo({
+            url: "/package-game-center/pages/game-record/game-record",
+        })
+    },
+
+    RescanCode() {
+        wx.scanCode({
+            onlyFromCamera: true,
         })
     },
 

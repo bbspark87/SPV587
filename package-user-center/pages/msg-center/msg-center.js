@@ -5,13 +5,11 @@ Page({
      */
     data: {},
 
-    GoToShopDetail() {
-        console.log("print")
+    GoToDetail() {
         wx.navigateTo({
-            url: "/pages/shop-detail/shop-detail",
+            url: "/package-user-center/pages/msg-detail/msg-detail",
         })
     },
-
     /**
      * 生命周期函数--监听页面加载
      */

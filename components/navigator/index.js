@@ -8,7 +8,7 @@ Component({
         title: String,
         src: {
             type: String,
-            value: "/images/icon/icon_back.svg",
+            value: "/images/icon/ic_back.svg",
         },
     },
 

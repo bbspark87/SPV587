@@ -1,16 +1,16 @@
 <view>
 
-    <view data-page="/package-user-center/pages/messageCenter/messageCenter" bindtap="intent" class="container-top"
+    <view data-page="/package-user-center/pages/msg-center/msg-center" bindtap="intent" class="container-top"
           style='height: {{navH}}px;'>
         <image style='margin-top:{{navTop}}px;' class="icon-24 marginRight-Normal" mode="aspectFill"
-               src="/images/icon/icon_message.svg"></image>
+               src="/images/icon/ic_message.svg"></image>
     </view>
 
     <view class="container-user">
         <view class="card-avatar">
 
             <view class="container-user-info">
-                <l-avatar data-page="/package-user-center/pages/userinfo/userinfo" bindtap="intent"
+                <l-avatar data-page="/package-user-center/pages/user-info/user-info" bindtap="intent"
                           class="img-avatar" placement="right" size="128"
                           open-data="{{['userAvatarUrl','userNickName']}}">
                 </l-avatar>
@@ -39,10 +39,10 @@
     </view>
 
     <van-cell-group>
-        <van-cell bind:tap="intent" data-page="/package-user-center/pages/shopRecord/shopRecord" title="购买记录" is-link/>
-        <van-cell bind:tap="intent" data-page="/package-user-center/pages/help/help" title="帮助中心" is-link/>
-        <van-cell bind:tap="intent" data-page="/package-user-center/pages/spread/spread" title="推荐有奖" is-link/>
-        <van-cell bind:tap="intent" data-page="/package-user-center/pages/intro/intro" title="游戏攻略" is-link/>
+        <van-cell bind:tap="intent" data-page="/package-user-center/pages/shop-record/shop-record" title="购买记录" is-link/>
+        <van-cell bind:tap="intent" data-page="/package-user-center/pages/help-center/help-center" title="帮助中心" is-link/>
+        <van-cell bind:tap="intent" data-page="/package-user-center/pages/my-spread/my-spread" title="推荐有奖" is-link/>
+        <van-cell bind:tap="intent" data-page="/package-user-center/pages/webview/webview" title="游戏攻略" is-link/>
         <van-cell bind:tap="intent" data-page="/package-user-center/pages/setting/setting" title="设置" is-link/>
     </van-cell-group>
 </view>

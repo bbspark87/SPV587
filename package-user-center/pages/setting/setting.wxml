@@ -1,13 +1,13 @@
-<view class="menu-container">
-    <van-cell-group>
-        <van-cell bind:tap="intent" data-page="/package-user-center/pages/intro/intro" title="用户协议" is-link/>
-        <van-cell bind:tap="intent" data-page="/package-user-center/pages/intro/intro" title="隐私政策" is-link/>
-    </van-cell-group>
+<view>
+    <view class="container-rec marginTop-Normal">
 
-
-    <view class="container-bottom" bind:tap="onClickConfirm">
-        <s-button title="退出登录"></s-button>
+        <view class="full-divider"></view>
+        <van-cell bind:tap="intent" data-page="/package-user-center/pages/webview/webview" title="用户协议" is-link/>
+        <van-cell bind:tap="intent" data-page="/package-user-center/pages/webview/webview" title="隐私政策" is-link/>
     </view>
 
-    <van-dialog id="van-dialog" confirm-button-color="#6469DB"/>
+    <view class="marginTop-Big"></view>
+    <s-button bind:tap="onClickConfirm" title="退出登录"></s-button>
+
+    <van-dialog cancel-button-text="取消" confirm-button-text="确认退出" id="van-dialog" confirm-button-color="#6469DB"/>
 </view>
