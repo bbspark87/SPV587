@@ -50,7 +50,7 @@
       ]
     }
   ],
-  "entryPagePath": "pages/main/main",
+  "entryPagePath": "pages/pay-shop-cart/pay-shop-cart",
   "window": {
     "backgroundTextStyle": "dark",
     "backgroundColor": "#ffffff",
@@ -92,7 +92,10 @@
     "van-count-down": "@vant/weapp/count-down/index",
     "s-button": "components/main-button/index",
     "s-star-point": "components/star-point/index",
-    "s-navigator": "components/navigator/index"
+    "s-menu": "components/cell-menu/index",
+    "s-navigator": "components/navigator/index",
+    "s-coupon": "components/coupon/index",
+    "van-action-sheet": "@vant/weapp/action-sheet/index"
   },
   "tabBar": {
     "list": [

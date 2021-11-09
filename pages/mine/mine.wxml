@@ -7,75 +7,23 @@
                src="/images/icon/ic_message.svg"></image>
     </view>
 
-    <view class="container-cardview marginTop-Normal">
-        <view class="container-user-info">
-            <l-avatar data-page="/package-user-center/pages/user-info/user-info" bindtap="intent"
-                      class="marginLeft-Normal marginTop-Normal marginBottom-Normal" placement="right" size="128"
-                      open-data="{{['userAvatarUrl','userNickName']}}">
-            </l-avatar>
-        </view>
-
-        <view class="top-menu">
-            <view class="top-menu-block" bindtap="intent" data-page="/package-user-center/pages/collect/collect">
-                <image class="top-menu-image" src="/images/icon/ic_collect.png"></image>
-                <text class="txt-normal txt-black marginTop-Small">收藏</text>
-                <text class="txt-small txt-gray">10</text>
-            </view>
-
-            <view class="top-menu-block" bindtap="intent" data-page="/package-user-center/pages/coupon/coupon">
-                <image class="top-menu-image" src="/images/icon/ic_order.png"></image>
-                <text class="txt-normal txt-black marginTop-Small">优惠券</text>
-                <text class="txt-small txt-gray">10</text>
-            </view>
-
-            <view class="top-menu-block" bindtap="intent" data-page="/package-user-center/pages/bag/bag">
-                <image class="top-menu-image" src="/images/icon/ic_bag.png"></image>
-                <text class="txt-normal txt-black marginTop-Small">背包</text>
-                <text class="txt-small txt-gray">10</text>
-            </view>
-        </view>
+    <view class="container-user-info marginTop-Normal">
+        <l-avatar data-page="/package-user-center/pages/user-info/user-info" bindtap="intent"
+                  class="marginLeft-Normal marginTop-Normal marginBottom-Normal" placement="right" size="128"
+                  open-data="{{['userAvatarUrl','userNickName']}}">
+        </l-avatar>
     </view>
 
-    <view class="container-rec marginTop-Normal">
-        <view class="full-divider"></view>
-        <view class="container-space-between">
-            <image class="icon-24 marginLeft-Normal" src="/images/icon/ic_my_collect.svg"></image>
-            <view class="container-menu">
-                <text class="txt-normal txt-black marginLeft-Small">收藏</text>
-                <text class="txt-normal txt-gray marginRight-Small">10</text>
-            </view>
-            <image class="icon-18 marginRight-Normal" src="/images/icon/ic_right.svg" mode="aspectFill"></image>
-        </view>
-
-        <view class="container-space-between">
-            <image class="icon-24 marginLeft-Normal" src="/images/icon/ic_my_collect.svg"></image>
-            <view class="container-menu">
-                <text class="txt-normal txt-black marginLeft-Small">优惠券</text>
-                <text class="txt-normal txt-gray marginRight-Small">10</text>
-            </view>
-            <image class="icon-18 marginRight-Normal" src="/images/icon/ic_right.svg" mode="aspectFill"></image>
-        </view>
-
-        <view class="container-space-between">
-            <image class="icon-24 marginLeft-Normal" src="/images/icon/ic_my_collect.svg"></image>
-            <view class="container-menu">
-                <text class="txt-normal txt-black marginLeft-Small">背包</text>
-                <text class="txt-normal txt-gray marginRight-Small">10</text>
-            </view>
-            <image class="icon-18 marginRight-Normal" src="/images/icon/ic_right.svg" mode="aspectFill"></image>
-        </view>
-    </view>
+    <image bind:tap="intent" data-page="/package-user-center/pages/my-spread/my-spread"
+           class="container-cardview img-tuiguang"
+           src="/images/background/img_shops.png"></image>
 
     <view class="full-divider marginTop-Normal"></view>
-    <van-cell bind:tap="intent" data-page="/package-user-center/pages/shop-record/shop-record" title="购买记录"
-              border="{{ false }}" is-link/>
-    <van-cell bind:tap="intent" data-page="/package-user-center/pages/help-center/help-center" title="帮助中心"
-              border="{{ false }}" is-link/>
-    <van-cell bind:tap="intent" data-page="/package-user-center/pages/my-spread/my-spread" title="推荐有奖"
-              border="{{ false }}" is-link/>
-    <van-cell bind:tap="intent" data-page="/package-user-center/pages/webview/webview" title="游戏攻略" border="{{ false }}"
-              is-link/>
-    <van-cell bind:tap="intent" data-page="/package-user-center/pages/setting/setting" title="设置" border="{{ false }}"
-              is-link/>
+    <s-menu bind:tap="intent" icon="/images/icon/ic_my_collect.svg" data-page="/package-user-center/pages/collect/collect" title="收藏" content="10"></s-menu>
+    <s-menu bind:tap="intent" icon="/images/icon/ic_coupon.svg" data-page="/package-user-center/pages/coupon/coupon" title="优惠券" content="10"></s-menu>
+    <s-menu bind:tap="intent" icon="/images/icon/ic_bag.svg" data-page="/package-user-center/pages/bag/bag" title="背包" content="10"></s-menu>
+    <s-menu bind:tap="intent" icon="/images/icon/ic_order.svg" data-page="/package-user-center/pages/shop-record/shop-record" title="购买记录" ></s-menu>
+    <s-menu bind:tap="intent" icon="/images/icon/ic_help.svg" data-page="/package-user-center/pages/help-center/help-center" title="帮助中心" ></s-menu>
+    <s-menu bind:tap="intent" icon="/images/icon/ic_setting.svg" data-page="/package-user-center/pages/setting/setting" title="设置"></s-menu>
     <view class="full-divider"></view>
 </view>

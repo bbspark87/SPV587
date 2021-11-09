@@ -22,11 +22,11 @@
 
         <view class="half-divider"></view>
 
-        <view class="container-pay-type">
+        <view class="container-pay-type" bind:tap="SelectCoupon">
             <text class="txt-normal txt-black marginLeft-Normal">优惠券</text>
             <view class="container-coupon marginRight-Small">
                 <text class="txt-normal txt-black">暂无可用</text>
-                <image class="icon-24" src="/images/icon/ic_right.svg" mode="aspectFill"></image>
+                <image class="icon-18" src="/images/icon/ic_right.svg" mode="aspectFill"></image>
             </view>
         </view>
     </view>

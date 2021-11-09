@@ -1,2 +1,19 @@
-<!--package-shop-center/pages/select-coupon/select-coupon.wxml-->
-<text>package-shop-center/pages/select-coupon/select-coupon.wxml</text>
+<view>
+
+    <block wx:for="{{10}}" wx:key="id">
+        <view class="blank-view"></view>
+        <s-coupon name="全民炫酷优惠" validDate="有效期致：2021-10-10" discount="5"
+                  describe="阿斯顿六块腹肌阿龙；思考大姐"></s-coupon>
+    </block>
+
+    <view class="bottom-blank"></view>
+
+    <view class="container-bottom-all">
+        <view class="full-divider"></view>
+        <view class="base-menu">
+            <text class="txt-black txt-normal">不使用优惠券</text>
+        </view>
+        <view class="full-divider"></view>
+        <view class="slide-bar"></view>
+    </view>
+</view>

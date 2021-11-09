@@ -1,4 +1,3 @@
-// package-shop-center/pages/select-coupon/select-coupon.js
 Page({
 
   /**

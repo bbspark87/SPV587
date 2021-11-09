@@ -1,1 +1,7 @@
-/* package-shop-center/pages/select-coupon/select-coupon.wxss */
+.bottom-blank {
+    width: 100%;
+    margin-bottom: 192rpx;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}

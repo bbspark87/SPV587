@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>24*24</title>
+    <g id="icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="24*24">
+            <circle id="椭圆形" stroke="#3e3e3e" stroke-width="1.5" cx="12" cy="12" r="9.25"></circle>
+            <circle id="椭圆形" fill="#3e3e3e" cx="12" cy="17" r="1"></circle>
+            <path d="M9.5,9.5 C9.5,8.83333333 9.66666667,8.33333333 10,8 C10.5,7.5 11.0533676,7 12,7 C13.5,7 14.5,8.01487755 14.5,9.5 C14.5,10.5 13.2632238,11.5 13,11.5 C12.8509288,11.5745356 12.7018576,11.6490712 12.5527864,11.7236068 C12.2140024,11.8929988 12,12.2392619 12,12.618034 L12,14 L12,14" id="直线-2" stroke="#3e3e3e" stroke-width="1.5" stroke-linecap="round"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon_64*64</title>
+    <defs>
+        <linearGradient x1="5.55312583%" y1="0%" x2="100%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#7982F1" offset="0%"></stop>
+            <stop stop-color="#5E64E4" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="64*64">
+            <path d="M0,0 L28,0 C30.209139,-4.05812251e-16 32,1.790861 32,4 L32,32 L32,32 L0,0 Z" id="矩形" fill="url(#linearGradient-1)"></path>
+            <polyline id="直线" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round" points="18 8.5 21.5 12 27 6"></polyline>
+        </g>
+    </g>
+</svg>

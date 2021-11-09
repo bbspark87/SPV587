@@ -5,7 +5,7 @@
                 <text class="txt-big txt-black">Off The Seven(守卫)</text>
                 <text class="txt-normal txt-gray marginTop-Small">对局中</text>
             </view>
-            <image class="icon-24 marginRight-Normal" src="/images/icon/ic_right.svg" mode="aspectFill"></image>
+            <image class="icon-18 marginRight-Normal" src="/images/icon/ic_right.svg" mode="aspectFill"></image>
         </view>
     </view>
 

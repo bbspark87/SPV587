@@ -10,7 +10,13 @@ Page({
         time: 5 * 60 * 1000,
     },
 
-    PayShopOrder(){
+    SelectCoupon() {
+        wx.navigateTo({
+            url: "/package-shop-center/pages/select-coupon/select-coupon",
+        })
+    },
+
+    PayShopOrder() {
         wx.navigateTo({
             url: "/package-shop-center/pages/shop-order-detail/shop-order-detail",
         })

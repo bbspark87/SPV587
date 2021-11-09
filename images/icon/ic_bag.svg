@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>24*24</title>
+    <g id="icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="24*24" stroke="#3e3e3e" stroke-width="1.5">
+            <path d="M19.0540135,4.75 L20.1925175,20.9861325 L4.05709758,21.25 L4.69637138,4.9861325 L19.0540135,4.75 Z" id="矩形"></path>
+            <path d="M5,5 C7.33333333,7.33333333 9.66666667,8.5 12,8.5 C14.3333333,8.5 16.6666667,7.33333333 19,5" id="直线-2" stroke-linecap="round"></path>
+            <path d="M6,4.5 C6.83333333,2.83333333 7.66666667,2 8.5,2 C9.33333333,2 10.1666667,2.83333333 11,4.5" id="直线-3" stroke-linecap="square"></path>
+            <path d="M13,4.5 C13.8333333,2.83333333 14.6666667,2 15.5,2 C16.3333333,2 17.1666667,2.83333333 18,4.5" id="直线-3备份" stroke-linecap="square"></path>
+        </g>
+    </g>
+</svg>
