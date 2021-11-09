@@ -8,8 +8,8 @@ Component({
         discount: String,
         describe: String,
         selected: {
-            type: boolean,
-            value: false,
+            type: String,
+            value: "",
         },
     },
 

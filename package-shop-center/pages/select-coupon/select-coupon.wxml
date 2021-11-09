@@ -2,6 +2,9 @@
 
     <block wx:for="{{10}}" wx:key="id">
         <view class="blank-view"></view>
+        <s-coupon selected="{{true}}" name="全民炫酷优惠" validDate="有效期致：2021-10-10" discount="5"
+                  describe="阿斯顿六块腹肌阿龙；思考大姐"></s-coupon>
+        <view class="blank-view"></view>
         <s-coupon name="全民炫酷优惠" validDate="有效期致：2021-10-10" discount="5"
                   describe="阿斯顿六块腹肌阿龙；思考大姐"></s-coupon>
     </block>

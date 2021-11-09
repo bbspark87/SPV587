@@ -25,7 +25,7 @@
 .txt-discount {
     color: #6469DB;
     font-size: 72rpx;
-    font-weight: bold;
+    /*font-weight: bold;*/
 }
 
 .txt-describe {
