@@ -1,0 +1,22 @@
+<view>
+    <view class="container-cardview marginTop-Normal">
+        <view class="container-left-horizon  marginTop-Normal">
+            <l-avatar class="marginLeft-Normal" size="120"
+                      open-data="{{['userAvatarUrl']}}"></l-avatar>
+
+            <view class="container-left-vertical marginLeft-Normal">
+                <text class="txt-normal txt-black">Narutos</text>
+                <image class="icon-24 marginTop-Small" src="/images/icon/ic_male.svg" mode="aspectFill"></image>
+            </view>
+        </view>
+
+        <view class="container-left-vertical">
+            <view class="container-infos marginTop-Normal marginLeft-Normal">
+                <text class="txt-black txt-normal">个人签名</text>
+                <text class="txt-gray txt-small marginTop-Small marginBottom-Small">阿斯利康的风景阿莱克斯都放假啦开始</text>
+            </view>
+        </view>
+
+    </view>
+
+</view>

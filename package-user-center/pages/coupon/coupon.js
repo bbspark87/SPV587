@@ -7,6 +7,12 @@ Page({
 
     },
 
+    onChange(event) {
+        if (event.detail.index === 0) {
+            console.log(event.detail.index)
+        }
+    },
+
     /**
      * 生命周期函数--监听页面加载
      */

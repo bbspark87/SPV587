@@ -16,7 +16,7 @@
             <view class="container-login-btn">
                 <button class="container-login" plain="true" open-type="getPhoneNumber"
                         bindgetphonenumber="getPhoneNumber"></button>
-                <s-button class="marginBottom-big" title="微信用户一键登录" icon="/images/icon/icon_wechat.svg"></s-button>
+                <s-button class="marginBottom-big" title="微信用户一键登录" icon="/images/icon/ic_wechat.svg"></s-button>
             </view>
 
             <view class="blank-view"></view>

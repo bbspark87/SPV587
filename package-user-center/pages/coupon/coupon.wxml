@@ -1,4 +1,12 @@
 <view>
+    <van-sticky animated offset-top="{{ 0 }}">
+        <van-tabs swipeable color="#6469DB" title-active-color="#6469DB"
+                  title-inactive-color="#6F6F6F"
+                  active="{{ active }}" bind:change="onChange">
+            <van-tab title="待使用"></van-tab>
+            <van-tab title="已失效"></van-tab>
+        </van-tabs>
+    </van-sticky>
 
     <block wx:for="{{10}}" wx:key="id">
         <view class="blank-view"></view>

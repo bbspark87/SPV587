@@ -8,8 +8,8 @@ Component({
         discount: String,
         describe: String,
         selected: {
-            type: String,
-            value: "",
+            type: Number,
+            value: 0,
         },
     },
 
@@ -21,5 +21,10 @@ Component({
     /**
      * 组件的方法列表
      */
-    methods: {}
+    methods: {
+        dataInit(infos) {
+            console.log(infos)
+            // this.setData()
+        },
+    }
 })

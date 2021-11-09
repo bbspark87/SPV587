@@ -24,6 +24,10 @@
     font-size: 24rpx;
 }
 
+.txt-normal-14 {
+    font-size: 28rpx;
+}
+
 .txt-normal {
     font-size: 32rpx;
 }

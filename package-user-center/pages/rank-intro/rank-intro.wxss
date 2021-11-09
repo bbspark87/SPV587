@@ -1,1 +1,8 @@
-/* package-user-center/pages/rank-webview/rank-webview.wxss */
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 96rpx;
+    justify-content: flex-start;
+    align-items: center;
+}

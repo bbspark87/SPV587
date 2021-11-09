@@ -18,7 +18,8 @@
     {
       "root": "package-game-center",
       "pages": [
-        "pages/game-record/game-record"
+        "pages/game-record/game-record",
+        "pages/player-detail/player-detail"
       ]
     },
     {

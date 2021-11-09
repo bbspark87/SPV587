@@ -1,7 +1,7 @@
 swiper {
     display: flex;
     width: 100%;
-    height: 572rpx;
+    height: 472rpx;
 }
 
 swiper image {
@@ -11,7 +11,7 @@ swiper image {
 
 .container-main {
     width: 100%;
-    height: 372rpx;
+    height: 472rpx;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -20,13 +20,10 @@ swiper image {
 
 .container-card {
     width: 100%;
-    height: 40rpx;
-    background-color: #f9f9f9;
+    height: 50rpx;
+    background: #f9f9f9;
     border-top-left-radius: 32rpx;
     border-top-right-radius: 32rpx;
-    margin-top: 540rpx;
-    position: absolute;
-    z-index: 100;
 }
 
 .container-navbar {
@@ -56,30 +53,7 @@ swiper image {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-    font-size: 32rpx;
-    font-weight: normal;
     color: var(--textColor);
-    margin-right: 16rpx;
-}
-
-.container-user {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
-
-.card-avatar {
-    width: calc(100% - 64rpx);
-    height: 200rpx;
-    background-color: white;
-    border: solid 1rpx #dbdbdb;
-    border-radius: 32rpx;
-    display: flex;
-    margin-bottom: 32rpx;
-    flex-direction: row;
-    align-items: center;
 }
 
 .card-menus {
@@ -111,30 +85,23 @@ swiper image {
     height: 192rpx;
 }
 
-.container-bottom {
+.container-login {
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 112rpx;
+    height: 96rpx;
     background: #626262;
     justify-content: space-between;
     align-items: center;
-}
-
-.txt-login {
-    color: white;
-    font-size: 28rpx;
-    margin-left: 32rpx;
-    opacity: 0.8;
+    margin-bottom: 1rpx;
+    position: fixed;
+    bottom: 0;
 }
 
 .btn-login {
-    color: white;
-    font-size: 28rpx;
     background: var(--theColor);
-    border-radius: 6rpx;
-    margin-right: 32rpx;
-    padding: 14rpx 32rpx 14rpx 32rpx;
+    border-radius: 4rpx;
+    padding: 12rpx 32rpx 12rpx 32rpx;
 }
 
 .container-tuiguang {
@@ -146,9 +113,22 @@ swiper image {
     margin-bottom: 140rpx;
     margin-right: 32rpx;
     align-items: center;
+    position: fixed;
+    bottom: 0;
 }
 
 .img-tuiguang {
     width: 128rpx;
     height: 128rpx;
+}
+
+.container-back-card {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    position: fixed;
+    margin-top: 422rpx;
+    top: 0;
 }

@@ -16,6 +16,7 @@
     display: flex;
     flex-direction: column;
 }
+
 /*底部滑块*/
 .slide-bar {
     width: 100%;
@@ -47,6 +48,14 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
+    border-radius: 16rpx;
+}
+
+.container-left-horizon {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
     align-items: center;
     border-radius: 16rpx;
 }
