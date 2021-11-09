@@ -17,7 +17,4 @@
     <view class="container-coupon-intro">
         <text class="txt-light-gray txt-small">查看使用说明</text>
     </view>
-
-    <view class="slide-bar"></view>
-
 </view>

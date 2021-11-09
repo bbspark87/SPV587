@@ -27,6 +27,11 @@ page {
     background: var(--dividerColor);
 }
 
+.margin-space {
+    width: 32rpx;
+    height: 1rpx;
+}
+
 .locked {
     position: fixed;
     /*background: var(--dividerColor);*/

@@ -96,7 +96,9 @@
     "s-menu": "components/cell-menu/index",
     "s-navigator": "components/navigator/index",
     "s-coupon": "components/coupon/index",
-    "van-action-sheet": "@vant/weapp/action-sheet/index"
+    "van-action-sheet": "@vant/weapp/action-sheet/index",
+    "van-stepper": "@vant/weapp/stepper/index",
+    "van-uploader": "@vant/weapp/uploader/index"
   },
   "tabBar": {
     "list": [

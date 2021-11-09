@@ -32,7 +32,7 @@
                    src="/images/icon/btn_gonglve.png"/>
         </view>
         <view class="container-tuiguang">
-            <image class="img-tuiguang" src="/images/icon/img_tuiguang.png"></image>
+            <image bind:tap="GoMySpread" class="img-tuiguang" src="/images/icon/img_tuiguang.png"></image>
         </view>
 
         <view class="container-login">

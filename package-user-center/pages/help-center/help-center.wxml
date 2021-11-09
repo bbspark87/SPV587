@@ -15,7 +15,7 @@
     </van-collapse>
 
     <view class="container-bottom">
-        <s-button bind:tap="ClickSave" title="意见反馈"></s-button>
+        <s-button bind:tap="GoFeedback" title="意见反馈"></s-button>
     </view>
 
 </view>

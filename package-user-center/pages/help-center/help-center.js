@@ -7,7 +7,7 @@ Page({
         activeNames: ['1'],
     },
 
-    GoToFeedback() {
+    GoFeedback() {
         wx.navigateTo({
             url: "/package-user-center/pages/feedback/feedback",
         })

@@ -1,2 +1,43 @@
-<!--package-shop-center/pages/goods-detail/goods-detail.wxml-->
-<text>package-shop-center/pages/goods-detail/goods-detail.wxml</text>
+<view>
+    <view class="container-main">
+        <swiper circular="true" autoplay="true" interval="3000">
+            <swiper-item wx:for="{{3}}" wx:key="id">
+                <image mode="aspectFill" src="/images/background/img_shops.png"></image>
+            </swiper-item>
+        </swiper>
+
+        <view class="container-navbar">
+            <van-icon style='width: {{capsHeight}}px;height: {{capsHeight}}px;margin-top:{{navTop}}px;'
+                      bindtap="ExitPage" class="container-capsure marginLeft-Normal" name="arrow-left" color="#555555"/>
+        </view>
+    </view>
+
+    <view class="container-rec">
+        <view class="container-name marginTop-Normal marginBottom-Normal">
+            <text class="txt-black txt-big marginLeft-Normal">Off The Seven</text>
+            <van-stepper class="marginRight-Normal" value="{{ 1 }}" bind:change="onChange"/>
+        </view>
+    </view>
+
+    <view class="container-bottom-all">
+        <view class="full-divider"></view>
+        <view class="container-white">
+            <view class="container-bottom-btn marginLeft-Normal marginRight-Normal">
+                <view class="container-half" bind:tap="AddToCart">
+                    <image class="container-btn" mode="aspectFill" src="/images/drawable/btn_main.svg"></image>
+                    <text class="container-txt-icon txt-normal txt-white">加入购物车</text>
+                </view>
+
+                <view class="margin-space"></view>
+
+                <view class="container-half" bind:tap="BuyNow">
+                    <image class="container-btn" mode="aspectFill" src="/images/drawable/btn_main.svg"></image>
+                    <text class="container-txt-icon txt-normal txt-white">立即购买</text>
+                </view>
+            </view>
+        </view>
+        <view class="full-divider"></view>
+        <view class="slide-bar"></view>
+    </view>
+
+</view>

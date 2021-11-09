@@ -10,11 +10,12 @@
         <text class="txt-gray txt-small marginRight-Normal marginTop-Small">{{inputLength}}</text>
     </view>
 
-    <view class="container-pics">
-        <image class="img-upload-pic" mode="aspectFill" src="/images/pic/icon_upload_pic.svg"></image>
-        <image class="img-upload-pic" mode="aspectFill" src="/images/pic/icon_upload_pic.svg"></image>
-        <image class="img-upload-pic" mode="aspectFill" src="/images/pic/icon_upload_pic.svg"></image>
+    <view class="container-pics marginLeft-Normal">
+        <van-uploader file-list="{{ fileList }}" multiple max-count="{{ 3 }}" bind:after-read="afterRead"
+                      bind:delete="delete" bind:click-preview="clickPreview"/>
     </view>
+
+    <view class="blank-view"></view>
 
     <text class="txt-gray txt-normal marginLeft-Normal marginTop-Normal">上传问题相关照片</text>
 

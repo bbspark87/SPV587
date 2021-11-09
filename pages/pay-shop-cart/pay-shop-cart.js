@@ -26,7 +26,17 @@ Page({
         Dialog.confirm({
             title: '确认离开',
             message: '您的订单还未完成支付，请尽快支付',
-        });
+        })
+            .then(() => {
+                // on confirm
+                wx.navigateBack({
+                    delta: 1
+                })
+            })
+            .catch(() => {
+                // on cancel
+                console.log("cancel")
+            });
     },
 
     onChange(event) {

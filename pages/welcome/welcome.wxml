@@ -1,11 +1,5 @@
 <view >
 
-    <swiper indicator-dots="true" autoplay="true" interval="2000">
-        <swiper-item wx:for="{{3}}">
-            <image src="/images/pic/panghu2.jpg"></image>
-        </swiper-item>
-    </swiper>
-
     <!-- 点击事件 -->
     <view bind:tap="onTap" class="drawable">
         <text>Button</text>

@@ -22,12 +22,6 @@ input-area::-webkit-input-placeholder {
     margin-top: 64rpx;
 }
 
-.img-upload-pic {
-    width: 176rpx;
-    margin-left: 32rpx;
-    height: 176rpx;
-}
-
 .container-align-right {
     display: flex;
     flex-direction: row;

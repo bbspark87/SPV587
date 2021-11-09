@@ -17,7 +17,6 @@
     padding-right: 20rpx;
     margin-top: 20rpx;
     border-radius: 5rpx;
-    font-size: 20sp;
     text-align: center;
     font-weight: bold;
 }

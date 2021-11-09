@@ -1,9 +1,14 @@
 Page({
 
-    data: {
+    data: {},
+
+    BuyRecord(param) {
+        wx.navigateTo({
+            url: "/package-user-center/pages/shop-record/shop-record",
+        })
     },
 
-    GoOrderDetail(param) {
+    GoGoodDetail(param) {
         wx.navigateTo({
             url: "/package-shop-center/pages/goods-detail/goods-detail",
         })

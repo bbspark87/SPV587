@@ -8,6 +8,12 @@ Page({
         currentCity: '长春市', //当前定位城市
     },
 
+    GoMySpread() {
+        wx.navigateTo({
+            url: "/package-user-center/pages/my-spread/my-spread",
+        })
+    },
+
     menuClick(event) {
         const targetPage = event.currentTarget.dataset.page
         if (targetPage === "scanCode") {

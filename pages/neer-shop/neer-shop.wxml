@@ -6,7 +6,7 @@
 
     <block wx:for="{{20}}" wx:key="id">
         <view class="full-divider"></view>
-        <view bind:tap="GoToShopDetail" class="container-center-horizon">
+        <view bind:tap="GoToShopDetail" class="container-rec container-center-horizon">
             <image class="img-shop-logo radius-small marginLeft-Normal marginTop-Small marginBottom-Small"
                    mode="aspectFill"
                    src="/images/background/img_shops.png"></image>

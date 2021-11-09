@@ -21,7 +21,7 @@
 .slide-bar {
     width: 100%;
     height: 48rpx;
-    background: #ffffff;
+    /*background: #ffffff;*/
 }
 
 /**白色阴影方框*/
@@ -82,7 +82,6 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-
 }
 
 .base-menu {

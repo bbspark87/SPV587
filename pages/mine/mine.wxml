@@ -3,7 +3,7 @@
     <view data-page="/package-user-center/pages/msg-center/msg-center" bindtap="intent"
           class="container-top"
           style='height: {{navH}}px;'>
-        <image style='margin-top:{{navTop}}px;' class="icon-24 marginLeft-Normal" mode="aspectFill"
+        <image style='margin-top:{{navTop}}px;' class="icon-24 marginLeft-Small" mode="aspectFill"
                src="/images/icon/ic_message.svg"></image>
     </view>
 
@@ -19,11 +19,17 @@
            src="/images/background/img_shops.png"></image>
 
     <view class="full-divider marginTop-Normal"></view>
-    <s-menu bind:tap="intent" icon="/images/icon/ic_my_collect.svg" data-page="/package-user-center/pages/collect/collect" title="收藏" content="10"></s-menu>
-    <s-menu bind:tap="intent" icon="/images/icon/ic_coupon.svg" data-page="/package-user-center/pages/coupon/coupon" title="优惠券" content="10"></s-menu>
-    <s-menu bind:tap="intent" icon="/images/icon/ic_bag.svg" data-page="/package-user-center/pages/bag/bag" title="背包" content="10"></s-menu>
-    <s-menu bind:tap="intent" icon="/images/icon/ic_order.svg" data-page="/package-user-center/pages/shop-record/shop-record" title="购买记录" ></s-menu>
-    <s-menu bind:tap="intent" icon="/images/icon/ic_help.svg" data-page="/package-user-center/pages/help-center/help-center" title="帮助中心" ></s-menu>
-    <s-menu bind:tap="intent" icon="/images/icon/ic_setting.svg" data-page="/package-user-center/pages/setting/setting" title="设置"></s-menu>
+    <s-menu bind:tap="intent" icon="/images/icon/ic_my_collect.svg"
+            data-page="/package-user-center/pages/collect/collect" title="收藏" content="10"></s-menu>
+    <s-menu bind:tap="intent" icon="/images/icon/ic_coupon.svg" data-page="/package-user-center/pages/coupon/coupon"
+            title="优惠券" content="10"></s-menu>
+    <s-menu bind:tap="intent" icon="/images/icon/ic_bag.svg" data-page="/package-user-center/pages/bag/bag" title="背包"
+            content="10"></s-menu>
+    <s-menu bind:tap="intent" icon="/images/icon/ic_order.svg"
+            data-page="/package-user-center/pages/shop-record/shop-record" title="购买记录"></s-menu>
+    <s-menu bind:tap="intent" icon="/images/icon/ic_help.svg"
+            data-page="/package-user-center/pages/help-center/help-center" title="帮助中心"></s-menu>
+    <s-menu bind:tap="intent" icon="/images/icon/ic_setting.svg" data-page="/package-user-center/pages/setting/setting"
+            title="设置"></s-menu>
     <view class="full-divider"></view>
 </view>

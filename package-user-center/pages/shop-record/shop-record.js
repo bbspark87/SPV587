@@ -7,7 +7,7 @@ Page({
 
    },
 
-   GoGoodDetail(param) {
+   GoOrderDetail(param) {
       wx.navigateTo({
          url: "/package-shop-center/pages/shop-order-detail/shop-order-detail",
       })

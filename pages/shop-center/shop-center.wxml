@@ -9,7 +9,7 @@
                 </block>
             </van-tabs>
 
-            <view class="btn-buy-record">
+            <view class="btn-buy-record" bind:tap="BuyRecord">
                 <text class="marginRight-Normal marginLeft-Normal txt-main txt-normal">购买记录</text>
             </view>
         </view>
