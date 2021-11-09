@@ -1,0 +1,23 @@
+<view>
+
+
+    <view class="container-bottom-all">
+        <view class="container-rec container-center-horizon">
+            <view class="container-bottom-menu">
+
+                <image class="icon-24 marginLeft-Normal" src="/images/icon/ic_shop_select.png"></image>
+                <image class="icon-24 marginLeft-Normal" src="/images/icon/ic_bag.svg"></image>
+
+                <view class="btn-main marginLeft-Normal marginRight-Normal">
+                    <image class="container-btn " mode="aspectFill"
+                           src="/images/drawable/btn_main.svg"></image>
+<!--                    <text class="locked txt-white txt-normal">退出对局</text>-->
+                </view>
+
+            </view>
+        </view>
+
+        <view class="slide-bar"></view>
+    </view>
+
+</view>

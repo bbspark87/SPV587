@@ -1,6 +1,6 @@
 <view>
     <view class="container-cardview marginTop-Normal">
-        <view class="container-center-horizon">
+        <view class="container-center-horizon" bind:tap="CurrentBattle">
             <view class="container-left-vertical marginTop-Normal marginBottom-Normal marginLeft-Normal">
                 <text class="txt-big txt-black">Off The Seven(守卫)</text>
                 <text class="txt-normal txt-gray marginTop-Small">对局中</text>

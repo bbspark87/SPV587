@@ -13,7 +13,7 @@ Page({
 
     JoinGame() {
         wx.navigateTo({
-            url: "/package-game-center/pages/game-record/game-record",
+            url: "/package-game-center/pages/current-battle/current-battle",
         })
     },
 

@@ -18,7 +18,7 @@
     {
       "root": "package-game-center",
       "pages": [
-        "pages/game-record/game-record",
+        "pages/current-battle/current-battle",
         "pages/player-detail/player-detail"
       ]
     },

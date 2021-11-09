@@ -4,6 +4,13 @@ Page({
      * 页面的初始数据
      */
     data: {},
+
+    CurrentBattle() {
+        wx.navigateTo({
+            url: "/package-game-center/pages/current-battle/current-battle",
+        })
+    },
+
     GoBattleDetail() {
 
     },

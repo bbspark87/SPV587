@@ -1,4 +1,3 @@
-// pages/package-game-center/pages/game-record/game-record.js
 Page({
 
   /**
