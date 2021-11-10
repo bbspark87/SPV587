@@ -41,7 +41,6 @@ Page({
             navH: App.navHeight,
             navTop: App.navTop,
             capsHeight: App.capsHeight,
-            windowWidth: App.windowWidth,
         })
     },
 

@@ -3,6 +3,7 @@ var mqtt = require("/utils/mqtt.js");
 // 连接选项
 const options = {
     connectTimeout: 4000, // 超时时间
+    port: 443,
     clientId: 'client_01',
     username: 'client_01',
     password: 'client_passwd',
@@ -32,20 +33,22 @@ App({
             }
         })
 
-        // let that = this
         // var client = mqtt.connect('wx://192.144.225.205:3881', options) //你自己的域名
-        // client.on('connect', (e) => {
-        //   console.log('成功连接服务器!')
-        // })
-        // client.subscribe('esp8266', {
-        //   qos: 0
-        // }, function (err) {
-        //   if (!err) {
-        //     console.log("订阅成功:esp8266")
-        //   }
-        // })
-        // client.on('message', function (topic, message, packet) {
-        //   that.globalData.mqttData = packet.payload.toString()
-        // })
+        var client = mqtt.connect('wx://mqtt-cn-2r42eyy6d0i.mqtt.aliyuncs.com', options) //你自己的域名
+
+        let that = this
+        client.on('connect', (e) => {
+            console.log('成功连接服务器!')
+        })
+        client.subscribe('test-topic666', {
+            qos: 0
+        }, function (err) {
+            if (!err) {
+                console.log("订阅成功:esp8266")
+            }
+        })
+        client.on('message', function (topic, message, packet) {
+            that.globalData.mqttData = packet.payload.toString()
+        })
     },
 })
