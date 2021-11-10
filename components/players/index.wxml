@@ -1,0 +1,9 @@
+<view class="container">
+
+    <view class="container-content">
+        <image class="container-content" mode="aspectFill" src="/images/background/img_shops.png"></image>
+        <view class="container-number number-locked">
+            <text class="txt-number">1</text>
+        </view>
+    </view>
+</view>

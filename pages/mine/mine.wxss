@@ -70,6 +70,6 @@ page {
 
 .img-tuiguang {
     width: calc(100% - 64rpx);
-    height: 210rpx;
+    height: 192rpx;
     border-radius: 32rpx;
 }

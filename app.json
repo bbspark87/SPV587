@@ -51,7 +51,7 @@
       ]
     }
   ],
-  "entryPagePath": "pages/shop-scan/shop-scan",
+  "entryPagePath": "pages/main/main",
   "window": {
     "backgroundTextStyle": "dark",
     "backgroundColor": "#ffffff",
@@ -96,6 +96,7 @@
     "s-menu": "components/cell-menu/index",
     "s-navigator": "components/navigator/index",
     "s-coupon": "components/coupon/index",
+    "s-players": "components/players/index",
     "van-action-sheet": "@vant/weapp/action-sheet/index",
     "van-stepper": "@vant/weapp/stepper/index",
     "van-uploader": "@vant/weapp/uploader/index"

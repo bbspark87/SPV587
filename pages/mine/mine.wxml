@@ -16,7 +16,7 @@
 
     <image bind:tap="intent" data-page="/package-user-center/pages/my-spread/my-spread"
            class="img-tuiguang marginLeft-Normal"
-           src="/images/background/img_shops.png"></image>
+           src="/images/background/pic_tuiguang.png"></image>
 
     <view class="full-divider marginTop-Normal"></view>
     <s-menu bind:tap="intent" icon="/images/icon/ic_my_collect.svg"

@@ -5,20 +5,33 @@
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    background: aqua;
 }
 
 .container-btn {
-    margin-left: 32rpx;
-    margin-right: 32rpx;
-    height: 96rpx;
-    border-radius: 16rpx;
+    height: 112rpx;
 }
 
 .btn-main {
-    margin-left: 32rpx;
-    margin-right: 32rpx;
-    height: 96rpx;
+    height: 84rpx;
     border-radius: 16rpx;
-    background: aqua;
+}
+
+.contain-small-btn {
+    width: 200rpx;
+    height: 72rpx;
+    border-radius: 16rpx;
+}
+
+.wrap-style {
+    flex-wrap: wrap;
+}
+
+.container-players {
+    background: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    box-shadow: 1px 2rpx 5rpx #E5E5E5;
 }
