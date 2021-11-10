@@ -3,9 +3,9 @@
     <view class="blank-view"></view>
     <text class="txt-black txt-normal marginLeft-Normal">商品信息</text>
 
-    <view class="container-rec marginTop-Small">
+    <view class="layout-column-top back-white marginTop-Small">
         <block bind:tap="GoOrderDetail" wx:for="{{3}}" wx:key="id">
-            <view class="container-rec">
+            <view class="layout-column-top">
                 <view class="full-divider"></view>
                 <view class="container-list-item">
                     <image class="img-role marginLeft-Normal marginTop-Small marginBottom-Small radius-small"
@@ -28,8 +28,8 @@
         </view>
     </view>
 
-    <view class="container-bottom">
-        <view class="container-space-between container-rec">
+    <view class="lock-bottom">
+        <view class="layout-row-between layout-column-top back-white">
             <text class="txt-normal txt-black marginLeft-Normal">需支付 ¥39.80</text>
             <view bind:tap="CommitOrder" class="container-submit marginRight-Normal">
                 <image class="container-btn" mode="aspectFill" src="/images/drawable/btn_main.svg"></image>

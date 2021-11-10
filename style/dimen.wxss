@@ -41,6 +41,10 @@
 }
 
 /* 不同尺寸边距*/
+.margin-Normal {
+    margin: 32rpx;
+}
+
 .marginLeft-Normal {
     margin-left: 32rpx;
 }

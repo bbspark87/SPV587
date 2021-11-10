@@ -8,7 +8,7 @@
         <view data-page="/pages/city-list/city-list" bindtap="menuClick" class="container-navbar"
               style='height:{{navH}}px;'>
             <view class="container-capsure" style='height: {{capsHeight}}px;margin-top:{{navTop}}px;'>
-                <text class="text-city txt-normal marginRight-Small">{{currentCity}}</text>
+                <text class="txt-more txt-normal marginRight-Small">{{currentCity}}</text>
                 <van-icon name="arrow-down" color="#555555"/>
             </view>
         </view>
@@ -16,9 +16,10 @@
 
     <view class="container-back-card">
         <view class="container-card"></view>
-        <view class="container-cardview marginBottom-Normal">
-            <l-avatar class="img-avatar" placement="right" size="128"
-                      open-data="{{['userAvatarUrl','userNickName']}}"></l-avatar>
+        <view class="box-card marginBottom-Normal marginBottom-Normal">
+            <view class="layout-row-left marginTop-Normal marginBottom-Normal marginLeft-Normal">
+            <l-avatar placement="right" size="128"
+                      open-data="{{['userAvatarUrl','userNickName']}}"></l-avatar></view>
         </view>
         <view class="view-menus">
             <image data-page="scanCode" bindtap="menuClick" class="menus" src="/images/icon/btn_scan.png"/>

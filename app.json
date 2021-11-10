@@ -51,7 +51,7 @@
       ]
     }
   ],
-  "entryPagePath": "pages/main/main",
+  "entryPagePath": "pages/shop-scan/shop-scan",
   "window": {
     "backgroundTextStyle": "dark",
     "backgroundColor": "#ffffff",

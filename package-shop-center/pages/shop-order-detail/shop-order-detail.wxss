@@ -26,11 +26,3 @@
     align-items: flex-end;
     height: 140rpx;
 }
-
-.container-right-align {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-
-}

@@ -2,14 +2,14 @@
     <block wx:for="{{20}}" wx:key="id">
 
         <view class="full-divider"></view>
-        <view bind:tap="GoToShopDetail" class="container-rec container-center-horizon">
+        <view bind:tap="GoToShopDetail" class="layout-column-top back-white layout-row-center">
             <image class="img-shop marginLeft-Normal marginTop-Small marginBottom-Small"
                    src="/images/background/img_shops.png"></image>
 
-            <view class="container-shop-info">
-                <text class="txt-shop-name txt-normal txt-black">商家名称</text>
+            <view class="layout-column-left marginLeft-Normal fill-content">
+                <text class="full-width txt-normal txt-black">商家名称</text>
                 <s-star-point stars="4" point="4.1"></s-star-point>
-                <view class="item-tags marginTop-Small">
+                <view class="layout-row-left marginTop-Small">
                     <text wx:for="{{3}}" wx:key="id" class="txt-small txt-gray txt-tag">免费停车</text>
                 </view>
             </view>

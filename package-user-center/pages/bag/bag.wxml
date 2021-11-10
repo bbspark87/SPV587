@@ -3,9 +3,9 @@
     <view class="blank-view"></view>
 
     <block bind:tap="GoBagDetail" wx:for="{{13}}" wx:key="id">
-        <view class="container-rec">
+        <view class="layout-column-top box-white">
             <view class="full-divider"></view>
-            <view class="container-list-item">
+            <view class="layout-row-center full-width">
                 <image class="img-role marginLeft-Normal marginTop-Small marginBottom-Small radius-small"
                        src="/images/background/img_shops.png"></image>
 

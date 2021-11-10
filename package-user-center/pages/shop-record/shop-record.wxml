@@ -12,7 +12,7 @@
     </van-sticky>
 
     <block wx:for="{{10}}" wx:key="id">
-        <view class="container-rec" bind:tap="GoOrderDetail">
+        <view class="layout-column-top back-white" bind:tap="GoOrderDetail">
             <view class="full-divider"></view>
             <view class="container-list-item">
                 <image class="img-role marginLeft-Normal marginTop-Small marginBottom-Small radius-small"

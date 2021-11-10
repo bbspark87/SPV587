@@ -1,5 +1,5 @@
 <view>
-    <view class="container-rec marginTop-Normal">
+    <view class="layout-column-top back-white marginTop-Normal">
         <block wx:for="{{7}}" wx:key="id">
             <view class="container">
                 <image class="icon-24" mode="aspectFill"></image>
@@ -8,7 +8,7 @@
         </block>
     </view>
 
-    <view class="container-center-horizon  marginTop-Normal marginLeft-Normal marginRight-Normal">
+    <view class="layout-row-center  marginTop-Normal marginLeft-Normal marginRight-Normal">
         <text class="txt-small txt-black">段位说明：
             啊算了；都快放假啊老师看到建峰啦；开始剪短发；拉开是大姐风口浪尖卢卡斯剪短发卡拉斯京的老冯看卢卡斯剪短发卡拉斯京地方</text>
     </view>

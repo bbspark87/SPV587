@@ -1,5 +1,5 @@
 <view>
-    <view class="container-rec marginTop-Normal">
+    <view class="layout-column-top back-white marginTop-Normal">
 
         <view class="full-divider"></view>
         <view class="container-avatar">

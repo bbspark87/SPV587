@@ -9,27 +9,28 @@
     </van-sticky>
 
     <block wx:for="{{20}}" wx:key="id">
-        <view class="container-rec">
-            <view class="container-center-horizon">
+        <view class="layout-column-top back-white">
+            <view class="layout-row-center">
                 <image class="icon-24 marginLeft-Normal" src="/images/background/img_shops.png"></image>
                 <image class="img-avatar marginLeft-Normal marginRight-Normal marginTop-Small marginBottom-Small"
                        src="/images/background/img_shops.png"></image>
-                <text class="txt-normal txt-black txt-nickname">spark</text>
+                <text class="txt-normal txt-black fill-content">spark</text>
                 <image class="img-rank" src="/images/background/img_shops.png"></image>
             </view>
         </view>
     </block>
 
-    <view class="container-bottom" >
-        <view class="container-rec">
-            <view class="container-center-horizon">
+    <view class="lock-bottom-total layout-column-center">
+        <view class="layout-column-top full-width contain-my-rank">
+            <view class="layout-row-between full-width">
                 <image class="icon-24 marginLeft-Normal" src="/images/background/img_shops.png"></image>
                 <image class="img-avatar marginLeft-Normal marginRight-Normal marginTop-Small marginBottom-Small"
                        src="/images/background/img_shops.png"></image>
-                <text class="txt-normal txt-black txt-nickname">spark</text>
+                <text class="txt-normal txt-black fill-content">spark</text>
                 <image class="img-rank" src="/images/background/img_shops.png"></image>
             </view>
         </view>
+        <view class="slide-bar"></view>
     </view>
 
 </view>

@@ -1,11 +1,11 @@
 <view>
-    <view class="container-rec">
+    <view class="layout-column-top back-white">
         <view class="container-shop" bind:tap="GoShopDetail">
             <text class="txt-black txt-big marginLeft-Normal marginRight-Normal">Off The Seven</text>
             <van-icon class="marginRight-Normal" name="arrow" color="#e4e4e4"/>
         </view>
 
-        <view class="container-stars">
+        <view class="layout-row-left full-width marginLeft-Normal">
             <s-star-point stars="4" point="4.1"></s-star-point>
         </view>
 
@@ -25,7 +25,7 @@
 
         <van-cell title="当前设备" size="large" border="{{ false }}"/>
 
-        <view class="container-center-horizon container-device">
+        <view class="layout-row-center container-device">
             <text class="txt-main txt-biggest">12</text>
             <text class="txt-main txt-normal">号</text>
         </view>
@@ -40,7 +40,7 @@
         </view>
     </view>
 
-    <view class="container-bottom">
+    <view class="lock-bottom">
         <s-button bind:tap="JoinGame" title="加入对局"></s-button>
         <view class="container-rescan" bind:tap="RescanCode">
             <text class="txt-light-gray txt-small">识别有误，重新扫码</text>

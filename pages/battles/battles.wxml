@@ -1,7 +1,7 @@
 <view>
-    <view class="container-cardview marginTop-Normal">
-        <view class="container-center-horizon" bind:tap="CurrentBattle">
-            <view class="container-left-vertical marginTop-Normal marginBottom-Normal marginLeft-Normal">
+    <view class="layout-row-center marginTop-Normal">
+        <view class="box-card layout-row-between" bind:tap="CurrentBattle">
+            <view class="layout-column-left marginTop-Normal marginBottom-Normal marginLeft-Normal">
                 <text class="txt-big txt-black">Off The Seven(守卫)</text>
                 <text class="txt-normal txt-gray marginTop-Small">对局中</text>
             </view>
@@ -15,7 +15,7 @@
     <view class="blank-view-small"></view>
 
     <block bind:tap="GoBattleDetail" wx:for="{{10}}" wx:key="id">
-        <view class="container-rec">
+        <view class="layout-column-top back-white">
             <view class="full-divider"></view>
             <view class="container-list-item">
                 <image class="img-role marginLeft-Normal marginTop-Small marginBottom-Small radius-small"

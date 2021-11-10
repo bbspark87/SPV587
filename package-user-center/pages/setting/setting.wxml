@@ -1,5 +1,5 @@
 <view>
-    <view class="container-rec marginTop-Normal">
+    <view class="layout-column-top back-white marginTop-Normal">
 
         <view class="full-divider"></view>
         <van-cell bind:tap="intent" data-page="/package-user-center/pages/webview/webview" title="用户协议" is-link/>

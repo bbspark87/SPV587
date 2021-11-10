@@ -1,16 +1,16 @@
 <view>
 
-    <view class="container-rec marginTop-Normal">
+    <view class="layout-column-top box-white marginTop-Normal">
         <textarea maxlength="200" bind:input="InputContent"
                   class="input-area marginTop-Normal marginLeft-Normal marginRight-Normal txt-normal txt-black"
                   placeholder="请输入"></textarea>
     </view>
 
-    <view class="container-align-right">
+    <view class="layout-row-right full-width">
         <text class="txt-gray txt-small marginRight-Normal marginTop-Small">{{inputLength}}</text>
     </view>
 
-    <view class="container-pics marginLeft-Normal">
+    <view class="layout-row-left full-width marginLeft-Normal">
         <van-uploader file-list="{{ fileList }}" multiple max-count="{{ 3 }}" bind:after-read="afterRead"
                       bind:delete="delete" bind:click-preview="clickPreview"/>
     </view>

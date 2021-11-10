@@ -1,13 +1,13 @@
 <view>
 
     <view data-page="/package-user-center/pages/msg-center/msg-center" bindtap="intent"
-          class="container-top"
+          class="layout-row-left box-white full-width"
           style='height: {{navH}}px;'>
         <image style='margin-top:{{navTop}}px;' class="icon-24 marginLeft-Small" mode="aspectFill"
                src="/images/icon/ic_message.svg"></image>
     </view>
 
-    <view class="container-user-info marginTop-Normal">
+    <view class="layout-column-center marginTop-Normal">
         <l-avatar data-page="/package-user-center/pages/user-info/user-info" bindtap="intent"
                   class="marginLeft-Normal marginTop-Normal marginBottom-Normal" placement="right" size="128"
                   open-data="{{['userAvatarUrl','userNickName']}}">
@@ -15,7 +15,7 @@
     </view>
 
     <image bind:tap="intent" data-page="/package-user-center/pages/my-spread/my-spread"
-           class="container-cardview img-tuiguang"
+           class="img-tuiguang marginLeft-Normal"
            src="/images/background/img_shops.png"></image>
 
     <view class="full-divider marginTop-Normal"></view>

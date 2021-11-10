@@ -14,7 +14,7 @@
                   describe="阿斯顿六块腹肌阿龙；思考大姐"></s-coupon>
     </block>
 
-    <view class="container-coupon-intro">
+    <view class="bottom-btn layout-row-center">
         <text class="txt-light-gray txt-small">查看使用说明</text>
     </view>
 </view>

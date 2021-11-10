@@ -49,13 +49,6 @@ swiper image {
     padding-right: 16rpx;
 }
 
-.text-city {
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    color: var(--textColor);
-}
-
 .card-menus {
     width: calc(100% - 64rpx);
     border: solid 1rpx #dbdbdb;
@@ -64,10 +57,6 @@ swiper image {
     flex-direction: row;
     justify-content: center;
     align-items: flex-start;
-}
-
-.img-avatar {
-    margin: 32rpx;
 }
 
 .view-menus {
@@ -127,7 +116,8 @@ swiper image {
     height: 100%;
     display: flex;
     flex-direction: column;
-    align-items: start;
+    justify-content: flex-start;
+    align-items: center;
     position: fixed;
     margin-top: 422rpx;
     top: 0;

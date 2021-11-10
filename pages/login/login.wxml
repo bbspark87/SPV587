@@ -1,8 +1,8 @@
 <view>
     <image class="container-background" mode="widthFix" src="/images/background/bg_login.png"></image>
 
-    <view class="container-bottom">
-        <view class="container-cardview">
+    <view class="lock-bottom layout-row-center full-width">
+        <view class="box-card">
             <view class="container-agree">
                 <van-checkbox checked-color="#6469DB" value="{{ checked }}" bind:change="onChange"></van-checkbox>
                 <text class="txt-gray txt-small">我已阅读并同意</text>

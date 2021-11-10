@@ -1,8 +1,8 @@
 <view>
     <block wx:for="{{20}}" wx:key="id">
-        <view bind:tap="GoMsgDetail" class="container-rec">
+        <view bind:tap="GoMsgDetail" class="layout-column-top back-white">
             <view class="full-divider"></view>
-            <view class="container-space-between marginRight-Normal marginTop-Small">
+            <view class="layout-row-left marginRight-Normal marginTop-Small">
                 <view class="container-red-point marginTop-Small">
                     <image class="icon-6" src="/images/icon/ic_red_circle.svg"></image>
                 </view>
@@ -10,7 +10,7 @@
                 <text class="txt-small txt-gray">10-20 19：38</text>
             </view>
 
-            <view class="container-space-between marginLeft-Normal marginTop-Small marginBottom-Small">
+            <view class="layout-row-left marginLeft-Normal marginTop-Small marginBottom-Small">
                 <text class="txt-small txt-gray txt-content">消息内容消息内容消息内容消息内容消息内容消息内容消息内容消息内容消息内容消息内容消息内容消息内容消息内容</text>
             </view>
         </view>

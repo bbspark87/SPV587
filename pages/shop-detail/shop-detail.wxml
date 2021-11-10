@@ -12,18 +12,19 @@
         </view>
     </view>
 
-    <view class="container-rec">
+    <view class="layout-column-top box-white">
         <view class="container-name marginTop-Normal">
             <text class="txt-black txt-big txt-fill marginLeft-Normal">Off The Seven</text>
             <image class="icon-24 marginRight-Normal" mode="aspectFill" src="/images/icon/ic_share.svg"></image>
             <image class="icon-24 marginRight-Normal" mode="aspectFill" src="/images/icon/ic_collect.svg"></image>
         </view>
 
-        <s-star-point class="marginLeft-Normal marginTop-Normal" stars="4" point="4.1"></s-star-point>
+        <s-star-point class="marginLeft-Normal marginTop-Normal marginBottom-Normal" stars="4"
+                      point="4.1"></s-star-point>
 
         <view class="full-divider"></view>
 
-        <view class="container-infos marginTop-Normal">
+        <view class="container-infos">
             <image class="icon-24  marginLeft-Normal" mode="aspectFill" src="/images/icon/ic_locate.svg"></image>
             <text class="txt-black txt-normal txt-address">红旗街万达广场2号门</text>
             <image class="icon-24  marginRight-Normal" mode="aspectFill" src="/images/icon/ic_phone.svg"></image>
@@ -65,8 +66,7 @@
         </view>
 
         <view class="container-info-menu">
-
-            <view class="item-tags marginTop-Small">
+            <view class="item-tags layout-row-left full-width">
                 <text wx:for="{{3}}" wx:key="id" class="txt-small txt-gray txt-tag">免费停车</text>
             </view>
         </view>

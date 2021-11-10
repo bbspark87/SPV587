@@ -11,12 +11,13 @@
 
     <view class="bottom-blank"></view>
 
-    <view class="container-bottom-all">
+    <view class="lock-bottom">
         <view class="full-divider"></view>
         <view class="base-menu">
             <text class="txt-black txt-normal">不使用优惠券</text>
         </view>
         <view class="full-divider"></view>
-        <view class="slide-bar"></view>
     </view>
+
+    <view class="slide-bar lock-bottom-total"></view>
 </view>

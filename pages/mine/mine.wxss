@@ -2,15 +2,6 @@ page {
     background: white;
 }
 
-.container-top {
-    width: 100%;
-    background: white;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-}
-
 .container-user {
     width: 100%;
     display: flex;
@@ -36,13 +27,6 @@ page {
     flex-direction: row;
     position: fixed;
     width: 100%;
-}
-
-.container-user-info {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-between;
 }
 
 .menu-style {

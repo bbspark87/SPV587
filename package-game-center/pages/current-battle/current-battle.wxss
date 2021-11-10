@@ -1,21 +1,24 @@
-.container-bottom-menu {
-    width: 100%;
+.lock-bottom-menu {
+    width: calc(100% - 64rpx);
     height: 112rpx;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
+    background: aqua;
 }
 
 .container-btn {
+    margin-left: 32rpx;
+    margin-right: 32rpx;
     height: 96rpx;
     border-radius: 16rpx;
 }
 
 .btn-main {
-    display: flex;
-    flex: 1;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    margin-left: 32rpx;
+    margin-right: 32rpx;
+    height: 96rpx;
+    border-radius: 16rpx;
+    background: aqua;
 }

@@ -34,3 +34,7 @@
 .txt-origin-price {
     text-decoration: line-through;
 }
+
+.back-white {
+    background: white;
+}
