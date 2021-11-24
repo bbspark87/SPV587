@@ -14,12 +14,14 @@
             <view class="blank-view"></view>
 
             <view class="container-login-btn">
-                <button class="container-login" plain="true" open-type="getPhoneNumber"
-                        bindgetphonenumber="getPhoneNumber"></button>
-                <s-button class="marginBottom-big" title="微信用户一键登录" icon="/images/icon/ic_wechat.svg"></s-button>
+                <s-button bind:tap="getUserProfile" title="微信用户一键登录" icon="/images/icon/ic_wechat.svg"></s-button>
+<!--                <button class="container-login" plain="true" open-type="getUserInfo"-->
+<!--                        bind:getuserinfo="getUserInfo"></button>-->
             </view>
 
             <view class="blank-view"></view>
         </view>
     </view>
+
+    <van-toast id="van-toast" />
 </view>

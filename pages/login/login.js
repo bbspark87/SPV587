@@ -1,13 +1,17 @@
+import Toast from '../../miniprogram_npm/@vant/weapp/toast/toast';
+
 Page({
 
     /**
      * 页面的初始数据
      */
     data: {
-        radio: 'checked',
+        checked: false,
+        state: "111",
+        userInfo: {},
     },
 
-    GoWebview(url){
+    GoWebview(url) {
 
     },
 
@@ -15,19 +19,37 @@ Page({
         console.log(param)
     },
 
+    getUserProfile(e) {
+        if (this.data.checked) {
+            wx.getUserProfile({
+                desc: '用于完善会员资料', // 声明获取用户个人信息后的用途，后续会展示在弹窗中，请谨慎填写
+                success: (res) => {
+                    console.log(res.userInfo)
+                    this.setData({
+                        userInfo: res.userInfo,
+                    })
+                }
+            })
+        } else {
+            Toast('请先阅读用户协议');
+        }
+    },
+
     onChange(event) {
         this.setData({
             checked: event.detail,
         });
+        console.log(this.data.checked)
     },
 
     /**
      * 生命周期函数--监听页面加载
      */
     onLoad: function (options) {
+
         wx.login({
             success(res) {
-                // console.log(res.code)
+                console.log(res.code)
                 if (res.code) {
                     //发起网络请求
                     wx.request({
@@ -37,7 +59,7 @@ Page({
                         }
                     })
                 } else {
-                    // console.log('登录失败！' + res.errMsg)
+                    console.log('登录失败！' + res.errMsg)
                 }
             }
         })

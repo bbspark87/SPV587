@@ -25,7 +25,7 @@
         </view>
     </view>
 
-    <view class="lock-bottom">
+    <view bindtap="PayOrder" class="lock-bottom">
         <s-button title="确认支付"></s-button>
     </view>
 </view>

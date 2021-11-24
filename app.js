@@ -32,6 +32,11 @@ App({
                 console.log(err);
             }
         })
+        connectMqtt()
+
+    },
+
+    connectMqtt(){
 
         // var client = mqtt.connect('wx://192.144.225.205:3881', options) //你自己的域名
         var client = mqtt.connect('wx://mqtt-cn-2r42eyy6d0i.mqtt.aliyuncs.com', options) //你自己的域名

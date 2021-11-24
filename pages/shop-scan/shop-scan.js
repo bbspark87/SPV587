@@ -1,3 +1,5 @@
+import Toast from '../../miniprogram_npm/@vant/weapp/toast/toast';
+
 Page({
 
     /**
@@ -13,13 +15,17 @@ Page({
 
     JoinGame() {
         wx.navigateTo({
-            url: "/package-game-center/pages/current-battle/current-battle",
+            url: "/pages/commit-order/commit-order",
         })
     },
 
     RescanCode() {
+        console.log("scanCode")
         wx.scanCode({
-            onlyFromCamera: true,
+            // onlyFromCamera: true,
+            success(res) {
+                console.log(res)
+            }
         })
     },
 

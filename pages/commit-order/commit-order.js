@@ -10,6 +10,12 @@ Page({
         time: 5 * 60 * 1000,
     },
 
+    PayOrder(e) {
+        wx.navigateTo({
+            url: "/package-game-center/pages/current-battle/current-battle",
+        })
+    },
+
     CheckExit() {
         Dialog.confirm({
             title: '确认离开',
