@@ -1,7 +1,0 @@
-<view class="container">
-    <image class="container-btn" mode="aspectFill" src="/images/drawable/btn_main.svg"></image>
-    <view class="container-txt-icon">
-        <image class="img-icon" hidden="{{!icon}}" src="{{icon}}" mode="aspectFill"></image>
-        <text class="txt-button">{{title}}</text>
-    </view>
-</view>

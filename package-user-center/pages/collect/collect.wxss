@@ -1,9 +1,0 @@
-.img-shop {
-    width: 200rpx;
-    height: 160rpx;
-    border-radius: 4rpx;
-}
-
-.txt-shop-name {
-    flex: 1;
-}

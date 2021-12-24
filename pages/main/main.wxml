@@ -1,44 +1,29 @@
-<view>
-    <view class="container-main">
-        <swiper circular="true" autoplay="true" interval="3000">
-            <swiper-item wx:for="{{3}}" wx:key="id">
-                <image mode="aspectFill" src="/images/background/img_shops.png"></image>
-            </swiper-item>
-        </swiper>
-        <view data-page="/pages/city-list/city-list" bindtap="menuClick" class="container-navbar"
-              style='height:{{navH}}px;'>
-            <view class="container-capsure" style='height: {{capsHeight}}px;margin-top:{{navTop}}px;'>
-                <text class="txt-more txt-normal marginRight-Small">{{currentCity}}</text>
-                <van-icon name="arrow-down" color="#555555"/>
-            </view>
-        </view>
-    </view>
+<van-tabbar active-color="{{TCBlue}}"
+            inactive-color="{{TXT_Gray_50}}" active="{{ active }}" bind:change="onChange">
+    <van-tabbar-item>
+        <image slot="icon" src="/images/icon/tab_main_normal.svg" mode="aspectFit" style="width: 20px; height: 20px;"/>
+        <image slot="icon-active" src="/images/icon/tab_main_select.svg" mode="aspectFit"
+               style="width: 20px; height: 20px;"/>首页
+    </van-tabbar-item>
 
-    <view class="container-back-card">
-        <view class="container-card"></view>
-        <view class="box-card marginBottom-Normal marginBottom-Normal">
-            <view class="layout-row-left marginTop-Normal marginBottom-Normal marginLeft-Normal">
-            <l-avatar placement="right" size="128"
-                      open-data="{{['userAvatarUrl','userNickName']}}"></l-avatar></view>
-        </view>
-        <view class="view-menus">
-            <image data-page="scanCode" bindtap="menuClick" class="menus" src="/images/icon/btn_scan.png"/>
-            <image data-page="/pages/rank-list/rank-list" bindtap="menuClick" class="menus"
-                   src="/images/icon/btn_rank.png"/>
-        </view>
-        <view class="view-menus">
-            <image data-page="/pages/neer-shop/neer-shop" bindtap="menuClick" class="menus"
-                   src="/images/icon/btn_neer.png"/>
-            <image data-page="/pages/webview/webview" bindtap="menuClick" class="menus"
-                   src="/images/icon/btn_gonglve.png"/>
-        </view>
-        <view class="container-tuiguang">
-            <image bind:tap="GoMySpread" class="img-tuiguang" src="/images/icon/img_tuiguang.png"></image>
-        </view>
+    <van-tabbar-item>
+        <image slot="icon" src="/images/icon/tab_circle_normal.svg" mode="aspectFit"
+               style="width: 20px; height: 20px;"/>
+        <image slot="icon-active" src="/images/icon/tab_circle_select.svg" mode="aspectFit"
+               style="width: 20px; height: 20px;"/>圈子
+    </van-tabbar-item>
 
-        <view class="container-login">
-            <text class="txt-white txt-normal-14 marginLeft-Normal">登录账号，更多好礼享不停</text>
-            <text bind:tap="goToLogin" class="btn-login txt-white txt-normal-14 marginRight-Normal">马上登录</text>
-        </view>
-    </view>
-</view>
+    <van-tabbar-item info="3">
+        <image slot="icon" src="/images/icon/tab_message_normal.svg" mode="aspectFit"
+               style="width: 20px; height: 20px;"/>
+        <image slot="icon-active" src="/images/icon/tab_message_select.svg" mode="aspectFit"
+               style="width: 20px; height: 20px;"/>消息
+    </van-tabbar-item>
+
+    <van-tabbar-item>
+        <image slot="icon" src="/images/icon/tab_mine_normal.svg" mode="aspectFit" style="width: 20px; height: 20px;"/>
+        <image slot="icon-active" src="/images/icon/tab_mine_select.svg" mode="aspectFit"
+               style="width: 20px; height: 20px;"/>我的
+    </van-tabbar-item>
+    
+</van-tabbar>

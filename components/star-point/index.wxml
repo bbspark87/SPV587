@@ -1,4 +1,0 @@
-<view class="container">
-    <van-rate readonly color="#f8d44e" value="{{stars}}"/>
-    <text class="txt-point">{{point}}</text>
-</view>

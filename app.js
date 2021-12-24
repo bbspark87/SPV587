@@ -1,59 +1,10 @@
-var mqtt = require("/utils/mqtt.js");
-
-// 连接选项
-const options = {
-    connectTimeout: 4000, // 超时时间
-    port: 443,
-    clientId: 'client_01',
-    username: 'client_01',
-    password: 'client_passwd',
-}
 
 App({
     globalData: {},
     onLaunch() {
-        // 展示本地存储能力
-        const logs = wx.getStorageSync('logs') || []
-        logs.unshift(Date.now())
-        wx.setStorageSync('logs', logs)
+        this.globalData.TC_Theme="#6469DB"
+        this.globalData.TC_Blue="#424477"
 
-        let menuButtonObject = wx.getMenuButtonBoundingClientRect();
-        wx.getSystemInfo({
-            success: res => {
-                let statusBarHeight = res.statusBarHeight,
-                    navHeight = statusBarHeight + menuButtonObject.height + (menuButtonObject.top - statusBarHeight) * 2; //导航高度
-                this.globalData.statusBarHeight = res.statusBarHeight;
-                this.globalData.windowHeight = res.windowHeight;
-                this.globalData.navHeight = navHeight;
-                this.globalData.navTop = menuButtonObject.top;
-                this.globalData.capsHeight = menuButtonObject.height;
-            },
-            fail(err) {
-                console.log(err);
-            }
-        })
-        connectMqtt()
-
-    },
-
-    connectMqtt(){
-
-        // var client = mqtt.connect('wx://192.144.225.205:3881', options) //你自己的域名
-        var client = mqtt.connect('wx://mqtt-cn-2r42eyy6d0i.mqtt.aliyuncs.com', options) //你自己的域名
-
-        let that = this
-        client.on('connect', (e) => {
-            console.log('成功连接服务器!')
-        })
-        client.subscribe('test-topic666', {
-            qos: 0
-        }, function (err) {
-            if (!err) {
-                console.log("订阅成功:esp8266")
-            }
-        })
-        client.on('message', function (topic, message, packet) {
-            that.globalData.mqttData = packet.payload.toString()
-        })
+        this.globalData.TXT_Gray_50="#808080"
     },
 })

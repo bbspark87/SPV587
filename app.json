@@ -1,53 +1,24 @@
 {
   "pages": [
-    "pages/main/main",
-    "pages/battles/battles",
-    "pages/city-list/city-list",
-    "pages/commit-order/commit-order",
-    "pages/login/login",
-    "pages/mine/mine",
-    "pages/neer-shop/neer-shop",
-    "pages/pay-shop-cart/pay-shop-cart",
-    "pages/rank-list/rank-list",
-    "pages/shop-center/shop-center",
-    "pages/shop-detail/shop-detail",
-    "pages/shop-scan/shop-scan",
-    "pages/welcome/welcome"
+    "pages/main/main"
   ],
   "subpackages": [
     {
-      "root": "package-game-center",
+      "root": "package-social",
       "pages": [
-        "pages/current-battle/current-battle",
-        "pages/player-detail/player-detail"
+        "pages/test-social/test-social"
       ]
     },
     {
-      "root": "package-shop-center",
+      "root": "package-message",
       "pages": [
-        "pages/goods-detail/goods-detail",
-        "pages/select-coupon/select-coupon",
-        "pages/shop-cart/shop-cart",
-        "pages/shop-order-detail/shop-order-detail"
+        "pages/test-message/test-message"
       ]
     },
     {
-      "root": "package-user-center",
+      "root": "package-mine",
       "pages": [
-        "pages/bag/bag",
-        "pages/collect/collect",
-        "pages/coupon/coupon",
-        "pages/feedback/feedback",
-        "pages/help-center/help-center",
-        "pages/msg-center/msg-center",
-        "pages/msg-detail/msg-detail",
-        "pages/my-spread/my-spread",
-        "pages/rank-intro/rank-intro",
-        "pages/set-sign/set-sign",
-        "pages/setting/setting",
-        "pages/shop-record/shop-record",
-        "pages/user-info/user-info",
-        "pages/webview/webview"
+        "pages/test-mine/test-mine"
       ]
     }
   ],
@@ -60,77 +31,9 @@
     "enablePullDownRefresh": false
   },
   "usingComponents": {
-    "l-avatar": "/miniprogram_npm/lin-ui/avatar/index",
-    "l-list": "/miniprogram_npm/lin-ui/list/index",
-    "l-icon": "/miniprogram_npm/lin-ui/icon/index",
-    "van-cell": "@vant/weapp/cell/index",
-    "van-cell-group": "@vant/weapp/cell-group/index",
-    "van-button": "@vant/weapp/button/index",
-    "van-image": "@vant/weapp/image/index",
-    "van-dialog": "@vant/weapp/dialog/index",
-    "van-picker": "@vant/weapp/picker/index",
-    "van-popup": "@vant/weapp/popup/index",
-    "van-card": "@vant/weapp/card/index",
-    "van-rate": "@vant/weapp/rate/index",
-    "van-tag": "@vant/weapp/tag/index",
-    "van-search": "@vant/weapp/search/index",
-    "van-icon": "@vant/weapp/icon/index",
-    "van-grid": "@vant/weapp/grid/index",
-    "van-grid-item": "@vant/weapp/grid-item/index",
-    "van-index-bar": "@vant/weapp/index-bar/index",
-    "van-index-anchor": "@vant/weapp/index-anchor/index",
-    "van-toast": "@vant/weapp/toast/index",
-    "van-checkbox": "@vant/weapp/checkbox/index",
-    "van-checkbox-group": "@vant/weapp/checkbox-group/index",
-    "van-divider": "@vant/weapp/divider/index",
-    "van-tab": "@vant/weapp/tab/index",
-    "van-tabs": "@vant/weapp/tabs/index",
-    "van-sticky": "@vant/weapp/sticky/index",
-    "van-dropdown-menu": "@vant/weapp/dropdown-menu/index",
-    "van-dropdown-item": "@vant/weapp/dropdown-item/index",
-    "van-collapse": "@vant/weapp/collapse/index",
-    "van-collapse-item": "@vant/weapp/collapse-item/index",
-    "van-count-down": "@vant/weapp/count-down/index",
-    "s-button": "components/main-button/index",
-    "s-star-point": "components/star-point/index",
-    "s-menu": "components/cell-menu/index",
-    "s-navigator": "components/navigator/index",
-    "s-coupon": "components/coupon/index",
-    "s-players": "components/players/index",
-    "van-action-sheet": "@vant/weapp/action-sheet/index",
-    "van-stepper": "@vant/weapp/stepper/index",
-    "van-uploader": "@vant/weapp/uploader/index"
+    "van-tabbar": "@vant/weapp/tabbar/index",
+    "van-tabbar-item": "@vant/weapp/tabbar-item/index"
   },
-  "tabBar": {
-    "list": [
-      {
-        "text": "首页",
-        "pagePath": "pages/main/main",
-        "iconPath": "/images/icon/ic_main_normal.png",
-        "selectedIconPath": "/images/icon/ic_main_select.png"
-      },
-      {
-        "text": "商城",
-        "pagePath": "pages/shop-center/shop-center",
-        "iconPath": "/images/icon/ic_shop_normal.png",
-        "selectedIconPath": "/images/icon/ic_shop_select.png"
-      },
-      {
-        "text": "对局",
-        "pagePath": "pages/battles/battles",
-        "iconPath": "/images/icon/ic_battle_normal.png",
-        "selectedIconPath": "/images/icon/ic_battle_select.png"
-      },
-      {
-        "text": "我的",
-        "pagePath": "pages/mine/mine",
-        "iconPath": "/images/icon/ic_mine_normal.png",
-        "selectedIconPath": "/images/icon/ic_mine_select.png"
-      }
-    ],
-    "color": "#bfbfbf",
-    "selectedColor": "#6469DB",
-    "backgroundColor": "#ffffff"
-  },
+
   "sitemapLocation": "sitemap.json"
 }
