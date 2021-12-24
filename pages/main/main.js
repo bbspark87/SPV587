@@ -5,21 +5,11 @@ Page({
     /**
      * 页面的初始数据
      */
-    data: {
-        active: 0,
-    },
-    onChange(event) {
-        this.setData({active: event.detail});
-    },
 
     /**
      * 生命周期函数--监听页面加载
      */
     onLoad: function (options) {
-        this.setData({
-            TCBlue: app.TC_Blue,
-            TXT_Gray_50: app.TXT_Gray_50
-        })
 
     },
 

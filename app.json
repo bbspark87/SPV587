@@ -1,6 +1,9 @@
 {
   "pages": [
-    "pages/main/main"
+    "pages/main/main",
+    "pages/message/message",
+    "pages/mine/mine",
+    "pages/social/social"
   ],
   "subpackages": [
     {
@@ -34,6 +37,36 @@
     "van-tabbar": "@vant/weapp/tabbar/index",
     "van-tabbar-item": "@vant/weapp/tabbar-item/index"
   },
-
+  "tabBar": {
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/main/main",
+        "iconPath": "/images/icon/tab_main_normal.png",
+        "selectedIconPath": "/images/icon/tab_main_select.png"
+      },
+      {
+        "text": "圈子",
+        "pagePath": "pages/social/social",
+        "iconPath": "/images/icon/tab_circle_normal.png",
+        "selectedIconPath": "/images/icon/tab_circle_select.png"
+      },
+      {
+        "text": "消息",
+        "pagePath": "pages/message/message",
+        "iconPath": "/images/icon/tab_message_normal.png",
+        "selectedIconPath": "/images/icon/tab_message_select.png"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/mine/mine",
+        "iconPath": "/images/icon/tab_mine_normal.png",
+        "selectedIconPath": "/images/icon/tab_mine_select.png"
+      }
+    ],
+    "color": "#808080",
+    "selectedColor": "#424477",
+    "backgroundColor": "#ffffff"
+  },
   "sitemapLocation": "sitemap.json"
 }
