@@ -1,0 +1,11 @@
+<scroll-view
+        scroll-y style="width: 100%; height: 600px;"
+        refresher-enabled="{{true}}"
+        refresher-threshold="{{60}}"
+        refresher-default-style="none"
+        bindrefresherpulling="{{refresh.onPulling}}">
+    <view slot="refresher" class="refresh-container">
+        <view class="view1">正在刷新，请稍后</view>
+    </view>
+
+</scroll-view>

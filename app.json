@@ -27,46 +27,46 @@
   ],
   "entryPagePath": "pages/main/main",
   "window": {
-    "backgroundTextStyle": "dark",
+    "backgroundTextStyle": "light",
     "backgroundColor": "#ffffff",
     "navigationBarBackgroundColor": "#ffffff",
-    "navigationBarTextStyle": "black",
-    "enablePullDownRefresh": false
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": false,
+    "navigationStyle": "custom"
   },
   "usingComponents": {
+    "navbar": "/components/navbar/index",
     "van-tabbar": "@vant/weapp/tabbar/index",
-    "van-tabbar-item": "@vant/weapp/tabbar-item/index"
+    "van-tabbar-item": "@vant/weapp/tabbar-item/index",
+    "van-row": "@vant/weapp/row/index",
+    "van-col": "@vant/weapp/col/index",
+    "van-divider": "@vant/weapp/divider/index",
+    "van-search": "@vant/weapp/search/index",
+    "van-grid": "@vant/weapp/grid/index",
+    "van-grid-item": "@vant/weapp/grid-item/index",
+    "refresh": "/components/refresh/index",
+    "moment": "/components/moment/index"
   },
   "tabBar": {
+    "custom": true,
     "list": [
       {
         "text": "首页",
-        "pagePath": "pages/main/main",
-        "iconPath": "/images/icon/tab_main_normal.png",
-        "selectedIconPath": "/images/icon/tab_main_select.png"
+        "pagePath": "pages/main/main"
       },
       {
         "text": "圈子",
-        "pagePath": "pages/social/social",
-        "iconPath": "/images/icon/tab_circle_normal.png",
-        "selectedIconPath": "/images/icon/tab_circle_select.png"
+        "pagePath": "pages/social/social"
       },
       {
         "text": "消息",
-        "pagePath": "pages/message/message",
-        "iconPath": "/images/icon/tab_message_normal.png",
-        "selectedIconPath": "/images/icon/tab_message_select.png"
+        "pagePath": "pages/message/message"
       },
       {
         "text": "我的",
-        "pagePath": "pages/mine/mine",
-        "iconPath": "/images/icon/tab_mine_normal.png",
-        "selectedIconPath": "/images/icon/tab_mine_select.png"
+        "pagePath": "pages/mine/mine"
       }
-    ],
-    "color": "#808080",
-    "selectedColor": "#424477",
-    "backgroundColor": "#ffffff"
+    ]
   },
   "sitemapLocation": "sitemap.json"
 }

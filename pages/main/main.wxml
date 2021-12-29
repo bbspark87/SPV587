@@ -1,1 +1,85 @@
-啊桑达分
+<view class="column-center-top">
+    <image class="background-blue" mode="widthFix" src="/images/drawable/bg_main.svg"></image>
+
+    <view class="navbar">
+        <view style='height:{{statusH}}px;'></view>
+        <view class="topbar" style='height:{{topHeight}}px;'>
+            <image class="icon-16 marginLeft-24" src="/images/icon/ic_scan.svg"></image>
+        </view>
+    </view>
+
+    <view class="full-width row-center" style='margin-top:{{navH}}px;'>
+        <view class="view-search">
+            <image class="icon-24 marginLeft-8" src="/images/icon/ic_search.svg"></image>
+            <text class="txt-search-hint">狼人杀</text>
+        </view>
+    </view>
+    <view class="view-banner">
+        <swiper indicator-active-color="#333333" indicator-color="rgba(0, 0, 0, .3)" indicator-dots="true"
+                circular="true"
+                autoplay="true" interval="3000">
+            <swiper-item wx:for="{{3}}" wx:key="id">
+                <image mode="widthFix" src="/images/background/img_shops.png"></image>
+            </swiper-item>
+        </swiper>
+    </view>
+
+    <view class="full-view-card">
+
+        <view class="full-width row-center">
+            <view class="card-notice">
+                <image class="icon-24 marginLeft-16" src="/images/icon/ic_notice.svg"></image>
+                <view class="txt-black txt-Tag fill-content marginLeft-8 marginRight-8 van-ellipsis">
+                    这是一段宽度限制 250px 的文字，后面的内容会省略。
+                </view>
+                <image class="icon-16 marginRight-16" src="/images/icon/ic_close.svg"></image>
+            </view>
+        </view>
+
+        <view class="full-width row-center">
+            <view class="card-login">
+                <image class="icon-48 marginLeft-12" src="/images/icon/gif_battle.gif"></image>
+<!--                <image class="icon-48 marginLeft-12" src="/images/icon/img_default_avatar.svg"></image>-->
+                <view class="txt-deep-blue txt-normal fill-content marginLeft-12 marginRight-12">对局进行中</view>
+                <view class="txt-deep-blue txt-Tag marginLeft-12 marginRight-4">去看看</view>
+                <image class="icon-24 marginRight-12" src="/images/system_icon/ic_more.svg"></image>
+            </view>
+        </view>
+
+        <view class="full-width row-center">
+            <view class="view-menus">
+                <van-row gutter="16">
+                    <van-col span="6">
+                        <view class="btn-common btn-shop">
+                            <image class="icon-32 marginTop-8" src="/images/icon/img_menu_shop.svg"></image>
+                            <text class="txt-14 txt-deep-blue marginTop-4 marginBottom-8">商城</text>
+                        </view>
+                    </van-col>
+                    <van-col span="6">
+                        <view class="btn-common btn-rank">
+                            <image class="icon-32 marginTop-8" src="/images/icon/img_menu_rank.svg"></image>
+                            <text class="txt-14 txt-deep-blue marginTop-4 marginBottom-8">排行</text>
+                        </view>
+                    </van-col>
+                    <van-col span="6">
+                        <view class="btn-common btn-near">
+                            <image class="icon-32 marginTop-8" src="/images/icon/img_menu_near.svg"></image>
+                            <text class="txt-14 txt-deep-blue marginTop-4 marginBottom-8">附近</text>
+                        </view>
+                    </van-col>
+                    <van-col span="6">
+                        <view class="btn-common btn-gonglve">
+                            <image class="icon-32 marginTop-8" src="/images/icon/img_menu_gonglve.svg"></image>
+                            <text class="txt-14 txt-deep-blue marginTop-4 marginBottom-8">攻略</text>
+                        </view>
+                    </van-col>
+                </van-row>
+            </view>
+        </view>
+
+        <view class="full-width row-center">
+                <image class="card-tuiguang" mode="aspectFill" src="/images/background/img_shops.png"></image>
+        </view>
+
+    </view>
+</view>

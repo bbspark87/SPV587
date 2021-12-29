@@ -1,0 +1,27 @@
+<van-tabbar active="{{ active }}" active-color="#424477" inactive-color="#808080" bind:change="onChange">
+
+    <van-tabbar-item>
+        <image slot="icon" src="/images/system_icon/tab_main_normal.svg" mode="aspectFit" style="width: 24px; height: 18px;"/>
+        <image slot="icon-active" src="/images/system_icon/tab_main_select.svg" mode="aspectFit"
+               style="width: 24px; height: 18px;"/>首页
+    </van-tabbar-item>
+
+    <van-tabbar-item>
+        <image slot="icon" src="/images/system_icon/tab_circle_normal.svg" mode="aspectFit" style="width: 24px; height: 18px;"/>
+        <image slot="icon-active" src="/images/system_icon/tab_circle_select.svg" mode="aspectFit"
+               style="width: 24px; height: 18px;"/>圈子
+    </van-tabbar-item>
+
+    <van-tabbar-item info="3">
+        <image slot="icon" src="/images/system_icon/tab_message_normal.svg" mode="aspectFit" style="width: 24px; height: 18px;"/>
+        <image slot="icon-active" src="/images/system_icon/tab_message_select.svg" mode="aspectFit"
+               style="width: 24px; height: 18px;"/>消息
+    </van-tabbar-item>
+
+    <van-tabbar-item dot>
+        <image slot="icon" src="/images/system_icon/tab_mine_normal.svg" mode="aspectFit" style="width: 24px; height: 18px;"/>
+        <image slot="icon-active" src="/images/system_icon/tab_mine_select.svg" mode="aspectFit"
+               style="width: 24px; height: 18px;"/>我的
+    </van-tabbar-item>
+
+</van-tabbar>

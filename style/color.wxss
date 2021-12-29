@@ -4,37 +4,21 @@
 }
 
 .txt-black {
-    color: #3e3e3e;
+    color: rgba(0, 0, 0, 0.9);
 }
 
-.txt-gray {
-    color: #6F6F6F;
+.txt-black-50 {
+    color: rgba(0, 0, 0, 0.5);
 }
 
-.txt-light-gray {
-    color: #B0B0B0;
+.txt-black-30 {
+    color: rgba(0, 0, 0, 0.3);
 }
 
-.txt-green {
-    color: #14912e;
+.txt-deep-blue {
+    color: var(--TC_Blue);
 }
 
 .txt-main {
-    color: #6469DB;
-}
-
-.txt-red {
-    color: #FF290C;
-}
-
-.txt-price {
-    color: #ff7316;
-}
-
-.txt-origin-price {
-    text-decoration: line-through;
-}
-
-.back-white {
-    background: white;
+    color: var(--TC_Theme);
 }

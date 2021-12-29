@@ -1,0 +1,24 @@
+<view class="view-container">
+
+    <view class="view-img-content">
+        <image class="img-avatar" src="/images/drawable/test_avatar.png"></image>
+        <view class="view-content">
+            <text class="txt-title">阳光彩虹小白马</text>
+            <text class="txt-content">等自己为人父为人母了，才理解他们当初！</text>
+
+<!--            <image class="img-one-pic" src="/images/drawable/test_avatar.png"></image>-->
+            <view class="view-nine-pic">
+                <van-row gutter="8">
+                    <van-col wx:for="{{9}}" span="8">
+                        <view>
+                            <image class="img-nine-pic" src="/images/drawable/test_avatar.png"></image>
+                        </view>
+                    </van-col>
+                </van-row>
+            </view>
+            <text class="txt-time">1分钟前 浏览213次 北京</text>
+        </view>
+    </view>
+
+    <view class="half-divider"></view>
+</view>

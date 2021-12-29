@@ -1,16 +1,24 @@
 const app = getApp().globalData
-
 Page({
 
     /**
      * 页面的初始数据
      */
+    data: {
+    },
 
     /**
      * 生命周期函数--监听页面加载
      */
     onLoad: function (options) {
-
+        this.getTabBar().setData({
+            active : 0
+        })
+        this.setData({
+            navH: app.navHeight,
+            statusH: app.statusHeight,
+            topHeight: app.topHeight
+        })
     },
 
     /**
