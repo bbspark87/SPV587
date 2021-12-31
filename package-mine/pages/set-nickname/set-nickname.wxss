@@ -1,0 +1,13 @@
+
+input-area::-webkit-input-placeholder {
+    /* placeholder颜色  */
+    color: rgba(0, 0, 0, 0.9);
+
+    /* placeholder字体大小  */
+    font-size: 34rpx;
+    /* placeholder位置  */
+    text-align: left;
+}
+.input-area{
+    height: 64rpx;
+}

@@ -1,0 +1,67 @@
+<navbar title="商家详情" titleColor="#000000" divideBar></navbar>
+
+<view class="full-width column-center-top marginTop-16 normal-cell">
+
+    <view class="full-width row-center">
+        <view class="txt-black txt-normal fill-content marginLeft-24 marginRight-8 van-ellipsis">Off The Severn（湖西路店）
+        </view>
+        <image class="icon-24 marginRight-24 marginTop-16 marginBottom-16"
+               src="/images/system_icon/ic_more_black.svg"></image>
+    </view>
+
+    <view class="border-width row-left-center">
+        <s-star-point stars="4" point="4.1"></s-star-point>
+        <view class="txt-Tag txt-black-50 marginLeft-8">人均 ¥ 50</view>
+    </view>
+
+    <view class="view-banner">
+        <swiper indicator-active-color="#333333" indicator-color="rgba(0, 0, 0, .3)" indicator-dots="true"
+                circular="true" autoplay="true" interval="3000">
+            <swiper-item wx:for="{{3}}" wx:key="id">
+                <image mode="widthFix" class="img-banner" src="/images/background/img_shops.png"></image>
+            </swiper-item>
+        </swiper>
+    </view>
+
+    <view class="border-width row-left-center">
+        <view class="txt-normal txt-black marginTop-16">设备信息</view>
+    </view>
+
+    <view class="border-width marginTop-16 marginBottom-16">
+        <van-row>
+            <van-col span="12">
+                <view class="column-center-top">
+
+                    <multi-player></multi-player>
+                    <view class="txt-normal txt-black marginTop-8">13人加入</view>
+                </view>
+            </van-col>
+
+            <van-col span="12">
+                <view class="column-center-top">
+                    <image class="img-client" src="/images/drawable/img_client.svg"></image>
+                    <view class="txt-client">20</view>
+                    <view class="txt-normal txt-black marginTop-8">当前设备</view>
+                </view>
+            </van-col>
+        </van-row>
+    </view>
+
+    <view class="border-width row-left-center">
+        <view class="txt-normal txt-black marginTop-16 marginBottom-16">使用须知</view>
+    </view>
+    <view class="border-width row-left-center">
+        <view class="txt-14 txt-black-50 marginBottom-16">· 支付完成后立即开局，24小时内有效；
+            · 加入对局前，请仔细核对识别终端编号，如识别有误，
+            可进行重新扫码操作。
+        </view>
+    </view>
+
+</view>
+
+<view class="marginTop-32">
+    <TC-Button title="加入对局" bind:tap="JoinGame"></TC-Button>
+    <view class="view-trans txt-black-50 txt-14" bind:tap="RescanCode">识别有误，重新扫码</view>
+</view>
+
+<view class="slidebar"></view>

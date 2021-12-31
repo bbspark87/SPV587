@@ -1,0 +1,27 @@
+<view class="container">
+
+<!--    <van-row>-->
+<!--        <van-col wx:for="{{4}}" wx:key="index" span="12">-->
+<!--            <view class="container-grid">-->
+<!--                <image class="img-4-pic" src="/images/background/img_shops.png"></image>-->
+<!--            </view>-->
+<!--        </van-col>-->
+<!--    </van-row>-->
+
+
+    <van-row>
+        <van-col wx:for="{{9}}" wx:key="index" span="8">
+            <view class="container-grid">
+                <image class="img-9-pic" src="/images/drawable/test_avatar.png"></image>
+            </view>
+        </van-col>
+    </van-row>
+
+<!--        <van-row>-->
+<!--            <van-col wx:for="{{16}}" wx:key="index" span="6">-->
+<!--                <view class="container-grid">-->
+<!--                    <image class="img-16-pic" mode="aspectFill" src="/images/drawable/test_avatar.png"></image>-->
+<!--                </view>-->
+<!--            </van-col>-->
+<!--        </van-row>-->
+</view>

@@ -3,7 +3,11 @@
     "pages/main/main",
     "pages/message/message",
     "pages/mine/mine",
-    "pages/social/social"
+    "pages/social/social",
+    "pages/shop-scan/shop-scan",
+    "pages/login/login",
+    "pages/commit-order/commit-order",
+    "pages/main-search/main-search"
   ],
   "subpackages": [
     {
@@ -21,7 +25,9 @@
     {
       "root": "package-mine",
       "pages": [
-        "pages/test-mine/test-mine"
+        "pages/user-info/user-info",
+        "pages/set-nickname/set-nickname",
+        "pages/set-sign/set-sign"
       ]
     }
   ],
@@ -36,6 +42,7 @@
   },
   "usingComponents": {
     "navbar": "/components/navbar/index",
+    "nav-search": "/components/nav-search/index",
     "van-tabbar": "@vant/weapp/tabbar/index",
     "van-tabbar-item": "@vant/weapp/tabbar-item/index",
     "van-row": "@vant/weapp/row/index",
@@ -45,7 +52,17 @@
     "van-grid": "@vant/weapp/grid/index",
     "van-grid-item": "@vant/weapp/grid-item/index",
     "refresh": "/components/refresh/index",
-    "moment": "/components/moment/index"
+    "moment": "/components/moment/index",
+    "van-field": "@vant/weapp/field/index",
+    "TC-Button": "/components/TC-Button/index",
+    "van-rate": "@vant/weapp/rate/index",
+    "s-star-point": "/components/star-point/index",
+    "multi-player": "/components/multi-player/index",
+    "van-toast": "@vant/weapp/toast/index",
+    "van-checkbox": "@vant/weapp/checkbox/index",
+    "van-checkbox-group": "@vant/weapp/checkbox-group/index",
+    "van-dialog": "@vant/weapp/dialog/index",
+    "van-count-down": "@vant/weapp/count-down/index"
   },
   "tabBar": {
     "custom": true,

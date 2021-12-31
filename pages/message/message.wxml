@@ -1,1 +1,31 @@
-<navbar page-name="你当前页面的名字"></navbar>消息
+<navbar title="消息" src="" backColor="{{TC_Blue}}" titleColor="#ffffff"></navbar>
+
+<view class="full-width row-center">
+    <image class="icon-48 margin-16 img-shadow" src="/images/icon/ic_message.svg"></image>
+    <view class="column-center fill-content">
+        <view class="row-center full-width">
+            <view class="column-left-center marginTop-16  fill-content">
+                <text class="txt-normal txt-black">系统通知</text>
+                <text class="txt-14 txt-black-50 marginTop-8">您有2条通知未读</text>
+            </view>
+            <text class="txt-14 txt-black-50 marginRight-16">16:00</text>
+        </view>
+        <view class="full-width full-divider marginTop-16"></view>
+    </view>
+</view>
+
+<view class="full-width row-center">
+    <image class="icon-48 margin-16 img-shadow" src="/images/icon/ic_helper.svg"></image>
+    <view class="column-center fill-content">
+        <view class="row-center full-width">
+            <view class="column-left-center marginTop-16  fill-content">
+                <text class="txt-normal txt-black">狼窝小秘书</text>
+                <text class="txt-14 txt-black-50 marginTop-8">别总自称单身狗了，按年龄是...</text>
+            </view>
+            <text class="txt-14 txt-black-50 marginRight-16">16:00</text>
+        </view>
+        <view class="full-width full-divider marginTop-16"></view>
+    </view>
+</view>
+
+<view class="tabbar"></view>

@@ -1,0 +1,8 @@
+<view class="container">
+
+    <view class="container-txt-icon">
+        <image class="icon-24 marginRight-8" hidden="{{!icon}}" src="{{icon}}"></image>
+        <text class="txt-button">{{title}}</text>
+    </view>
+
+</view>

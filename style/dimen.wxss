@@ -19,7 +19,34 @@
     height: 96rpx;
 }
 
+.icon-64 {
+    width: 128rpx;
+    height: 128rpx;
+}
+
+.icon-80 {
+    width: 160rpx;
+    height: 160rpx;
+}
+.icon-rank{
+    width: 128rpx;
+    height: 50rpx;
+}
+
+/* 不同尺寸文字行高*/
+.txt-price-height {
+    line-height: 96rpx;
+}
+
 /* 不同尺寸文字*/
+.txt-price-big {
+    font-size: 96rpx;
+}
+
+.txt-big {
+    font-size: 44rpx;
+}
+
 .txt-normal {
     font-size: 34rpx;
 }
@@ -37,6 +64,23 @@
 }
 
 /* 不同尺寸边距*/
+
+.marginLeft-32 {
+    margin-left: 64rpx;
+}
+
+.marginRight-32 {
+    margin-right: 64rpx;
+}
+
+.marginTop-32 {
+    margin-top: 64rpx;
+}
+
+.marginBottom-32 {
+    margin-bottom: 64rpx;
+}
+
 .margin-24 {
     margin: 48rpx;
 }

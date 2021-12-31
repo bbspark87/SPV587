@@ -1,0 +1,24 @@
+<view>
+    <view class="navbar" style='height:{{navH}}px;'></view>
+
+    <view class="lock-bar" style='height:{{navH}}px;background:{{backColor}}'>
+        <view style='height:{{statusH}}px;'></view>
+
+        <view class="topbar" style='height:{{topHeight}}px;'>
+
+            <view>
+                <image bind:tap="navBack" class="icon-24 marginLeft-16"
+                       src="/images/system_icon/ic_back.svg"></image>
+            </view>
+
+            <view style='height:{{capsHeight}}px' class="full-view fill-content row-left-center view-search ">
+                <image class="icon-24 marginLeft-8" src="/images/icon/ic_search.svg"></image>
+                <text class="txt-14 txt-black-50">狼人杀</text>
+            </view>
+
+            <view style='width:{{capsuleRight}}px'></view>
+        </view>
+
+        <view hidden="{{!divideBar}}" class="full-deep-divider"></view>
+    </view>
+</view>

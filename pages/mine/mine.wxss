@@ -1,1 +1,10 @@
-/* pages/mine/mine.wxss */
+page {
+    height: 100%;
+}
+
+.background-blue {
+    width: 100%;
+    height: 312rpx;
+    position: absolute;
+    z-index: -10;
+}

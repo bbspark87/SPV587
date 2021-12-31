@@ -1,11 +1,14 @@
-// package-mine/pages/test-mine/test-mine.js
 Page({
 
   /**
    * 页面的初始数据
    */
-  data: {
+  data: {},
 
+  SaveData() {
+    wx.navigateBack({
+      delta: 1
+    })
   },
 
   /**

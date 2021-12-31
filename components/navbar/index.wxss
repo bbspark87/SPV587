@@ -14,7 +14,7 @@
     left: 0;
     z-index: 10;
     flex-shrink: 0;
-    background: aqua;
+    background: white;
     display: flex;
     flex-direction: column;
 }
@@ -29,8 +29,7 @@
 
 .title{
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 34rpx;
     text-align: center;
-    color: rgba(0, 0, 0, 0.9);
 }

@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.txt-point {
+    font-size: 24rpx;
+    color: #FA5151;
+    margin-left: 8rpx;
+}

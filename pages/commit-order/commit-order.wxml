@@ -1,0 +1,40 @@
+<navbar customMethod bind:commit="customEvent" title="提交订单" titleColor="#000000" divideBar></navbar>
+<van-dialog id="van-dialog" confirm-button-color="#6469DB"/>
+
+<view class="full-width">
+    <view class="blank-view"></view>
+    <view class="blank-view"></view>
+    <view class="row-center">
+        <text class="txt-black-50 txt-Tag marginRight-4">支付剩余时间</text>
+        <van-count-down format="mm:ss" class="txt-gray" time="{{ time }}"/>
+    </view>
+
+    <view class="row-center-down marginTop-16">
+        <text class="txt-black txt-big txt-bold txt-price-height">¥</text>
+        <text class="txt-black txt-price-big txt-bold marginLeft-4">29.00</text>
+    </view>
+
+    <view class="full-width column-center">
+        <view class="blank-view-small"></view>
+        <text class="txt-black-50 txt-14 marginTop-4">XXXX桌游吧俱乐部</text>
+    </view>
+
+    <view class="full-width column-center">
+        <view class="normal-card row-center marginTop-32">
+            <text class="txt-black txt-normal marginLeft-16">支付方式</text>
+            <view class="fill-content"></view>
+            <image class="icon-24" src="/images/icon/ic_wx_pay.svg"></image>
+            <text class="txt-black-50 txt-15 marginLeft-4 marginRight-4">微信支付</text>
+            <image class="icon-24 marginRight-12 marginTop-16 marginBottom-16"
+                   src="/images/system_icon/ic_more_black.svg"></image>
+        </view>
+    </view>
+
+    <view class="blank-view"></view>
+    <view class="blank-view"></view>
+    <view class="blank-view"></view>
+    <view class="blank-view"></view>
+    <TC-Button class="lock-bottom" title="确认支付"></TC-Button>
+</view>
+
+<view class="slidebar"></view>

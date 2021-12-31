@@ -4,7 +4,7 @@
         <image class="img-avatar" src="/images/drawable/test_avatar.png"></image>
         <view class="view-content">
             <text class="txt-title">阳光彩虹小白马</text>
-            <text class="txt-content">等自己为人父为人母了，才理解他们当初！</text>
+            <text class="txt-14 txt-black-50 marginTop-4">等自己为人父为人母了，才理解他们当初！</text>
 
 <!--            <image class="img-one-pic" src="/images/drawable/test_avatar.png"></image>-->
             <view class="view-nine-pic">
@@ -16,9 +16,9 @@
                     </van-col>
                 </van-row>
             </view>
-            <text class="txt-time">1分钟前 浏览213次 北京</text>
+            <text class="txt-Tag txt-black-30 marginTop-8">1分钟前 浏览213次 北京</text>
         </view>
     </view>
 
-    <view class="half-divider"></view>
+    <view class="divider"></view>
 </view>

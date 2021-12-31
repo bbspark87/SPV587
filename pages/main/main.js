@@ -4,7 +4,27 @@ Page({
     /**
      * 页面的初始数据
      */
-    data: {
+    data: {},
+
+    ScanCode() {
+        wx.navigateTo({
+            url: "/pages/shop-scan/shop-scan",
+        })
+        // wx.scanCode({
+        //     onlyFromCamera: true,
+        //     scanType: ['qrCode'],
+        //     success() {
+        //         wx.navigateTo({
+        //             url: "/pages/shop-scan/shop-scan",
+        //         })
+        //     }
+        // })
+    },
+
+    Search() {
+        wx.navigateTo({
+            url: "/pages/main-search/main-search",
+        })
     },
 
     /**
@@ -12,12 +32,13 @@ Page({
      */
     onLoad: function (options) {
         this.getTabBar().setData({
-            active : 0
+            active: 0
         })
         this.setData({
             navH: app.navHeight,
             statusH: app.statusHeight,
-            topHeight: app.topHeight
+            topHeight: app.topHeight,
+            TC_Blue: app.TC_Blue
         })
     },
 

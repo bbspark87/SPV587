@@ -1,0 +1,25 @@
+<navbar title="" titleColor="#000000" divideBar></navbar>
+
+<view class="full-width row-center">
+    <image class="full-view" mode="widthFix" src="/images/background/bg_login.png"></image>
+
+    <view class="lock-bottom border-width card-radius-16 card-stroke normal-shadow">
+        <view class="full-width row-left-center marginTop-16">
+            <van-checkbox class="marginTop-16 marginBottom-16 marginLeft-24" checked-color="#6469DB"
+                          icon-size="18px" value="{{ checked }}"
+                          bind:change="onChange"></van-checkbox>
+            <text class="txt-Tag txt-black-50">我已阅读并同意</text>
+            <text bind:tap="GoWebview" class="txt-Tag txt-black">《用户协议》</text>
+            <text class="txt-Tag txt-black-50">和</text>
+            <text bind:tap="GoWebview" class="txt-Tag txt-black">《隐私政策》</text>
+        </view>
+
+        <TC-Button bind:tap="CommitOrder" title="微信用户一键登录" icon="/images/icon/ic_wx.svg"></TC-Button>
+        <!--                <button class="container-login" plain="true" open-type="getUserInfo"-->
+        <!--                        bind:getuserinfo="getUserInfo"></button>-->
+        <view class="blank-view"></view>
+    </view>
+
+    <van-toast id="van-toast"/>
+</view>
+<view class="slidebar"></view>

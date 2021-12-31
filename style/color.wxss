@@ -22,3 +22,11 @@
 .txt-main {
     color: var(--TC_Theme);
 }
+
+.bg-white {
+    background: white;
+}
+
+.bg-trans {
+    background: red;
+}

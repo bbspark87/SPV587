@@ -5,18 +5,19 @@
         <view style='height:{{statusH}}px;'></view>
         <view class="topbar" style='height:{{topHeight}}px;'>
 
-            <view >
-                <image class="icon-16 marginLeft-16" hidden="{{!src}}" src="{{src}}"></image>
+            <view>
+                <image bind:tap="customEvent" class="icon-24 marginLeft-16"
+                       hidden="{{!src}}"
+                       src="{{src}}"></image>
             </view>
 
             <text style='color:{{titleColor}}' class="title">{{title}}</text>
 
-            <view >
-                <image class="icon-16 marginRight-16" hidden="{{!src}}"></image>
+            <view>
+                <image class="icon-24 marginRight-16" hidden="{{!src}}"></image>
             </view>
         </view>
 
-<!--        <view class="full-divider"></view>-->
+        <view hidden="{{!divideBar}}" class="full-deep-divider"></view>
     </view>
-
 </view>

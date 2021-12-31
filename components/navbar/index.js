@@ -8,17 +8,18 @@ Component({
      * 组件的属性列表
      */
     properties: {
-        showNav: {
-            type: Boolean,
-            value: true
-        },
-        showHome: {
-            type: Boolean,
-            value: true
-        },
+
         title: String,
         backColor: String,
         titleColor: String,
+        divideBar: {
+            type: Boolean,
+            value: false
+        },
+        customMethod: {
+            type: Boolean,
+            value: false
+        },
         src: {
             type: String,
             value: "/images/system_icon/ic_back.svg",
@@ -28,7 +29,9 @@ Component({
     /**
      * 组件的初始数据
      */
-    data: {},
+    data: {
+    },
+
     lifetimes: {
         attached: function () {
             this.setData({
@@ -42,17 +45,16 @@ Component({
      * 组件的方法列表
      */
     methods: {
-        //回退
-        navBack: function () {
-            wx.navigateBack({
-                delta: 1
-            })
-        },
-        //回主页
-        toIndex: function () {
-            wx.navigateTo({
-                url: '/pages/admin/home/index/index'
-            })
+        customEvent: function (e) {
+            if(this.properties.customMethod){
+                console.log("自定义事件")
+                this.triggerEvent("commit")
+            }else {
+                console.log("默认返回")
+                wx.navigateBack({
+                    delta: 1
+                })
+            }
         },
     }
 })

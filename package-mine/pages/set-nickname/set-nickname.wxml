@@ -1,0 +1,22 @@
+<navbar title="设置昵称" titleColor="#000000" divideBar></navbar>
+
+<view class="full-width column-center-top marginTop-16">
+
+    <view class="border-width column-left-top marginTop-16">
+        <textarea class="full-width input-area txt-normal txt-black"
+                  maxlength="24"
+                  placeholder-style='color:rgba(0,0,0,0.5)'
+                  placeholder="请输入"></textarea>
+    </view>
+
+    <view class="border-width">
+        <view class="full-deep-divider"></view>
+    </view>
+
+    <view class="border-width txt-14 txt-black-30 marginTop-16 marginBottom-16">好昵称可以让更多玩家记住你</view>
+
+</view>
+
+<view class="full-width height-68"></view>
+
+<TC-Button title="保存" bind:tap="SaveData"></TC-Button>

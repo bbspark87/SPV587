@@ -1,0 +1,4 @@
+<view class="container">
+    <van-rate gutter="0" size="{{ 16 }}" readonly color="#FA5151" value="{{stars}}"/>
+    <text class="txt-point">{{point}}</text>
+</view>

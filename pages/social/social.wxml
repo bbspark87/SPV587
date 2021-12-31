@@ -3,3 +3,4 @@
 <block wx:for="{{10}}" wx:key="index">
     <moment></moment>
 </block>
+<view class="tabbar"></view>

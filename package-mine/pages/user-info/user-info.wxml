@@ -1,0 +1,85 @@
+<navbar title="个人信息" titleColor="#000000" divideBar></navbar>
+
+<view class="full-width column-center-top normal-cell">
+
+    <view class="full-width column-center">
+        <view class="row-center full-width">
+            <text class="txt-normal txt-black fill-content marginLeft-24">头像</text>
+            <image class="icon-64 marginTop-16 marginBottom-16 normal-shadow avatar-radius"
+                   src="/images/drawable/test_avatar.png"></image>
+            <image class="icon-24 marginRight-24 marginLeft-8"
+                   src="/images/system_icon/ic_more_black.svg"></image>
+        </view>
+
+        <view class="full-width">
+            <view class="full-divider marginLeft-24 marginRight-24"></view>
+        </view>
+
+        <view class="row-center full-width" bind:tap="navigateTo"
+              data-page="/package-mine/pages/set-nickname/set-nickname">
+            <text class="txt-normal txt-black fill-content marginLeft-24">昵称</text>
+            <text class="txt-15 txt-black-30">spark</text>
+            <image class="icon-24 marginRight-24 marginLeft-8 marginTop-16 marginBottom-16"
+                   src="/images/system_icon/ic_more_black.svg"></image>
+        </view>
+
+        <view class="full-width">
+            <view class="full-divider marginLeft-24 marginRight-24"></view>
+        </view>
+
+        <view class="row-center full-width">
+            <text class="txt-normal txt-black fill-content marginLeft-24">性别</text>
+            <text class="txt-15 txt-black-30">男</text>
+            <image class="icon-24 marginRight-24 marginLeft-8 marginTop-16 marginBottom-16"
+                   src="/images/system_icon/ic_more_black.svg"></image>
+        </view>
+
+        <view class="full-width">
+            <view class="full-divider marginLeft-24 marginRight-24"></view>
+        </view>
+
+        <view class="row-center full-width">
+            <text class="txt-normal txt-black fill-content marginLeft-24">年龄</text>
+            <text class="txt-15 txt-black-30">18</text>
+            <image class="icon-24 marginRight-24 marginLeft-8 marginTop-16 marginBottom-16"
+                   src="/images/system_icon/ic_more_black.svg"></image>
+        </view>
+
+        <view class="full-width">
+            <view class="full-divider marginLeft-24 marginRight-24"></view>
+        </view>
+
+        <view class="row-center full-width">
+            <text class="txt-normal txt-black fill-content marginLeft-24">段位</text>
+            <image class="icon-rank" src="/images/icon/ic_rank1.svg"></image>
+            <image class="icon-24 marginRight-24 marginLeft-8 marginTop-16 marginBottom-16"
+                   src="/images/system_icon/ic_more_black.svg"></image>
+        </view>
+
+        <view class="full-width">
+            <view class="full-divider marginLeft-24 marginRight-24"></view>
+        </view>
+
+        <view class="row-center full-width">
+            <text class="txt-normal txt-black fill-content marginLeft-24">地区</text>
+            <text class="txt-15 txt-black-30">吉林 长春</text>
+            <image class="icon-24 marginRight-24 marginLeft-8 marginTop-16 marginBottom-16"
+                   src="/images/system_icon/ic_more_black.svg"></image>
+        </view>
+
+        <view class="full-width">
+            <view class="full-divider marginLeft-24 marginRight-24"></view>
+        </view>
+
+        <view class="row-center full-width" bind:tap="navigateTo"
+              data-page="/package-mine/pages/set-sign/set-sign">
+            <text class="txt-normal txt-black marginLeft-24">签名</text>
+
+            <view class="txt-15 txt-black-30 fill-content marginLeft-16 van-ellipsis">
+                人类，活着着人类，活着着人类，活着着，活着着人类，活着着人类，活着着
+            </view>
+            <image class="icon-24 marginRight-24 marginLeft-8 marginTop-16 marginBottom-16"
+                   src="/images/system_icon/ic_more_black.svg"></image>
+        </view>
+    </view>
+</view>

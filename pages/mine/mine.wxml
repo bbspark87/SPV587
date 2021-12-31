@@ -1,1 +1,104 @@
-<navbar page-name="你当前页面的名字"></navbar>我的
+<navbar src="" backColor="{{TC_Blue}}" titleColor="#ffffff"></navbar>
+
+<view class="column-center-top">
+
+    <image class="background-blue" src="/images/drawable/bg_mine.svg"></image>
+
+    <view class="full-width column-center-top">
+        <view class="column-center normal-card marginTop-24">
+            <view class="row-left-center test-back full-width marginTop-24">
+                <image bind:tap="intent" data-page="/package-mine/pages/user-info/user-info"
+                       class="icon-80 normal-shadow avatar-radius marginLeft-24 marginRight-16"
+                       src="/images/drawable/test_avatar.png"></image>
+
+                <view class="column-left-center">
+                    <view class="row-left-center">
+                        <text class="txt-big txt-black">spark</text>
+                        <image class="icon-24 marginLeft-8"
+                               src="/images/icon/ic_man.svg"></image>
+                    </view>
+
+                    <image class="icon-rank marginTop-8"
+                           src="/images/icon/ic_rank1.svg"></image>
+                </view>
+            </view>
+
+            <view class="row-center full-width marginTop-16 marginBottom-16">
+                <view class="column-center fill-content">
+                    <text class="txt-normal txt-deep-blue txt-bold">281</text>
+                    <text class="txt-Tag txt-black-50 marginTop-4">关注</text>
+                </view>
+                <view class="column-center fill-content txt-bold">
+                    <text class="txt-normal txt-deep-blue">281</text>
+                    <text class="txt-Tag txt-black-50 marginTop-4">粉丝</text>
+                </view>
+                <view class="column-center fill-content txt-bold">
+                    <text class="txt-normal txt-deep-blue">281</text>
+                    <text class="txt-Tag txt-black-50 marginTop-4">对局</text>
+                </view>
+            </view>
+        </view>
+
+        <view class="column-center normal-card marginTop-12">
+            <view class="row-center full-width">
+                <text class="txt-normal txt-black fill-content marginLeft-24">优惠券</text>
+                <text class="txt-14 txt-black-50">3张</text>
+                <image class="icon-24 margin-16"
+                       src="/images/system_icon/ic_more.svg"></image>
+            </view>
+
+            <view class="full-width">
+                <view class="full-divider marginLeft-24 marginRight-24"></view>
+            </view>
+
+            <view class="row-center full-width">
+                <text class="txt-normal txt-black fill-content marginLeft-24">背包</text>
+                <image class="icon-24 margin-16"
+                       src="/images/system_icon/ic_more.svg"></image>
+            </view>
+
+            <view class="full-width">
+                <view class="full-divider marginLeft-24 marginRight-24"></view>
+            </view>
+
+            <view class="row-center full-width">
+                <text class="txt-normal txt-black fill-content marginLeft-24">收藏</text>
+                <image class="icon-24 margin-16"
+                       src="/images/system_icon/ic_more.svg"></image>
+            </view>
+
+            <view class="full-width">
+                <view class="full-divider marginLeft-24 marginRight-24"></view>
+            </view>
+
+            <view class="row-center full-width">
+                <text class="txt-normal txt-black fill-content marginLeft-24">订单</text>
+                <image class="icon-24 margin-16"
+                       src="/images/system_icon/ic_more.svg"></image>
+            </view>
+
+            <view class="full-width">
+                <view class="full-divider marginLeft-24 marginRight-24"></view>
+            </view>
+
+            <view class="row-center full-width">
+                <text class="txt-normal txt-black fill-content marginLeft-24">帮助中心</text>
+                <image class="icon-24 margin-16"
+                       src="/images/system_icon/ic_more.svg"></image>
+            </view>
+
+            <view class="full-width">
+                <view class="full-divider marginLeft-24 marginRight-24"></view>
+            </view>
+
+            <view class="row-center full-width">
+                <text class="txt-normal txt-black fill-content marginLeft-24">设置</text>
+                <image class="icon-24 margin-16"
+                       src="/images/system_icon/ic_more.svg"></image>
+            </view>
+
+        </view>
+    </view>
+
+</view>
+<view class="tabbar"></view>

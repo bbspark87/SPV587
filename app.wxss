@@ -1,35 +1,30 @@
-@import "style/layout.wxss";
-@import "style/dimen.wxss";
 @import "style/color.wxss";
+@import "style/dimen.wxss";
+@import "style/layout.wxss";
+@import "style/shape.wxss";
 @import "miniprogram_npm/@vant/weapp/common/index.wxss";
 
 page {
     background: #f9f9f9;
     --TC_Theme: #6469DB;
     --TC_Blue: #424477;
-    --dividerColor: #e5e5e5;
+    --dividerColor: #F9F9F9;
 
-    --cell-text-color: #3e3e3e;
-    --cell-font-size: 32rpx;
+    --count-down-text-color: rgba(0, 0, 0, 0.5);
+    --count-down-font-size: 24rpx;
 }
 
-.half-divider {
-    margin-left: 48rpx;
-    margin-right: 48rpx;
+.full-deep-divider {
+    width: 100%;
     height: 1px;
-    background: aqua;
-    /*background: var(--dividerColor);*/
+    background: #e5e5e5;
+    /*background: red;*/
 }
 
 .full-divider {
-    width: 100%;
+    flex: 1;
     height: 1px;
-    /*background: red;*/
     background: var(--dividerColor);
-}
-
-.locked {
-    position: fixed;
 }
 
 .blank-view {
@@ -42,14 +37,6 @@ page {
     height: 16rpx;
 }
 
-.bottom-btn {
-    display: flex;
-    width: 100%;
-    height: 96rpx;
-    margin-bottom: 48rpx;
-}
-
-.txt-search-hint {
-    font-size: 28rpx;
-    color: rgba(0, 0, 0, 0.5);
+.height-68 {
+    height: 136rpx;
 }
