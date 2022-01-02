@@ -91,7 +91,7 @@
                 <view class="full-divider marginLeft-24 marginRight-24"></view>
             </view>
 
-            <view class="row-center full-width">
+            <view class="row-center full-width" bind:tap="intent" data-page="/package-mine/pages/setting/setting">
                 <text class="txt-normal txt-black fill-content marginLeft-24">设置</text>
                 <image class="icon-24 margin-16"
                        src="/images/system_icon/ic_more.svg"></image>

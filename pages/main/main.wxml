@@ -1,16 +1,16 @@
 <view class="column-center-top">
-    <image class="background-blue" mode="widthFix" src="/images/drawable/bg_main.svg"></image>
+    <image class="background-blue" mode="widthFix" src="/images/background/bg_main.svg"></image>
 
     <view class="navbar">
         <view style='height:{{statusH}}px;'></view>
         <view class="topbar" style='height:{{topHeight}}px;'>
-            <image bindtap="ScanCode" class="icon-16 marginLeft-24"
+            <image bindtap="ScanCode" class="icon-24 marginLeft-24"
                    src="/images/icon/ic_scan.svg"></image>
         </view>
     </view>
 
     <view class="full-width row-center" style='margin-top:{{navH}}px;'>
-        <view class="view-search" bindtap="Search">
+        <view class="view-search" bindtap="Intent" data-page="/pages/main-search/main-search">
             <image class="icon-24 marginLeft-8" src="/images/icon/ic_search.svg"></image>
             <text class="txt-14 txt-black-50">狼人杀</text>
         </view>
@@ -50,19 +50,19 @@
             <view class="view-menus">
                 <van-row gutter="16">
                     <van-col span="6">
-                        <view class="btn-common btn-shop">
+                        <view class="btn-common btn-shop" bindtap="Intent" data-page="/pages/shop/shop">
                             <image class="icon-32 marginTop-8" src="/images/icon/img_menu_shop.svg"></image>
                             <text class="txt-14 txt-deep-blue marginTop-4 marginBottom-8">商城</text>
                         </view>
                     </van-col>
                     <van-col span="6">
-                        <view class="btn-common btn-rank">
+                        <view class="btn-common btn-rank" bindtap="Intent" data-page="/pages/rank/rank">
                             <image class="icon-32 marginTop-8" src="/images/icon/img_menu_rank.svg"></image>
                             <text class="txt-14 txt-deep-blue marginTop-4 marginBottom-8">排行</text>
                         </view>
                     </van-col>
                     <van-col span="6">
-                        <view class="btn-common btn-near">
+                        <view class="btn-common btn-near" bindtap="Intent" data-page="/pages/near-shop/near-shop">
                             <image class="icon-32 marginTop-8" src="/images/icon/img_menu_near.svg"></image>
                             <text class="txt-14 txt-deep-blue marginTop-4 marginBottom-8">附近</text>
                         </view>

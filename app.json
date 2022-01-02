@@ -7,7 +7,10 @@
     "pages/shop-scan/shop-scan",
     "pages/login/login",
     "pages/commit-order/commit-order",
-    "pages/main-search/main-search"
+    "pages/main-search/main-search",
+    "pages/near-shop/near-shop",
+    "pages/rank/rank",
+    "pages/shop/shop"
   ],
   "subpackages": [
     {
@@ -27,7 +30,8 @@
       "pages": [
         "pages/user-info/user-info",
         "pages/set-nickname/set-nickname",
-        "pages/set-sign/set-sign"
+        "pages/set-sign/set-sign",
+        "pages/setting/setting"
       ]
     }
   ],

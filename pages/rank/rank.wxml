@@ -1,0 +1,19 @@
+<view class="column-center-top">
+    <image class="background-blue" mode="widthFix" src="/images/background/bg_rank.png"></image>
+
+    <view class="navbar">
+        <view style='height:{{statusH}}px;'></view>
+        <view class="topbar" style='height:{{topHeight}}px;'>
+            <image bindtap="ScanCode" class="icon-24 marginLeft-24"
+                   src="/images/system_icon/ic_back_trans.svg"></image>
+            <view class="page-title txt-white">排行榜</view>
+            <view class="icon-24 marginRight-24"></view>
+        </view>
+    </view>
+
+    <view class="full-width row-center" style='margin-top:{{navH}}px;'>
+
+    </view>
+
+    <view class="tabbar"></view>
+</view>

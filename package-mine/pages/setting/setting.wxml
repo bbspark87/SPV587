@@ -1,0 +1,33 @@
+<navbar title="设置" titleColor="#000000" divideBar></navbar>
+
+<view class="column-center-top normal-cell marginTop-16">
+    <view class="row-center border-width">
+        <view class="fill-content row-left-center">
+            <text class="txt-normal txt-black">用户协议</text>
+        </view>
+        <image class="icon-24 marginTop-16 marginBottom-16"
+               src="/images/system_icon/ic_more_black.svg"></image>
+    </view>
+
+    <view class="full-width">
+        <view class="full-divider marginLeft-24 marginRight-24"></view>
+    </view>
+
+    <view class="row-center border-width">
+        <view class="fill-content row-left-center">
+            <text class="txt-normal txt-black">隐私政策</text>
+        </view>
+        <image class="icon-24 marginTop-16 marginBottom-16"
+               src="/images/system_icon/ic_more_black.svg"></image>
+    </view>
+</view>
+
+<view class="blank-view"></view>
+<view class="blank-view"></view>
+<view class="blank-view"></view>
+
+<view class="bg-white row-center full-width" bind:tap="onClickConfirm">
+    <text class="txt-normal txt-main margin-16">退出账号</text>
+</view>
+
+<van-dialog cancel-button-text="取消" confirm-button-text="确认退出" id="van-dialog" confirm-button-color="#6469DB"/>

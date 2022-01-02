@@ -26,10 +26,3 @@
     justify-content: space-between;
     align-items: center;
 }
-
-.title{
-    font-style: normal;
-    font-weight: 400;
-    font-size: 34rpx;
-    text-align: center;
-}

@@ -39,3 +39,8 @@
     align-items: center;
     border: solid 0.5px #f5f5f5;
 }
+
+.input-area{
+    font-size: 28rpx;
+    text-align: left;
+}

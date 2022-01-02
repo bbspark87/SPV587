@@ -11,7 +11,7 @@
                        src="{{src}}"></image>
             </view>
 
-            <text style='color:{{titleColor}}' class="title">{{title}}</text>
+            <text style='color:{{titleColor}}' class="page-title">{{title}}</text>
 
             <view>
                 <image class="icon-24 marginRight-16" hidden="{{!src}}"></image>

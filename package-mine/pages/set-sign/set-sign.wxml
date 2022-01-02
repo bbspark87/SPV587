@@ -3,7 +3,7 @@
 <view class="full-width column-center-top marginTop-16">
 
     <view class="border-width column-left-top marginTop-16">
-        <textarea class="full-width input-area txt-normal txt-black"
+        <textarea class="test-bg  full-width input-area txt-normal txt-black"
                   maxlength="24"
                   placeholder-style='color:rgba(0,0,0,0.5)'
                   placeholder="请输入"></textarea>

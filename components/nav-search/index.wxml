@@ -13,7 +13,12 @@
 
             <view style='height:{{capsHeight}}px' class="full-view fill-content row-left-center view-search ">
                 <image class="icon-24 marginLeft-8" src="/images/icon/ic_search.svg"></image>
-                <text class="txt-14 txt-black-50">狼人杀</text>
+
+                <input class="input-area column-left-center fill-content txt-14 txt-black marginLeft-4"
+                       placeholder-style="color:rgba(0,0,0,0.5)"
+                       maxlength="24"
+                       style='height:{{capsHeight}}px' placeholder="请输入"/>
+
             </view>
 
             <view style='width:{{capsuleRight}}px'></view>

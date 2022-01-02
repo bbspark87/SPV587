@@ -72,3 +72,10 @@
 .txt-bold {
     font-weight: 500;
 }
+
+.page-title{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34rpx;
+    text-align: center;
+}

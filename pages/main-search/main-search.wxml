@@ -1,4 +1,22 @@
 <nav-search divideBar></nav-search>
 
+<view class="column-center-top normal-cell">
+
+    <block wx:for="{{10}}" wx:key="index">
+        <view class="row-center full-width" bind:tap="navigateTo"
+              data-page="。。。">
+            <view class="fill-content row-left-center">
+                <text class="txt-14 txt-main marginLeft-24">匹配</text>
+                <text class="txt-14 txt-black">其他</text>
+            </view>
+            <image class="icon-24 marginRight-24 marginLeft-8 marginTop-16 marginBottom-16"
+                   src="/images/system_icon/ic_more.svg"></image>
+        </view>
+
+        <view class="full-width">
+            <view class="full-divider marginLeft-24 marginRight-24"></view>
+        </view>
+    </block>
+</view>
 
 <view class="slidebar"></view>

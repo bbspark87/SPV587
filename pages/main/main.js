@@ -21,9 +21,11 @@ Page({
         // })
     },
 
-    Search() {
+    Intent(target) {
+        const page = target.currentTarget.dataset.page
+        console.log(page)
         wx.navigateTo({
-            url: "/pages/main-search/main-search",
+            url: page,
         })
     },
 
