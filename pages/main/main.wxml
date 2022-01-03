@@ -24,7 +24,7 @@
         </swiper>
     </view>
 
-    <view class="column-center-top full-view card-up-radius marginTop-16">
+    <view class="column-center-top full-view bg-white card-up-radius marginTop-16">
 
         <view class="full-width row-center">
             <view class="card-notice">

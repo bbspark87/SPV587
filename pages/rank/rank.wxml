@@ -1,19 +1,52 @@
 <view class="column-center-top">
-    <image class="background-blue" mode="widthFix" src="/images/background/bg_rank.png"></image>
+    <image class="background-blue locked" mode="widthFix" src="/images/background/bg_rank.png"></image>
 
-    <view class="navbar">
+    <view class="full-width column-center locked">
         <view style='height:{{statusH}}px;'></view>
+
         <view class="topbar" style='height:{{topHeight}}px;'>
             <image bindtap="ScanCode" class="icon-24 marginLeft-24"
                    src="/images/system_icon/ic_back_trans.svg"></image>
             <view class="page-title txt-white">排行榜</view>
             <view class="icon-24 marginRight-24"></view>
         </view>
+
+        <view class="full-width marginTop-16">
+            <van-tabs class="border-width" type="card" title-inactive-color="#E7E8FF">
+                <van-tab title="日榜"></van-tab>
+                <van-tab title="周榜"></van-tab>
+                <van-tab title="总榜"></van-tab>
+            </van-tabs>
+            <view class="blank-view-small"></view>
+            <rank></rank>
+        </view>
     </view>
 
-    <view class="full-width row-center" style='margin-top:{{navH}}px;'>
+    <view class="full-view bg-white locked scroll-rank column-center-top card-up-radius"
+          style='margin-top:{{navH + 249}}px;height: {{safeHeight - topHeight - 249 - 64}}px;'>
 
+        <block wx:for="{{30}}" wx:key="index">
+            <view class="row-center full-width">
+                <text class="txt-number txt-normal txt-black-50 marginLeft-24">{{index + 1}}</text>
+                <image class="icon-32 marginLeft-16 avatar-radius marginTop-16 marginBottom-16"
+                       src="/images/drawable/test_avatar.png"></image>
+                <text class="txt-normal txt-black fill-content marginLeft-8">往后余生</text>
+                <image class="icon-rank marginRight-24 marginLeft-16"
+                       src="/images/icon/ic_rank1.svg"></image>
+            </view>
+        </block>
     </view>
 
-    <view class="tabbar"></view>
+    <view class="full-width bg-white lock-bottom column-center  card-up-radius up-shadow">
+        <view class="row-left-center full-width">
+            <text class="txt-number txt-normal txt-black-50 marginLeft-24">1</text>
+            <image class="icon-32 marginLeft-16 avatar-radius marginTop-16 marginBottom-16"
+                   src="/images/drawable/test_avatar.png"></image>
+            <text class="txt-normal txt-black fill-content marginLeft-8">往后余生</text>
+            <image class="icon-rank marginRight-24 marginLeft-16"
+                   src="/images/icon/ic_rank1.svg"></image>
+        </view>
+        <view class="test-bg" style='margin-bottom:{{windowHeight - safeHeight - statusH}}px;'></view>
+    </view>
+
 </view>

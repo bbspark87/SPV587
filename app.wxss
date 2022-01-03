@@ -12,6 +12,12 @@ page {
 
     --count-down-text-color: rgba(0, 0, 0, 0.5);
     --count-down-font-size: 24rpx;
+    --tabs-card-height: 80rpx;
+    --tab-font-size: 34rpx;
+    --padding-md: 114rpx;
+    --tabs-nav-background-color: rgba(95, 69, 160, 1);
+    --tabs-default-color: rgba(74, 52, 128, 1);
+
 }
 
 .full-deep-divider {

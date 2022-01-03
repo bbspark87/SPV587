@@ -24,10 +24,19 @@
     height: 128rpx;
 }
 
+.icon-69 {
+    width: 138rpx;
+    height: 138rpx;
+}
 .icon-80 {
     width: 160rpx;
     height: 160rpx;
 }
+.icon-90 {
+    width: 180rpx;
+    height: 180rpx;
+}
+
 .icon-rank{
     width: 128rpx;
     height: 50rpx;

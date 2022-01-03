@@ -11,7 +11,7 @@
                        src="/images/system_icon/ic_back.svg"></image>
             </view>
 
-            <view style='height:{{capsHeight}}px' class="full-view fill-content row-left-center view-search ">
+            <view style='height:{{capsHeight}}px' class="bg-white full-view fill-content row-left-center view-search ">
                 <image class="icon-24 marginLeft-8" src="/images/icon/ic_search.svg"></image>
 
                 <input class="input-area column-left-center fill-content txt-14 txt-black marginLeft-4"

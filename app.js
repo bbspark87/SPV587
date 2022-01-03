@@ -22,7 +22,7 @@ App({
                 this.globalData.windowHeight = res.windowHeight;
                 this.globalData.capsHeight = menuButtonObject.height;
                 this.globalData.capsuleRight = menuButtonObject.width + res.windowWidth - menuButtonObject.right;
-                console.log(menuButtonObject.width + res.windowWidth - menuButtonObject.right)
+                this.globalData.safeHeight = (res.safeArea.bottom - res.safeArea.top);
             },
             fail(err) {
                 console.log(err);

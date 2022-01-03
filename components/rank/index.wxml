@@ -1,0 +1,48 @@
+<view class="container row-center-down">
+
+    <view class="fill-content marginLeft-12 marginRight-12 column-center marginBottom-4 ">
+
+        <view class="view-avatar-101 row-center">
+            <image class="icon-69 img-shadow" src="/images/drawable/test_avatar.png"></image>
+            <view class="row-right-top view-avatar-101 locked">
+                <image class="icon-32" src="/images/icon/ic_rank_2.svg"></image>
+            </view>
+        </view>
+
+        <view class="column-center view-txt-area">
+            <view class="view-line"></view>
+            <view class="view-nickname txt-white txt-15">安雨梨花</view>
+            <view class="view-line"></view>
+        </view>
+    </view>
+    <view class="fill-content marginLeft-12 marginRight-12 column-center marginBottom-4">
+
+        <view class="view-avatar-114 row-center">
+            <image class="icon-90 img-shadow" src="/images/drawable/test_avatar.png"></image>
+            <view class="row-right-top view-avatar-114 locked">
+                <image class="icon-32" src="/images/icon/ic_rank_1.svg"></image>
+            </view>
+        </view>
+
+        <view class="column-center view-txt-area">
+            <view class="view-line"></view>
+            <view class="view-nickname txt-white txt-15">安雨梨花</view>
+            <view class="view-line"></view>
+        </view>
+    </view>
+    <view class="fill-content marginLeft-12 marginRight-12 column-center marginBottom-4">
+
+        <view class="view-avatar-101 row-center">
+            <image class="icon-69 img-shadow" src="/images/drawable/test_avatar.png"></image>
+            <view class="row-right-top view-avatar-101 locked">
+                <image class="icon-32" src="/images/icon/ic_rank_3.svg"></image>
+            </view>
+        </view>
+
+        <view class="column-center view-txt-area">
+            <view class="view-line"></view>
+            <view class="view-nickname txt-white txt-15">安雨梨花</view>
+            <view class="view-line"></view>
+        </view>
+    </view>
+</view>

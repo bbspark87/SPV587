@@ -1,0 +1,35 @@
+.container {
+    width: 100%;
+    height: 354rpx;
+}
+
+.img-shadow {
+    box-shadow: 0px 0px 8px 3px #777CF4;
+    border: 2px solid #F1F2FF;
+    border-radius: 2000rpx;
+}
+
+.view-avatar-114 {
+    width: 228rpx;
+    height: 228rpx;
+}
+
+.view-avatar-101 {
+    width: 202rpx;
+    height: 202rpx;
+}
+
+.view-line {
+    width: 100%;
+    height: 1px;
+    background: radial-gradient(50.44% 655499.84% at 50% 50%, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.view-txt-area {
+    width: 228rpx;
+    height: 50rpx;
+}
+
+.view-nickname {
+    background: radial-gradient(52.17% 90.48% at 50% 50%, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%);
+}
